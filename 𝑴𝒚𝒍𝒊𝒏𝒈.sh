@@ -1,4 +1,4 @@
-# Código creado por @gata_dios      
+      
 
 #!/data/data/com.termux/files/usr/bin/bash 
 # Interpretación determinada para la ejecución      
@@ -249,7 +249,7 @@ v1="${b}\033[32m"
 b="\033[0m"
 
 menu() {
-	#KatashiBot-MD
+	#MylingBot-MD
 	echo -e "${v1} MENÚ DE CONFIGURACIÓN"
 	printf "\n"
 	printf "${v1}[${b}01${v1}]${v} Visistar Grupo de Actualizaciones\n"
@@ -263,7 +263,7 @@ menu() {
 }
 
 menu_ayuda() {
-    #printf "${v1}[${b}++${v1}]${v} KatashiBot-MD${b}: "
+    #printf "${v1}[${b}++${v1}]${v} 𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫-MylingBot-MD${b}: "
 	read opcion
 	case $opcion in
             01|1)
@@ -334,5 +334,5 @@ _______░▒▓██
 _____░▒▓██\n\e[0m"
     
 sleep 15 && pkill mpv > /dev/null 2>&1 && sleep 2 && rm -f /data/data/com.termux/files/home/"$random_mp3" &
-echo -e "\033[01;32m\033[01mIniciando KatashiBot!!\nStarting KatashiBot!!\n\033[0m"
+echo -e "\033[01;32m\033[01mIniciando 𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕!!\nStarting 𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕!!\n\033[0m"
 npm run qr
