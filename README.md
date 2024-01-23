@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-<img src="https://telegra.ph/file/86afc8b4881e2013cded4.jpg" alt="Myling.io" width="900"/>
+<img src="https://telegra.ph/file/519ba4d10aeef56ab8404.jpg" alt="Myling.io" width="900"/>
 </p>
 
 <p align="center">
