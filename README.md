@@ -33,7 +33,7 @@
 -----
 ### 🌟 (OPCIÓN 1) INSTALACIÓN AUTOMÁTICA POR TERMUX 🫰
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/ZLJYDUM6vSY)
-> **Nota** 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐩𝐚𝐫𝐚 𝐢𝐧𝐬𝐭𝐚𝐥𝐚𝐫 𝐞𝐥 𝐁𝐨𝐭 𝐝𝐞 𝐟𝐨𝐫𝐦𝐚 𝐚𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐜𝐚 𝐞𝐧 𝐭𝐞𝐫𝐦𝐮𝐱
+> **Note** Comandos para instalar de forma automática en Termux
 ```bash
 termux-setup-storage
 ```
@@ -63,7 +63,7 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 ```
 -----
 ### 🪄 (OPCIÓN 2) INSTALACIÓN MANUAL POR TERMUX - GITHUB 
-> **Nota** 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐩𝐚𝐫𝐚 𝐢𝐧𝐬𝐭𝐚𝐥𝐚𝐫 𝐝𝐞 𝐟𝐨𝐫𝐦𝐚 𝐦𝐚𝐧𝐮𝐚𝐥
+> **Note** Comandos para instalar de forma manual
 ```bash
 termux-setup-storage
 ```
@@ -94,7 +94,7 @@ npm start
 > **Warning** Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación 
 ------------------
 ### 📁 (OPCIÓN 3) INSTALACIÓN POR TERMUX - ARCHIVOS
-> **Nota** 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐮𝐞 𝐲 𝐃𝐞𝐬𝐜𝐨𝐦𝐩𝐫𝐢𝐦𝐞
+> **Note** Descargue y descomprime
 ### [`MylingBot-MD ~ Archivos`](https://github.com/KatashiFukushima/KatashiBot-MD/archive/refs/heads/master.zip)
 [![blog](https://img.shields.io/badge/NO_TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://www.youtube.com/shorts/ZLJYDUM6vSY)
@@ -113,7 +113,7 @@ npm start
 > **Nota** Guardar los archivos en la ubicación: storage/downloads/KatashiBot-MD-master/KatashiBot-MD-master   
 ----
 ### 🚀 USAR MYLINGBOT 24/7 EN TERMUX 
-> 𝐄𝐣𝐞𝐜𝐮𝐭𝐚𝐫 𝐞𝐬𝐭𝐨𝐬 𝐜𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐝𝐞𝐧𝐭𝐫𝐨 𝐝𝐞 𝐥𝐚 𝐜𝐚𝐫𝐩𝐞𝐭𝐚 𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃
+> Ejecutar estos comandos dentro de la carpeta MylingBot-MD
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
@@ -136,7 +136,7 @@ pm2 start index
 ``` 
 ----
 ### 🥷🏻 ACTUALIZAR MYLINGBOT
-> **Note** 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐩𝐚𝐫𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐫 𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃 𝐝𝐞 𝐟𝐨𝐫𝐦𝐚 𝐚𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐜𝐚
+> **Note** Comandos para actualizar de forma automática MylingBot-MD
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/update.sh | bash 
 ```
