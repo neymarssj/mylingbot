@@ -2,7 +2,7 @@
 > <b>🚀 VERSIÓN 1.0 (Beta)</b>
 
 <p align="center"> 
-<a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color0000e6&width=435&lines=MylingBot -MD;Disfruta+del+bot.+%E2%9A%A1. #128153" height="90px"></a> 
+<a href="https://github.com/WilsonOFC/"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color0000e6&width=435&lines=MylingBot -MD;Disfruta+del+bot.+%E2%9A%A1" height="90px"></a> 
 </p>
 
 <p align="center">
@@ -19,8 +19,8 @@
 
 <p align="center">   
 <a href="https://github.com/KatashiFukushima/KatashiBot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/KatashiFukushima/KatashiBot-MD?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/KatashiFukushima/KatashiBot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/KatashiFukushima/KatashiBot?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/KatashiFukushima/KatashiBot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/KatashiFukushima/KatashiBot-MD?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/KatashiFukushima/KatashiBot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/WilsonOFC/MylingBot-MD?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/WilsonOFC/MylingBot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/WilsonOFC/MylingBot-MD?label=Stars&color=yellow&style=flat-square"></a>
 </p>
 
 ### Cuentas Oficiales:
@@ -33,7 +33,7 @@
 -----
 ### 🌟 (OPCIÓN 1) INSTALACIÓN AUTOMÁTICA POR TERMUX 🫰
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/ZLJYDUM6vSY)
-> **Note** Comandos para instalar de forma automática en Termux  
+> **Nota** 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐩𝐚𝐫𝐚 𝐢𝐧𝐬𝐭𝐚𝐥𝐚𝐫 𝐞𝐥 𝐁𝐨𝐭 𝐝𝐞 𝐟𝐨𝐫𝐦𝐚 𝐚𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐜𝐚 𝐞𝐧 𝐭𝐞𝐫𝐦𝐮𝐱
 ```bash
 termux-setup-storage
 ```
@@ -63,7 +63,7 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 ```
 -----
 ### 🪄 (OPCIÓN 2) INSTALACIÓN MANUAL POR TERMUX - GITHUB 
-> **Note** Comandos para instalar de forma manual
+> **Nota** 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐩𝐚𝐫𝐚 𝐢𝐧𝐬𝐭𝐚𝐥𝐚𝐫 𝐝𝐞 𝐟𝐨𝐫𝐦𝐚 𝐦𝐚𝐧𝐮𝐚𝐥
 ```bash
 termux-setup-storage
 ```
@@ -94,7 +94,7 @@ npm start
 > **Warning** Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación 
 ------------------
 ### 📁 (OPCIÓN 3) INSTALACIÓN POR TERMUX - ARCHIVOS
-> **Note** Descargué y Descomprime
+> **Nota** 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐮𝐞 𝐲 𝐃𝐞𝐬𝐜𝐨𝐦𝐩𝐫𝐢𝐦𝐞
 ### [`MylingBot-MD ~ Archivos`](https://github.com/KatashiFukushima/KatashiBot-MD/archive/refs/heads/master.zip)
 [![blog](https://img.shields.io/badge/NO_TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://www.youtube.com/shorts/ZLJYDUM6vSY)
@@ -110,10 +110,10 @@ npm start
 ```
 * #### APLICACIÓN RECOMENDADA PARA [`DESCOMPRIMIR`](https://play.google.com/store/apps/details?id=com.rarlab.rar)
 * #### APLICACIÓN RECOMENDADA PARA EDITAR [`NÚMERO DE OWNER`](https://play.google.com/store/apps/details?id=com.rhmsoft.code)
-> **Note** Guardar los archivos en la ubicación: storage/downloads/KatashiBot-MD-master/KatashiBot-MD-master   
+> **Nota** Guardar los archivos en la ubicación: storage/downloads/KatashiBot-MD-master/KatashiBot-MD-master   
 ----
 ### 🚀 USAR MYLINGBOT 24/7 EN TERMUX 
-> Ejecutar estos comandos dentro de la carpeta KatashiBot-MD
+> 𝐄𝐣𝐞𝐜𝐮𝐭𝐚𝐫 𝐞𝐬𝐭𝐨𝐬 𝐜𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐝𝐞𝐧𝐭𝐫𝐨 𝐝𝐞 𝐥𝐚 𝐜𝐚𝐫𝐩𝐞𝐭𝐚 𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
@@ -136,7 +136,7 @@ pm2 start index
 ``` 
 ----
 ### 🥷🏻 ACTUALIZAR MYLINGBOT
-> **Note** Comandos para actualizar KatashiBot-MD de forma automática
+> **Note** 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐩𝐚𝐫𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐫 𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃 𝐝𝐞 𝐟𝐨𝐫𝐦𝐚 𝐚𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐜𝐚
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/update.sh | bash 
 ```
