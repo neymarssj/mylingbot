@@ -1222,7 +1222,7 @@ if (xp > 2000)
 m.reply('Exp limit') // Hehehe
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-this.reply(m.chat, `🥷🏻 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙆𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎`, m)
+this.reply(m.chat, `👻 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝗠𝗬𝗟𝗜𝗡𝗚𝘾𝙊𝙄𝙉𝙎`, m)
 continue     
 }
 			
@@ -1290,7 +1290,7 @@ if (m.limit)
 m.reply(+m.limit + lenguajeGB.smsCont8())
 }
 if (m.money)
-m.reply(+m.money + ' 𝙆𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎 🥷🏻 𝙐𝙎𝘼𝘿𝙊(𝙎)')  
+m.reply(+m.money + ' 𝗠𝗬𝗟𝗜𝗡𝗚𝘾𝙊𝙄𝙉𝙎 👻 𝙐𝙎𝘼𝘿𝙊(𝙎)')  
 break
 }}} catch (e) {
 console.error(e)
@@ -1384,7 +1384,7 @@ text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'We
 (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
 			    
 if (chat.antifake && isBotAdminNn && action === 'add') {
-const numerosPermitidos = ["1", "2", "4", "6", "7", "8", "9"] //PUEDES EDITAR LOS USUARIOS QUE SE ELIMINARÁN SI EMPIEZA POR CUALQUIER DE ESOS NÚMEROS	
+const numerosPermitidos = ["1", "4", "6", "7", "8"] //PUEDES EDITAR LOS USUARIOS QUE SE ELIMINARÁN SI EMPIEZA POR CUALQUIER DE ESOS NÚMEROS	
 if (numerosPermitidos.some(num => user.startsWith(num))) {	
 this.sendMessage(id, { text:`*${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsInt1']()} @${user.split("@")[0]} ${lenguajeGB['smsInt2']()}*`, mentions: [user] }, { quoted: null });          
 let responseb = await this.groupParticipantsUpdate(id, [user], 'remove')
@@ -1401,7 +1401,7 @@ mentionedJid:[user],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
-"title": [wm, '🥷🏻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 🥷🏻', '🌟 katashifukushima23.gmail.com'].getRandom(),
+"title": [wm, '👻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 👻', '💥 MYLING.OFC.BOT@gmail.com '].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
 sourceUrl: [md, cnl, nna, nn2, yt, ig, paypal, fb].getRandom()}}}, { quoted: fkontak2 })
@@ -1490,7 +1490,7 @@ restrict: lenguajeGB['smsRestrict'](),
 }[type]
 //if (msg) return m.reply(msg)
 let tg = { quoted: m, userJid: conn.user.jid }
-let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, '🥷🏻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 🥷🏻', '🌟 katashifukushima23.gmail.com'].getRandom(), thumbnail: gataImg.getRandom(), sourceUrl: [md, nna, cnl, nn, nnn, nnnt, nnnttt4, yt, ig, paypal, fb].getRandom() }}}}, tg)
+let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, '👻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 👻', '💥 MYLING.OFC.BOT@gmail.com'].getRandom(), thumbnail: gataImg.getRandom(), sourceUrl: [md, nna, cnl, nn, nnn, nnnt, nnnttt4, yt, ig, paypal, fb].getRandom() }}}}, tg)
 if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
 }
 
