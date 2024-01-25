@@ -2,7 +2,7 @@
 > <b>🚀 VERSIÓN 1.0 (Beta)</b>
 
 <p align="center"> 
-<a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=#128153&width=435&lines=MylingBot -MD;Disfruta+del+bot.+%E2%9A%A1" height="90px"></a> 
+<a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color0000e6&width=435&lines=MylingBot -MD;Disfruta+del+bot.+%E2%9A%A1" height="90px"></a> 
 </p>
 
 <p align="center">
