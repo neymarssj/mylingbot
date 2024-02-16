@@ -82,7 +82,7 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
+let menu = `╭═══≪ _MYLINGBOT-MD_≫═══⊷❍
 ┃☭╭──────────────
 ┃☭│ 〘 卐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 卐 〙
 ┃☭│ 
@@ -97,7 +97,7 @@ let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
 ┃☭╰───────────────
 ╰═════════════════⊷
 
-╭════〘卐 _INFO KATASHI BOT_ 卐〙════⊷❍
+╭════〘卐 _INFO MYLINGBOT-MD_ 卐〙════⊷❍
 ┃
 ┃☭│ ᩭ✎ _Registrados »_ ${rtotalreg}/${totalreg}
 ┃☭│ ᩭ✎ _${lenguajeGB['smsUptime']()}_ ➣ _${uptime}_ 
@@ -107,7 +107,7 @@ let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘卐 _INFO DEL USER_ 卐〙════⊷❍
+╭════〘卐 _INFO DEL USUARIO(A)_ 卐〙════⊷❍
 
 ┃☭│ _Tipo de registro »_ ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '❌ _Sin registro_'}
 ┃☭│ _Estado »_ ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
@@ -120,25 +120,25 @@ let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭═══〘卐 _Recursos del user_ 卐〙═══⊷❍
+╭═══〘卐 _RECURSOS DEL USUARIO(A)_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ _Experiencia ➟_ ${exp} ×͜×
 ┃☭│ _Diamantes ➟_ ${limit} 💎
-┃☭│ _KataCoins ➟_ ${money} ⫹⫺
+┃☭│ _MylingCoins ➟_ ${money} ⫹⫺
 ┃☭│ _Tokens ➟_ ${joincount} ✧
 ┃☭╰───────────────
 ╰═════════════════⊷
 
 ${readMore}
 
-╭═══〘卐 _I N F O - K A T A S H I_ 卐〙═══⊷❍
+╭═══〘卐 _I N F O - M Y L I N G - B O T_ 卐〙═══⊷❍
 ┃☭╭──────────────
-┃☭│ _${usedPrefix}cuentaskatashi | cuentaskb_
-┃☭│ _${usedPrefix}gruposkb | grupos | groupkb_
+┃☭│ _${usedPrefix}cuentasmyling | cuentasmy_
+┃☭│ _${usedPrefix}gruposmy | grupos | groupmy_
 ┃☭│ _${usedPrefix}donar | donate_
 ┃☭│ _${usedPrefix}listagrupos | grouplist_
 ┃☭│ _${usedPrefix}estado | heykata | status_
-┃☭│ _${usedPrefix}infokata | infobot_
+┃☭│ _${usedPrefix}infomyling | infobot_
 ┃☭│ _${usedPrefix}instalarbot | installbot_
 ┃☭│ _${usedPrefix}creador | owner_      
 ┃☭│ _${usedPrefix}velocidad | ping_      
@@ -147,32 +147,31 @@ ${readMore}
 ┃☭╰───────────────
 ╰═════════════════⊷
 
-╭═══〘卐 _SUB BOT KATASHI_ 卐〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _${usedPrefix}serbot | jadibot_
-┃☭│ _${usedPrefix}bots | listjadibots_
-┃☭│ _${usedPrefix}detener | stop_
-┃☭╰───────────────
+┏━━━⫷✿_SUB BOT - MYLING_✿⫸━━━━◈
+┃◉╭──────────────
+┃◉│ _${usedPrefix}serbot | jadibot_
+┃◉│ _${usedPrefix}bots | listjadibots_
+┃◉│ _${usedPrefix}detener | stop_
+┃◉╰───────────────
 ╰═══════════════════⊷
 
-╭═══〘卐 _REPORTES_ 卐〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _${usedPrefix}reporte *texto*_
-┃☭│ _Haga un reporte_
-┃☭│ _en caso de una falla_
-┃☭│ _en algun comando_
-┃☭╰───────────────
+╭═══〘𓆩 _REPORTES_ 𓆪〙═══⊷❍
+┃🜲╭──────────────
+┃🜲│ _${usedPrefix}reporte *texto*_
+┃🜲│
+┃🜲│ _REPORTE UN COMANDO, EN CASO DE QUE FALLE O TENGA ERRORES_
+┃🜲│◉──────────────
 ╰═════════════════⊷
 
-╭═══〘卐 _User Premium_ 卐〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _${usedPrefix}listapremium | listprem_
-┃☭│ _${usedPrefix}pase premium_
-┃☭│ _${usedPrefix}pass premium_
-┃☭╰───────────────
+╭═══⟬𖣘 _USUARIO(A) PREMIUM_ 𖣘⟭═══⊷❍
+┃◈╭──────────────
+┃◈│ _${usedPrefix}listapremium | listprem_
+┃◈│ _${usedPrefix}pase premium_
+┃◈│ _${usedPrefix}pass premium_
+┃◈╰───────────────
 ╰═════════════════⊷
 
-╭════〘卐 _ENTRETENIMIENTO_ 卐〙════⊷❍
+╭════〘𖢻 _ENTRETENIMIENTO_ 𖢻〙════⊷❍
 │
 │☭│ _${usedPrefix}trivia 
 │☭│ _${usedPrefix}acertijo_
@@ -227,8 +226,8 @@ ${readMore}
 ┃☭╰───────────────
 ╰═════════════════⊷
 
-╭════〘卐 AJUSTES EN CHATS/GRUPOS 卐〙════⊷❍
-│ _Puedes mejorar tu grupo con Katashi bot_
+╭════≪𖤌 AJUSTES EN CHATS/GRUPOS 𖤌≫════⊷❍
+│➢ _PUEDES MEJORAR TUS GRUPOS CON MYLINGBOT-MD_
 ┃☭│ _${usedPrefix}on *:* off *bienvenida | welcome*_
 ┃☭│ _${usedPrefix}on *:* off *avisos | detect*_
 ┃☭│ _${usedPrefix}on *:* off *autonivel | autolevelup*_
@@ -259,8 +258,8 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════════════⊷
 
-╭════〘卐 _DESCARGAS_ 卐〙════⊷❍
-│   │
+╭════〘✲ _DESCARGAS_ ✮〙════⊷❍
+│➥ _DESCARGUE O BUSQUE TODO LO QUE QUIERA CON MYLINGBOT-MD_
 ┃☭│ _${usedPrefix}imagen | image *texto*_
 ┃☭│ _${usedPrefix}pinterest | dlpinterest *texto*_
 ┃☭│ _${usedPrefix}wallpaper|wp *texto*_
@@ -291,7 +290,7 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭═══〘卐 _Chat Anonimo_ 卐〙═══⊷❍
+╭═══〘卐 _Chat ANONIMO_ 卐〙═══⊷❍
 ┃ _podras enviar mensajes a otra
 ┃ _persona usando a Katashi bot_
 ┃
@@ -303,8 +302,8 @@ ${readMore}
 ┃☭╰───────────────
 ╰═════════════════════⊷
  
-╭════〘卐 _Grupos_ 卐〙════⊷❍
-│☭
+╭════〘卐 _GRUPOS_ 卐〙════⊷❍
+│➢ _CONFIGURACION EN GRUPOS CON MYLINGBOT-MD_
 ┃☭│ _${usedPrefix}add *numero*_
 ┃☭│ _${usedPrefix}sacar | ban | kick  *@tag*_
 ┃☭│ _${usedPrefix}grupo *abrir : cerrar*_
@@ -340,8 +339,8 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
  
-╭════〘卐 _Parejas_ 卐〙════⊷❍
-│
+╭════〘💕 _PAREJAS_ 💕〙════⊷❍
+│🌟 _ENCUENTRA TU PAREJA 💕_
 ┃☭│ _${usedPrefix}listaparejas | listship_
 ┃☭│ _${usedPrefix}mipareja | mylove_
 ┃☭│ _${usedPrefix}pareja | couple *@tag*_
@@ -352,7 +351,7 @@ ${readMore}
 ╰══════════════════⊷❍
  
 ╭════〘卐 _Votaciones en grupos_ 卐〙════⊷❍
-│
+│⭐ _REALIZA ENCUESTAS/VOTACIONES EN TUS GRUPOS_
 ┃☭│ _${usedPrefix}crearvoto | startvoto *texto*_ 
 ┃☭│ _${usedPrefix}sivotar | upvote_ 
 ┃☭│ _${usedPrefix}novotar | devote_ 
@@ -362,12 +361,13 @@ ${readMore}
 ╰══════════════════⊷❍ 
  
 ╭════〘卐 _Comandos +18_ 卐〙════⊷❍
-│  ╭──────────────❍
-┃☭│ _${usedPrefix}hornymenu_ 
-┃☭╰──────────────❍
+│🜲╭──────────────❍
+│🜲│_COMANDOS +18_
+┃🜲│_${usedPrefix}hornymenu_ 
+┃🜲╰──────────────❍
 ╰══════════════════⊷❍
  
-╭════〘卐 _Convertidores_ 卐〙════⊷❍
+╭════〘卐 _CONVERTIDORES_ 卐〙════⊷❍
 │
 ┃☭│ _${usedPrefix}toimg | img | jpg *sticker*_ 
 ┃☭│ _${usedPrefix}toanime | jadianime *foto*_
@@ -380,14 +380,14 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍ 
  
-╭════〘卐 *_ᴏᴛʜᴇʀs_* 卐〙════⊷❍
+╭════〘卐 _LOGOS - ICONOS_ 卐〙════⊷❍
 │☭╭─────────────────
 ┃☭│ _${usedPrefix}logos *efecto texto*_
 ┃☭│ _${usedPrefix}menulogos2_
 ┃☭╰─────────────────
 ╰══════════════════⊷❍
 
-╭════〘卐 *_ᴏᴛʜᴇʀs_* 卐〙════⊷❍
+╭════〘卐 _EFECTOS - IMP_ 卐〙════⊷❍
 │☭╭─────────────────❍
 ┃☭│ _${usedPrefix}simpcard *@tag*_
 ┃☭│ _${usedPrefix}hornycard *@tag*_
@@ -399,7 +399,7 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘卐 _IMGNS ANIME Y MAS_ 卐〙════⊷❍
+╭════〘卐 _IMAGENES ANIME Y MAS_ 卐〙════⊷❍
 │
 ┃☭│ _${usedPrefix}chica_ 
 ┃☭│ _${usedPrefix}chico_
@@ -454,7 +454,7 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘卐 _Modificar audios_ 卐〙════⊷❍
+╭════〘卐 _MODIFICAR - AUDIOS_ 卐〙════⊷❍
 │☭╭──────────────❍
 ┃☭│ _${usedPrefix}bass_
 ┃☭│ _${usedPrefix}blown_
@@ -471,7 +471,7 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘卐 _🍁Búsquedas 🍁_ 卐〙════⊷❍
+╭════〘卐 _BUSQUEDAS_ 卐〙════⊷❍
 │☭╭──────────────❍
 ┃☭│ _${usedPrefix}animeinfo *texto*_
 ┃☭│ _${usedPrefix}mangainfo *texto*_
@@ -482,14 +482,14 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘卐 _Menu Audios_ 卐〙════⊷❍
-│ _Solicita el menu de audios_
-┃ _usando:_
+╭════〘卐 _MENU - AUDIOS_ 卐〙════⊷❍
+│ _SOLICITE EL MENU DE AUDIOS DE MYLINGBOT-MD_
+┃ _USANDO EL COMANDO:_
 ┃☭│ _${usedPrefix}audios_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘卐 _🍁Herramientas 🍁_ 卐〙════⊷❍
+╭════〘卐 _✨ HERRAMIENTAS ✨_ 卐〙════⊷❍
 │☭╭──────────────❍
 ┃☭│ _${usedPrefix}afk *motivo*_
 ┃☭│ _${usedPrefix}acortar *url*_
@@ -507,7 +507,7 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘卐 _RPG SUBIR DE NIVEL_ 卐〙════⊷❍
+╭════〘卐 _RPG - SUBIR DE NIVEL_ 卐〙════⊷❍
 ┃☭╭─────────────────────────❍
 ┃☭│ _${usedPrefix}botemporal *enlace* *cantidad*_
 ┃☭│ _${usedPrefix}addbot *enlace* *cantidad*_
@@ -549,13 +549,13 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭══〘卐 _Tabla de clasificación_ 卐〙═⊷❍
+╭══〘卐 _TABLA DE CLASIFICACION_ 卐〙═⊷❍
 ┃☭╭─────────────────❍
 ┃☭│ _${usedPrefix}top | lb | leaderboard_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘卐 _Stickers_ 卐〙════⊷❍
+╭════〘卐 _STICKERS_ 卐〙════⊷❍
 ┃☭╭──────────────❍
 ┃☭│ _${usedPrefix}sticker | s *imagen o video*_
 ┃☭│ _${usedPrefix}sticker | s *url de tipo jpg*_
@@ -577,14 +577,14 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭══〘卐 _Editar Stickers_ 卐〙═══⊷❍
+╭══〘卐 _EDITAR STICKERS_ 卐〙═══⊷❍
 ┃☭╭─────────────────❍
 ┃☭│ _${usedPrefix}wm *packname|author*_
 ┃☭│ _${usedPrefix}wm *texto1|texto2*_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘卐 _Acciónes con stickers_ 卐〙════⊷❍
+╭════〘卐 _ACCIONES - STICKERS_ 卐〙════⊷❍
 ┃☭╭────────────────────❍
 ┃☭│ _${usedPrefix}palmaditas | pat *@tag*_
 ┃☭│ _${usedPrefix}bofetada | slap *@tag*_
@@ -594,37 +594,37 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘卐 _Para Propietarios/Owners_ 卐〙════⊷❍
-┃☭╭─────────────────────────❍
-┃☭│ _${usedPrefix}join *enlace*_
-┃☭│ _${usedPrefix}unete *enlace*_
-┃☭│ _${usedPrefix}dardiamantes *cantidad*_
-┃☭│ _${usedPrefix}darxp *cantidad*_
-┃☭│ _${usedPrefix}darkatacoins *cantidad*_ 
-┃☭│ _${usedPrefix}addprem | userpremium *@tag* *cantidad*_
-┃☭│ _${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*_
-┃☭│ _${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*_
-┃☭│ _${usedPrefix}addprem4 | userpremium4 *@tag* *cantidad*_
-┃☭│ _${usedPrefix}idioma | language_
-┃☭│ _${usedPrefix}cajafuerte_
-┃☭│ _${usedPrefix}comunicar | broadcastall | bc *texto*_
-┃☭│ _${usedPrefix}broadcastchats | bcc *texto*_
-┃☭│ _${usedPrefix}comunicarpv *texto*_
-┃☭│ _${usedPrefix}broadcastgc *texto*_ 
-┃☭│ _${usedPrefix}comunicargrupos *texto*_
-┃☭│ _${usedPrefix}borrartmp | cleartmp_
-┃☭│ _${usedPrefix}delexp *@tag*_
-┃☭│ _${usedPrefix}delkatacoins *@tag*_
-┃☭│ _${usedPrefix}deldiamantes *@tag*_
-┃☭│ _${usedPrefix}reiniciar | restart_
-┃☭│ _${usedPrefix}ctualizar | update_
-┃☭│ _${usedPrefix}addprem | +prem *@tag*_
-┃☭│ _${usedPrefix}delprem | -prem *@tag*_
-┃☭│ _${usedPrefix}listapremium | listprem_
-┃☭│ _${usedPrefix}añadirdiamantes *@tag cantidad*_
-┃☭│_${usedPrefix}añadirxp *@tag cantidad*_
-┃☭│ _${usedPrefix}añadirkatacoins *@tag cantidad*_
-┃☭╰─────────────────❍
+╭════〘✿ _PARA MI CREADOR(A)_ ✿〙════⊷❍
+┃❀╭─────────────────────────❍
+┃❀│ _${usedPrefix}join *enlace*_
+┃❀│ _${usedPrefix}unete *enlace*_
+┃❀│ _${usedPrefix}dardiamantes *cantidad*_
+┃❀│ _${usedPrefix}darxp *cantidad*_
+┃❀│ _${usedPrefix}darkatacoins *cantidad*_ 
+┃❀│ _${usedPrefix}addprem | userpremium *@tag* *cantidad*_
+┃❀│ _${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*_
+┃❀│ _${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*_
+┃❀│ _${usedPrefix}addprem4 | userpremium4 *@tag* *cantidad*_
+┃❀│ _${usedPrefix}idioma | language_
+┃❀│ _${usedPrefix}cajafuerte_
+┃❀│ _${usedPrefix}comunicar | broadcastall | bc *texto*_
+┃❀│ _${usedPrefix}broadcastchats | bcc *texto*_
+┃❀│ _${usedPrefix}comunicarpv *texto*_
+┃❀│ _${usedPrefix}broadcastgc *texto*_ 
+┃❀│ _${usedPrefix}comunicargrupos *texto*_
+┃❀│ _${usedPrefix}borrartmp | cleartmp_
+┃❀│ _${usedPrefix}delexp *@tag*_
+┃❀│ _${usedPrefix}delkatacoins *@tag*_
+┃❀│ _${usedPrefix}deldiamantes *@tag*_
+┃❀│ _${usedPrefix}reiniciar | restart_
+┃❀│ _${usedPrefix}ctualizar | update_
+┃❀│ _${usedPrefix}addprem | +prem *@tag*_
+┃❀│ _${usedPrefix}delprem | -prem *@tag*_
+┃❀│ _${usedPrefix}listapremium | listprem_
+┃❀│ _${usedPrefix}añadirdiamantes *@tag cantidad*_
+┃❀│_${usedPrefix}añadirxp *@tag cantidad*_
+┃❀│ _${usedPrefix}añadirkatacoins *@tag cantidad*_
+┃❀╰─────────────────❍
 ╰══════════════════⊷❍`.trim()
 const vi = ['https://telegra.ph/file/7f0318607ccfdb6bcb66d.mp4',
 'https://telegra.ph/file/a848eeb479e662f2e3fab.mp4',
@@ -636,7 +636,7 @@ await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() 
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)}}
 
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|menucompleto|allmenu|allm|m|\?)$/i
+handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menubot|ayuda|commands|commandos|menucompleto|allmenu|menumyling|menumy|\?)$/i
 //handler.register = true
 export default handler
 
