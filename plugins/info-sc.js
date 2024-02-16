@@ -4,7 +4,7 @@ import fs from 'fs'
 import moment from 'moment-timezone';
 import fetch from 'node-fetch';
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-const res = await fetch('https://api.github.com/repos/KatashiFukushima/KatashiBot-MD');
+const res = await fetch('https://api.github.com/repos/WilsonOFC/MylingBot-MD');
 const json = await res.json();
 function kyun(seconds){
   function pad(s){
@@ -16,7 +16,7 @@ function kyun(seconds){
   var seconds = Math.floor(seconds % 60);
 
   //return pad(hours) + ':' + pad(minutes) + ':' + pad(seconds)
-  return `🌟  𝘽 𝙊 𝙏  -  𝙎 𝘾 𝙍 𝙄 𝙋 𝙏  🌟\n\n*» 𝙉𝙊𝙈𝘽𝙍𝙀 :* ${json?.name || 'KatashiBot-MD'}\n*» 𝙑𝙄𝙎𝙄𝙏𝘼𝙉𝙏𝙀𝙎 :* ${json?.watchers_count || '-'}\n*» 𝘼𝘾𝙏𝙐𝘼𝙇𝙄𝙕𝘼𝘾𝙄𝙊𝙉 :* ${moment(json?.updated_at).format('DD/MM/YY - HH:mm:ss') || '-'}\n*» 𝙐𝙍𝙇 :* ${json?.html_url || 'https://github.com/KatashiFukushima/KatashiBot-MD'}\n\n${json?.forks_count || '-'} Forks · ${json?.stargazers_count || '-'} Stars · ${json?.open_issues_count || '-'} Issues\n\n*⏰ 𝙏𝙄𝙀𝙈𝙋𝙊 𝘼𝘾𝙏𝙄𝙑𝙊 | 𝘼𝘾𝙏𝙄𝙑𝙀 𝙏𝙄𝙈𝙀:*\n \t${pad(days)} Dias\t ${pad(hours)} Horas ${pad(minutes)} Minutos ${pad(seconds)} Segudos \t\n`
+  return `🌟  𝘽 𝙊 𝙏  -  𝙎 𝘾 𝙍 𝙄 𝙋 𝙏  🌟\n\n*» 𝙉𝙊𝙈𝘽𝙍𝙀:* ${json?.name || '𝖬𝖸𝖫𝖨𝖭𝖦𝖡𝖮𝖳-𝖬𝖣'}\n*» 𝙑𝙄𝙎𝙄𝙏𝘼𝙉𝙏𝙀𝙎:* ${json?.watchers_count || '-'}\n*» 𝘼𝘾𝙏𝙐𝘼𝙇𝙄𝙕𝘼𝘾𝙄𝙊𝙉:* ${moment(json?.updated_at).format('DD/MM/YY - HH:mm:ss') || '-'}\n*» 𝙐𝙍𝙇:* ${json?.html_url || 'https://github.com/WilsonOFC/MylingBot-MD'}\n\n${json?.forks_count || '-'} 𝖥𝖮𝖱𝖪𝖲 - 𝖥𝖮𝖱𝖪𝖲 · ${json?.stargazers_count || '-'} 𝖲𝖳𝖠𝖱𝖲 - 𝖤𝖲𝖳𝖱𝖤𝖫𝖫𝖠𝖲 · ${json?.open_issues_count || '-'} 𝖨𝖲𝖲𝖴𝖤𝖲 - 𝖨𝖲𝖲𝖴𝖤𝖲 \n\n ⏰ 𝙏𝙄𝙀𝙈𝙋𝙊 𝘼𝘾𝙏𝙄𝙑𝙊 | 𝘼𝘾𝙏𝙄𝙑𝙀 𝙏𝙄𝙈𝙀:\n \t${pad(days)} Dias\t ${pad(hours)} Horas ${pad(minutes)} Minutos ${pad(seconds)} Segudos \t\n`
 }
 					const runtime = process.uptime()
 		            const teks = `${kyun(runtime)}`
@@ -43,15 +43,15 @@ token: '9',
 curreyCode: 'IDR',
 totalCurrencyCode: '>〰<',
 totalAmount1000: '1000000',
-sellerJid: 'https://github.com/KatashiFukushima/KatashiBot-MD',
-thumbnail: fs.readFileSync('./src/avatar_contact.png')
+sellerJid: 'https://github.com/WilsonOFC/MylingBot-MD',
+thumbnail: fs.readFileSync('./media/menú1.jpg')
 }}, {contextInfo: null, quoted: m})
 conn.relayWAMessage(prep)
 //conn.sendMessage(m.chat, `${teks}`, MessageType.text, rtimebro)
 }
 handler.help = ['runtime']
 handler.tags = ['info']
-handler.command = /^(runtime|sc|activo)$/i
+handler.command = /^(runtime|script|sc|activo)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
