@@ -38,19 +38,19 @@
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/katashi.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/WilsonOFC/MylingBot-MD/master/Myling.sh | bash
 ```
 ```js
 // PERSONALIZAR INSTALACIÓN AUTOMÁTICA (En caso de una Bifurcación)
-// Parámetros editables
+// PARAMETROS EDITABLES
 
 // REFERENCIA
-"wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/katashi.sh | bash"
+"wget -O - https://raw.githubusercontent.com/WilsonOFC/MylingBot-MD/master/myling.sh | bash"
 
 // PARÁMETROS QUE PUEDE SER MODIFICADOS --> "[...]"
-"wget -O - https://raw.githubusercontent.com/[usuario]/[repositorio]/[rama]/katashi.sh | bash"
+"wget -O - https://raw.githubusercontent.com/[usuario]/[repositorio]/[rama]/myling.sh | bash"
 ```
-#### MODIFICAR ARCHIVO [`MylingBot.sh`](https://github.com/KatashiFukushima/KatashiBot-MD/blob/master/kata.sh)
+#### MODIFICAR ARCHIVO [`MylingBot.sh`](https://github.com/WilsonOFC/MylingBot-MD/blob/master/myling.sh)
 ```js
 //LÍNEAS A MODIFICAR
 205 --> "git clone https://github.com/[user]/[repositorio].git"
