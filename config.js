@@ -98,12 +98,7 @@ global.moment = moment
 
 global.official = [ // Agregate si eres Owner
 ["5492964650915", '♥️🎩⚠︎    シ︎𝑾𝒊𝒍𝖘𝒐𝒏シ︎   ⚠︎🎩♥️']]
-["5493794093330", '𝐆𝐋 𝐘𝐓 𝐌𝐗', true]]
-["5493794093837", '𝐆𝐋 𝐘𝐓 𝐌𝐗', true]]
-["5493794093626", '𝐆𝐋 𝐘𝐓 𝐌𝐗', true]]
-["5493795319022", '𝐆𝐋 𝐘𝐓 𝐌𝐗', true]]
-["5493795319019", '𝐆𝐋 𝐘𝐓 𝐌𝐗', true]]
-["5493795328554", '𝐆𝐋 𝐘𝐓 𝐌𝐗', true]]
+["5493795319022", '𝙂𝙇 𝙔𝙏 𝙈𝙓 - 𝙊𝙁𝘾', true]]
 
 global.mail = '' //agrega tú correo
 global.desc = '' //agrega una descripción corta
@@ -115,8 +110,8 @@ global.author = "♥️🎩⚠︎    シ︎𝑾𝒊𝒍𝖘𝒐𝒏シ︎   ⚠�
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.vs = "1.4.9"
-global.vsJB = "2.5 (Beta)"
+global.vs = "1.0.0"
+global.vsJB = "1.0 (Beta)"
 
 global.gt = "☆𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫☆"
 global.yt = "https://youtube.com/
@@ -141,6 +136,7 @@ global.nnnttt4 = 'https://chat.whatsapp.com/
 global.nnnttt5 = 'https://chat.whatsapp.com/
 global.paypal = 'https://paypal.me/WilsonWaoz
 global.asistencia = 'Wa.me/5492964650915' //Dudas? escríbeme...
+global.asistencia = 'Wa.me/5493795319022' //Asistencia MylingBot-MD y Otros temas...
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
