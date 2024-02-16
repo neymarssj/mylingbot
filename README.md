@@ -30,12 +30,12 @@
 <img src="https://img.shields.io/badge/Redes_Sociales-000000%7D?style=for-the-badge&logo=biolink&logoColor=white">
 </a>
 
-# 🌟 INSTALACIONES
+#🌟 INSTALACIONES
 
 -----
 ### 🌟 (OPCIÓN 1) INSTALACIÓN AUTOMÁTICA POR TERMUX 🫰
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/ZLJYDUM6vSY)
-> **Note** Comandos para instalar de forma automática en Termux
+> **Nota:** Comandos para instalar de forma automática en Termux
 ```bash
 termux-setup-storage
 ```
@@ -56,16 +56,16 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 ```js
 //LÍNEAS A MODIFICAR
 205 --> "git clone https://github.com/[user]/[repositorio].git"
-//Ejemplo: git clone https://github.com/KatashiFukushima/KatashiBot-MD.git
+//EJEMPLO: git clone https://github.com/WilsonOFC/MylingBot-MD.git
 
 209 --> "cd [repositorio]"
-//Ejemplo: cd KatashiBot-MD
+//EJEMPLO: cd MylingBot-MD
 
-//Una vez hecho estos cambios ejecute los nuevos comandos en Termux
+// UMA VEZ HECHO LOS CAMBIOS EJECUTE LOS NUEVOS COMANDOS EN TERMUX 
 ```
 -----
 ### 🪄 (OPCIÓN 2) INSTALACIÓN MANUAL POR TERMUX - GITHUB 
-> **Note** Comandos para instalar de forma manual
+> **Note:** COMANDOS PARA INSTALAR DE FORMA MANUAL
 ```bash
 termux-setup-storage
 ```
@@ -79,10 +79,10 @@ apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/GataNina-Li/GataBot-MD
+git clone https://github.com/WilsonOFC/MylingBot-MD
 ```
 ```bash
-cd GataBot-MD
+cd MylingBot-MD
 ```
 ```bash
 yarn install
@@ -93,11 +93,11 @@ npm install
 ```bash
 npm start
 ```
-> **Warning** Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación 
+> **Warning:** Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación 
 ------------------
 ### 📁 (OPCIÓN 3) INSTALACIÓN POR TERMUX - ARCHIVOS
-> **Note** Descargue y descomprime
-### [`MylingBot-MD ~ Archivos`](https://github.com/KatashiFukushima/KatashiBot-MD/archive/refs/heads/master.zip)
+> **Nota:** Descargue y descomprime el archivo
+### [`MylingBot-MD ~ Archivos`](https://github.com/WilsonOFC/MylingBot-MD/archive/refs/heads/master.zip)
 [![blog](https://img.shields.io/badge/NO_TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://www.youtube.com/shorts/ZLJYDUM6vSY)
 ```bash
@@ -105,14 +105,14 @@ termux-setup-storage
 apt update
 apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
-cd storage/downloads/KatashiBot-MD-master/KatashiBot-MD-master 
+cd storage/downloads/MylingBot-MD-MD-master/MylingBot-MD-master 
 yarn install
 npm install
 npm start
 ```
 * #### APLICACIÓN RECOMENDADA PARA [`DESCOMPRIMIR`](https://play.google.com/store/apps/details?id=com.rarlab.rar)
 * #### APLICACIÓN RECOMENDADA PARA EDITAR [`NÚMERO DE OWNER`](https://play.google.com/store/apps/details?id=com.rhmsoft.code)
-> **Nota** Guardar los archivos en la ubicación: storage/downloads/KatashiBot-MD-master/KatashiBot-MD-master   
+> **Nota:** Guardar los archivos en la ubicación: storage/downloads/KatashiBot-MD-master/KatashiBot-MD-master   
 ----
 ### 🚀 USAR MYLINGBOT 24/7 EN TERMUX 
 > Ejecutar estos comandos dentro de la carpeta MylingBot-MD
