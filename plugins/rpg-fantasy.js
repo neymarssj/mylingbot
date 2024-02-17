@@ -181,7 +181,7 @@ fake = { contextInfo: { externalAdReply: { title: `¡Insuficientes ${rpgshop.emo
 conn.reply(m.chat, `Te falta *${cantidadFaltante} ${rpgshop.emoticon('money')}* para comprar a *${dato.name}*\n\n*Actualmente tienes ${user.money} ${rpgshop.emoticon('money')}*`, m, fake)
 } else {
         
-jsonURL = 'https://raw.githubusercontent.com/GataNina-Li/module/main/imagen_json/anime.json'
+jsonURL = 'https://github.com/WilsonOFC/MylingBot-MD/blob/main/views/img/Fantasy.json'
 response = await fetch(jsonURL)
 data = await response.json()
 fantasyDB = []
