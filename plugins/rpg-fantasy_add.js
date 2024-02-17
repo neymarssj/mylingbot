@@ -55,7 +55,7 @@ return conn.reply(m.chat, '¡Clase no válida! Solo se aceptan las siguientes:\n
 
 const formattedType = typeInput.split(/[:;/]/).map((item) => item.trim().toLowerCase()).map((item) => item.replace(/^\w/, (c) => c.toUpperCase())).join(', ')
 
-const jsonURL = 'https://raw.githubusercontent.com/GataNina-Li/module/main/imagen_json/anime.json'
+const jsonURL = 'https://github.com/WilsonOFC/MylingBot-MD/blob/main/views/img/Fantasy.json'
 const response = await fetch(jsonURL)
 const data = await response.json()
 const nextIndex = data.infoImg.length + 1
