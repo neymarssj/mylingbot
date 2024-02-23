@@ -5,11 +5,10 @@ RUN sudo dnf -y update &&\
     sudo dnf install -y git ffmpeg ImageMagick nodejs yarnpkg libwebp &&\
     sudo dnf clean all -y
 
-RUN git clone https://github.com/GataNina-Li/GataBot-MD
+RUN git clone https://github.com/WilsonOFC/MylingBot-MD/tree/main
+WORKDIR /root/MylingBot-MD
 
-WORKDIR /root/GataBot-MD
-
-COPY ./root/GataBot-MD
+COPY ./root/MylingBot-MD
 
 RUN yarn install
 
