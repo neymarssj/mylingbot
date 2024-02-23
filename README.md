@@ -18,8 +18,8 @@
 </p>
 
 <p align="center">   
-<a href="https://github.com/KatashiFukushima/KatashiBot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/KatashiFukushima/KatashiBot-MD?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/KatashiFukushima/KatashiBot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/WilsonOFC/MylingBot-MD?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/WilsonOFC/MylingBot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/WilsonOFC/MylingBot-MD?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/WilsonOFC/MylingBot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/WilsonOFC/MylingBot-MD?label=Watchers&color=green&style=flat-square"></a>
 <a href="https://github.com/WilsonOFC/MylingBot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/WilsonOFC/MylingBot-MD?label=Stars&color=yellow&style=flat-square"></a>
 </p>
 
