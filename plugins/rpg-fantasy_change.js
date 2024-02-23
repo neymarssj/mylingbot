@@ -1,3 +1,5 @@
+// Código elaborado por: https://github.com/GataNina-Li
+
 import fetch from 'node-fetch'
 import fs from 'fs'
 const fantasyDBPath = './fantasy.json'
@@ -8,7 +10,7 @@ let handler = async (m, { command, usedPrefix, conn, text }) => {
 user = global.db.data.users[m.sender]
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-const jsonURL = 'https://github.com/WilsonOFC/MylingBot-MD/blob/main/views/img/Fantasy.json'
+const jsonURL = 'https://raw.githubusercontent.com/SoIz1/AnimeFantasy/main/AnimeFantasyDate/anime.json'
 const response = await fetch(jsonURL)
 const data = await response.json()
 
@@ -158,7 +160,7 @@ fs.writeFileSync(fantasyDBPath, JSON.stringify(fantasyDB, null, 2), 'utf8')}
 }}
 
 }
-handler.command = /^(fantasychange|fychange)$/i
+handler.command = /^(fantasychange|fychange|fantasycambiar|fycambiar)$/i
 export default handler
 
 // Obtener el tiempo premium según la clase del personaje

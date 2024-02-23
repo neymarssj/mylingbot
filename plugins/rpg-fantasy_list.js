@@ -1,8 +1,10 @@
+// Código elaborado por: https://github.com/GataNina-Li
+
 import fetch from 'node-fetch'
 let numPersonaje = 10
 let currentPage = null
 let handler = async (m, { command, usedPrefix, conn, text }) => {
-const jsonURL = 'https://github.com/WilsonOFC/MylingBot-MD/blob/main/views/img/Fantasy.json'
+const jsonURL = 'https://raw.githubusercontent.com/SoIz1/AnimeFantasy/main/AnimeFantasyDate/anime.json'
 const response = await fetch(jsonURL)
 const data = await response.json()
 
@@ -134,8 +136,9 @@ ${formatCharacterList(charactersByType)}
 `.trim()
 }}
 
-handler.command = /^(fylista|fyl)$/i
+handler.command = /^(fylista|fyl|fantasyl|fantasylista)$/i
 export default handler
+
 
 
 
