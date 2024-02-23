@@ -1092,7 +1092,7 @@ console.error(e)
 for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
 let data = (await conn.onWhatsApp(jid))[0] || {}
 if (data.exists)
-m.reply(`${lenguajeGB['smsCont1']()}\n\n${lenguajeGB['smsCont2']()}\n*_${name}_*\n\n${lenguajeGB['smsCont3']()}\n*_${m.sender}_*\n\n${lenguajeGB['smsCont4']()}\n*_${m.text}_*\n\n${lenguajeGB['smsCont5']()}\n\`\`\`${format(e)}\`\`\`\n\n${lenguajeGB['smsCont6']()}`.trim(), data.jid)
+m.reply(`${lenguajeMY['smsCont1']()}\n\n${lenguajeMY['smsCont2']()}\n*_${name}_*\n\n${lenguajeMY['smsCont3']()}\n*_${m.sender}_*\n\n${lenguajeMY['smsCont4']()}\n*_${m.text}_*\n\n${lenguajeMY['smsCont5']()}\n\`\`\`${format(e)}\`\`\`\n\n${lenguajeMY['smsCont6']()}`.trim(), data.jid)
 }}}
 if (!opts['restrict'])
 if (plugin.tags && plugin.tags.includes('admin')) {
@@ -1228,11 +1228,11 @@ continue
 			
 m.exp += xp
 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-this.reply(m.chat, `${lenguajeGB['smsCont7']()} *${usedPrefix}buy*`, m)
+this.reply(m.chat, `${lenguajeMY['smsCont7']()} *${usedPrefix}buy*`, m)
 continue //Sin límite
 }
 if (plugin.level > _user.level) {
-this.reply(m.chat, `${lenguajeGB['smsCont9']()} *${plugin.level}* ${lenguajeGB['smsCont10']()} *${_user.level}* ${lenguajeGB['smsCont11']()} *${usedPrefix}nivel*`, m)
+this.reply(m.chat, `${lenguajeMY['smsCont9']()} *${plugin.level}* ${lenguajeMY['smsCont10']()} *${_user.level}* ${lenguajeMY['smsCont11']()} *${usedPrefix}nivel*`, m)
 continue // Si no se ha alcanzado el nivel
 }
 let extra = {
@@ -1275,7 +1275,7 @@ if (e.name)
 for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
 let data = (await conn.onWhatsApp(jid))[0] || {}
 if (data.exists)
-m.reply(`${lenguajeGB['smsCont1']()}\n\n${lenguajeGB['smsCont2']()}\n*_${name}_*\n\n${lenguajeGB['smsCont3']()}\n*_${m.sender}_*\n\n${lenguajeGB['smsCont4']()}\n*_${m.text}_*\n\n${lenguajeGB['smsCont5']()}\n\`\`\`${format(e)}\`\`\`\n\n${lenguajeGB['smsCont6']()}`.trim(), data.jid)
+m.reply(`${lenguajeMY['smsCont1']()}\n\n${lenguajeMY['smsCont2']()}\n*_${name}_*\n\n${lenguajeMY['smsCont3']()}\n*_${m.sender}_*\n\n${lenguajeMY['smsCont4']()}\n*_${m.text}_*\n\n${lenguajeMY['smsCont5']()}\n\`\`\`${format(e)}\`\`\`\n\n${lenguajeMY['smsCont6']()}`.trim(), data.jid)
 }
 m.reply(text)
 }} finally {
@@ -1287,7 +1287,7 @@ await plugin.after.call(this, m, extra)
 console.error(e)
 }}
 if (m.limit)
-m.reply(+m.limit + lenguajeGB.smsCont8())
+m.reply(+m.limit + lenguajeMY.smsCont8())
 }
 if (m.money)
 m.reply(+m.money + ' 𝗠𝗬𝗟𝗜𝗡𝗚𝘾𝙊𝙄𝙉𝙎 👻 𝙐𝙎𝘼𝘿𝙊(𝙎)')  
@@ -1380,13 +1380,13 @@ pp = await this.profilePictureUrl(user, 'image')
 let apii = await this.getFile(pp)                                      
 const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this.user.jid) || {} 
 const isBotAdminNn = botTt2?.admin === "admin" || false
-text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '🥷🏻 𝗞𝗮𝘁𝗮𝘀𝗵𝗶𝗕𝗼𝘁-𝗠𝗗 🥷🏻') :
+text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '👻𝗠𝘆𝗹𝗶𝗻𝗴𝗕𝗼𝘁-𝗠𝗗👻') :
 (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
 			    
 if (chat.antifake && isBotAdminNn && action === 'add') {
 const numerosPermitidos = ["1", "4", "6", "7", "8"] //PUEDES EDITAR LOS USUARIOS QUE SE ELIMINARÁN SI EMPIEZA POR CUALQUIER DE ESOS NÚMEROS	
 if (numerosPermitidos.some(num => user.startsWith(num))) {	
-this.sendMessage(id, { text:`*${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsInt1']()} @${user.split("@")[0]} ${lenguajeGB['smsInt2']()}*`, mentions: [user] }, { quoted: null });          
+this.sendMessage(id, { text:`*${lenguajeMY['smsAvisoAG']()}${lenguajeMY['smsInt1']()} @${user.split("@")[0]} ${lenguajeMY['smsInt2']()}*`, mentions: [user] }, { quoted: null });          
 let responseb = await this.groupParticipantsUpdate(id, [user], 'remove')
 if (responseb[0].status === "404") return      
 return    
@@ -1450,7 +1450,7 @@ if (!isAnticall) return
 for (let nk of callUpdate) { 
 if (nk.isGroup == false) {
 if (nk.status == "offer") {
-let callmsg = await this.reply(nk.from, `${lenguajeGB['smsCont15']()} *@${nk.from.split('@')[0]}*, ${nk.isVideo ? lenguajeGB.smsCont16() : lenguajeGB.smsCont17()} ${lenguajeGB['smsCont18']()}`, false, { mentions: [nk.from] })
+let callmsg = await this.reply(nk.from, `${lenguajeMY['smsCont15']()} *@${nk.from.split('@')[0]}*, ${nk.isVideo ? lenguajeMY.smsCont16() : lenguajeMY.smsCont17()} ${lenguajeMY['smsCont18']()}`, false, { mentions: [nk.from] })
 //let data = global.owner.filter(([id, isCreator]) => id && isCreator)
 //await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
 await this.updateBlockStatus(nk.from, 'block')
@@ -1465,10 +1465,10 @@ let chat = global.db.data.chats[msg?.chat] || {}
 if (!chat?.delete) return 
 if (!msg) return 
 if (!msg?.isGroup) return 
-const antideleteMessage = `*╭━━⬣ ${lenguajeGB['smsCont19']()} ⬣━━ 𓃠*
-${lenguajeGB['smsCont20']()} @${participant.split`@`[0]}
-${lenguajeGB['smsCont21']()}
-*╰━━━⬣ ${lenguajeGB['smsCont19']()} ⬣━━╯*`.trim();
+const antideleteMessage = `*╭━━⬣ ${lenguajeMY['smsCont19']()} ⬣━━ 𓃠*
+${lenguajeMY['smsCont20']()} @${participant.split`@`[0]}
+${lenguajeMY['smsCont21']()}
+*╰━━━⬣ ${lenguajeMY['smsCont19']()} ⬣━━╯*`.trim();
 await mconn.conn.sendMessage(msg.chat, {text: antideleteMessage, mentions: [participant]}, {quoted: msg})
 mconn.conn.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
 } catch (e) {
@@ -1477,20 +1477,20 @@ console.error(e)
 
 global.dfail = (type, m, conn) => {
 let msg = {
-rowner: lenguajeGB['smsRowner'](),
-owner: lenguajeGB['smsOwner'](),
-mods: lenguajeGB['smsMods'](),
-premium: lenguajeGB['smsPremium'](),
-group: lenguajeGB['smsGroup'](),
-private: lenguajeGB['smsPrivate'](),
-admin: lenguajeGB['smsAdmin'](),
-botAdmin: lenguajeGB['smsBotAdmin'](),
-unreg: lenguajeGB['smsUnreg'](),
-restrict: lenguajeGB['smsRestrict'](),
+rowner: lenguajeMY['smsRowner'](),
+owner: lenguajeMY['smsOwner'](),
+mods: lenguajeMY['smsMods'](),
+premium: lenguajeMY['smsPremium'](),
+group: lenguajeMY['smsGroup'](),
+private: lenguajeMY['smsPrivate'](),
+admin: lenguajeMY['smsAdmin'](),
+botAdmin: lenguajeMY['smsBotAdmin'](),
+unreg: lenguajeMY['smsUnreg'](),
+restrict: lenguajeMY['smsRestrict'](),
 }[type]
 //if (msg) return m.reply(msg)
 let tg = { quoted: m, userJid: conn.user.jid }
-let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, '👻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 👻', '💥 MYLING.OFC.BOT@gmail.com'].getRandom(), thumbnail: gataImg.getRandom(), sourceUrl: [md, nna, cnl, nn, nnn, nnnt, nnnttt4, yt, ig, paypal, fb].getRandom() }}}}, tg)
+let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeMY.smsAvisoAG().slice(0,-2), body: [wm, '👻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 👻', '💥 MYLING.OFC.BOT@gmail.com'].getRandom(), thumbnail: gataImg.getRandom(), sourceUrl: [md, nna, cnl, nn, nnn, nnnt, nnnttt4, yt, ig, paypal, fb].getRandom() }}}}, tg)
 if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
 }
 
