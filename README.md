@@ -9,12 +9,14 @@
 <img src="https://telegra.ph/file/519ba4d10aeef56ab8404.jpg" alt="Myling.io" width="900"/>
 </p>
 
+> 𝙂𝙍𝘼𝘾𝙄𝘼𝙎 𝙋𝙊𝙍 𝙐𝙎𝘼𝙍 𝙀𝙎𝙏𝙀 𝘽𝙊𝙏
+
 <p align="center">
 <a href="#"><img title="MilingBot - OFC" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APÓYAME CON UNA ESTRELLITA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=0000e6&style=for-the-badge"></a>
 </p>  
 
 <p align="center">
-<a href="#"><img title="MilingBot - MD" src="https://img.shields.io/badge/COMPATIBLE CON LA VERSIÓN MULTI DISPOSITIVOS DE WHATSAPP-red?colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge"></a>
+<a href="#"><img title="MilingBot - MD" src="https://img.shields.io/badge/𝖢𝖮𝖬𝖯𝖠𝖳𝖨𝖡𝖫𝖤 𝖢𝖮𝖭 𝖫𝖠 𝖵𝖤𝖱𝖲𝖨𝖮𝖭 𝖬𝖴𝖫𝖳𝖨 𝖣𝖨𝖲𝖯𝖮𝖲𝖨𝖳𝖨𝖵𝖮𝖲 𝖣𝖤 𝖶𝖧𝖠𝖳𝖲𝖠𝖯𝖯-red?colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge"></a>
 </p>
 
 <p align="center">   
@@ -30,12 +32,14 @@
 <img src="https://img.shields.io/badge/Redes_Sociales-000000%7D?style=for-the-badge&logo=biolink&logoColor=white">
 </a>
 
-#🌟 INSTALACIONES
+-----
+
+# 🌟 INSTALACIONES
 
 -----
 ### 🌟 (OPCIÓN 1) INSTALACIÓN AUTOMÁTICA POR TERMUX 🫰
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/ZLJYDUM6vSY)
-> **Nota:** Comandos para instalar de forma automática en Termux
+> **NOTA:** COMANDOS PARA INSTALAR DE FORMA AUTOMÁTICA EN TERMUX
 ```bash
 termux-setup-storage
 ```
@@ -65,7 +69,7 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 ```
 -----
 ### 🪄 (OPCIÓN 2) INSTALACIÓN MANUAL POR TERMUX - GITHUB 
-> **Note:** COMANDOS PARA INSTALAR DE FORMA MANUAL
+> **NOTA:** COMANDOS PARA INSTALAR DE FORMA MANUAL
 ```bash
 termux-setup-storage
 ```
@@ -93,10 +97,10 @@ npm install
 ```bash
 npm start
 ```
-> **Warning:** Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación 
+> **ADVERTENCIA:** Si aparece (Y/I/N/O/D/Z) por predeterminado es N use la letra "y" + "ENTER" para continuar con la instalación 
 ------------------
 ### 📁 (OPCIÓN 3) INSTALACIÓN POR TERMUX - ARCHIVOS
-> **Nota:** Descargue y descomprime el archivo
+> **Nota:** DESCARGUE Y DESCOMPRIME EL ARCHIVO
 ### [`MylingBot-MD ~ Archivos`](https://github.com/WilsonOFC/MylingBot-MD/archive/refs/heads/master.zip)
 [![blog](https://img.shields.io/badge/NO_TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://www.youtube.com/shorts/ZLJYDUM6vSY)
@@ -112,7 +116,7 @@ npm start
 ```
 * #### APLICACIÓN RECOMENDADA PARA [`DESCOMPRIMIR`](https://play.google.com/store/apps/details?id=com.rarlab.rar)
 * #### APLICACIÓN RECOMENDADA PARA EDITAR [`NÚMERO DE OWNER`](https://play.google.com/store/apps/details?id=com.rhmsoft.code)
-> **Nota:** Guardar los archivos en la ubicación: storage/downloads/KatashiBot-MD-master/KatashiBot-MD-master   
+> **Nota:** Guardar los archivos en la ubicación: storage/downloads/MylingBot-MD-master/MylingBot-MD-master   
 ----
 ### 🚀 USAR MYLINGBOT 24/7 EN TERMUX 
 > Ejecutar estos comandos dentro de la carpeta MylingBot-MD
@@ -120,7 +124,7 @@ npm start
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
 #### ⬇️ Opciones Disponibles
-> **Warning** Esto eliminará todo el historial que hayas establecido con PM2:
+> **ADVERTENCIA** Esto eliminará todo el historial que hayas establecido con PM2:
 ```bash 
 pm2 delete index
 ``` 
