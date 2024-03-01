@@ -1,7 +1,7 @@
 var handler = async (m, {conn, args, groupMetadata, participants, usedPrefix, command, isBotAdmin, isSuperAdmin}) => {
 
-if (!args[0]) return m.reply(`⚠️ INGRESE EL PREFIJO DE UN PAÍS`)
-if (isNaN(args[0])) return m.reply(`⚠️ INGRESA EL PREFIJO DE UN PAÍS`)
+if (!args[0]) return m.reply(`⚠️ INGRESE EL PREFIJO DE UN PAÍS ⚠️`)
+if (isNaN(args[0])) return m.reply(`⚠️ INGRESA EL PREFIJO DE UN PAÍS ⚠️`)
  
 let lol = args[0].replace(/[+]/g, '')
 let ps = participants.map((u) => u.id).filter((v) => v !== conn.user.jid && v.startsWith(lol || lol))
@@ -17,13 +17,13 @@ conn.reply(m.chat, `📑 LISTA DE NÚMEROS +${lol}\n\n` + numeros.join`\n`, m, {
 break
 
 case 'kicknum':
-if (!bot.restrict) return m.reply('⚠️ ESTA FUNCIÓN ESTA DESACTIVADA')
-if (!isBotAdmin) return m.reply('⚠️ NO SOY ADMIN');
+if (!bot.restrict) return m.reply('⚠️ ESTA FUNCIÓN ESTA DESACTIVADA ⚠️')
+if (!isBotAdmin) return m.reply('⚠️ NO SOY ADMIN 🥺⚠️');
 conn.reply(m.chat, `⚠️ SE ELIMINARAN A LOS NÚMEROS +${lol} CADA 10 SEGUNDOS`, m)
 const ownerGroup = m.chat.split`-`[0] + '@s.whatsapp.net'
 const users = participants.map((u) => u.id).filter((v) => v !== conn.user.jid && v.startsWith(lol || lol))
 for (const user of users) {
-const error = `⚠️ @${user.split('@')[0]} YA HA SIDO ELIMINADO A ABANDONADO DEL GRUPO*`
+const error = `😈🔥 @${user.split('@')[0]} HA SIDO ELIMINADO 🔥😈*`
 if (user !== ownerGroup + '@s.whatsapp.net' && user !== global.conn.user.jid && user !== global.owner + '@s.whatsapp.net' && user.startsWith(lol || lol) && user !== isSuperAdmin && isBotAdmin && bot.restrict) {
 await delay(2000)
 const responseb = await conn.groupParticipantsUpdate(m.chat, [user], 'remove')
