@@ -68,3 +68,4 @@ throw `*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃�
 }}
 handler.command = /^(hentaipdf)$/i
 export default handler*/
+
