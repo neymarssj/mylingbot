@@ -26,5 +26,7 @@ export async function all(m, chatUpdate) {
     type: 'append',
   };
   this.ev.emit('messages.upsert', msg);
+
+  
 }
  
