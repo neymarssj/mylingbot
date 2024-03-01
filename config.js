@@ -11,9 +11,9 @@ import { en, es, id, ar, pt, fr, hi } from "./lib/idiomas/total-idiomas.js"
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
-["99999999", '☆𝑴𝒚𝒍𝒊𝒏𝒈-𝑩𝒐𝒕☆', true],
-["5492964650915", '𝙊𝙬𝙣𝙚𝙧 𝐖𝐢𝐥𝐬𝐨𝐧𝐎𝐅𝐂', true],
-["5493795319022", '𝐆𝐋 𝐘𝐓 𝐌𝐗', true],
+["99999999", '𝐌𝐘𝐋𝐈𝐍𝐆𝐁𝐎𝐓-𝐌𝐃', true],
+["5492964650915", '𝐖𝐢𝐥𝐬𝐨𝐧𝐎𝐅𝐂', true],
+["5493795319022", '𝐃𝐒𝐊 - 𝐆𝐋 𝐘𝐓 𝐌𝐗', true],
 ["527442363122", '𝐢𝐙𝐢', true]]
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
@@ -29,7 +29,7 @@ global.Key360 = ["964f-0c75-7afc"]
 //Add the language you want 𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫 to have
 //  es = Español         id = Bahasa Indonesia
 //  en = English         pt = Português 
-//  ar = عرب             hi = Hindi Language
+//  ar = عرب
 
 global.lenguajeMY = es //Idioma de 𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫, Ejemplo: es | en | pt...
 
