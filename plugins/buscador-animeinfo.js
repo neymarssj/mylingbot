@@ -55,3 +55,5 @@ handler.command = /^(animeinfo)$/i
 handler.exp = 50
 handler.level = 1
 export default handler
+
+
