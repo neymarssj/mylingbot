@@ -15,7 +15,7 @@ global.db.data.users[m.sender].exp += rob
 global.db.data.users[who].exp -= rob 
 global.db.data.users[m.sender].money += rob1
 global.db.data.users[who].money -= rob1 
-m.reply(`> *✧ Robaste ${rob} Xp y ${rob1} coins a @${who.split`@`[0]}*`, null, { mentions: [who] })
+m.reply(`> *『Robaste ${rob} Xp y ${rob1} coins a @${who.split`@`[0]}』*`, null, { mentions: [who] })
 global.db.data.users[m.sender].lastrob = new Date * 1
 }
 handler.help = ['rob']
