@@ -723,4 +723,5 @@ global.asmaulhusna = [
         translation_id: "💐 *Opinión:* Cuando estamos enamorados de alguien, daríamos la vida por esa persona.",
         translation_en: "Podemos engañarnos y creer que somos buenas personas, pero hasta los más egoístas pueden perder la cabeza por alguien y parecer personas entregadas.",
     }
+    
 ]
