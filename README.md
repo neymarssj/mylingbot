@@ -12,11 +12,11 @@
 > 𝙂𝙍𝘼𝘾𝙄𝘼𝙎 𝙋𝙊𝙍 𝙐𝙎𝘼𝙍 𝙀𝙎𝙏𝙀 𝘽𝙊𝙏
 
 <p align="center">
-<a href="#"><img title="MilingBot - OFC" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APÓYAME CON UNA ESTRELLITA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=0000e6&style=for-the-badge"></a>
+<a href="#"><img title="MylingBot - OFC" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APÓYAME CON UNA ESTRELLITA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=0000e6&style=for-the-badge"></a>
 </p>  
 
 <p align="center">
-<a href="#"><img title="MilingBot - MD" src="https://img.shields.io/badge/𝖢𝖮𝖬𝖯𝖠𝖳𝖨𝖡𝖫𝖤 𝖢𝖮𝖭 𝖫𝖠 𝖵𝖤𝖱𝖲𝖨𝖮𝖭 𝖬𝖴𝖫𝖳𝖨 𝖣𝖨𝖲𝖯𝖮𝖲𝖨𝖳𝖨𝖵𝖮𝖲 𝖣𝖤 𝖶𝖧𝖠𝖳𝖲𝖠𝖯𝖯-red?colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge"></a>
+<a href="#"><img title="MylingBot - MD" src="https://img.shields.io/badge/𝖢𝖮𝖬𝖯𝖠𝖳𝖨𝖡𝖫𝖤 𝖢𝖮𝖭 𝖫𝖠 𝖵𝖤𝖱𝖲𝖨𝖮𝖭 𝖬𝖴𝖫𝖳𝖨 𝖣𝖨𝖲𝖯𝖮𝖲𝖨𝖳𝖨𝖵𝖮𝖲 𝖣𝖤 𝖶𝖧𝖠𝖳𝖲𝖠𝖯𝖯-red?colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge"></a>
 </p>
 
 <p align="center">   
