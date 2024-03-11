@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, command, usedPrefix }) => {
-let frep = { contextInfo: { externalAdReply: {title: wm, body: lenguajeGB.smsCont18PornP2(), sourceUrl: redesMenu.getRandom(), thumbnail: await(await fetch(img16)).buffer() }}}
+let frep = { contextInfo: { externalAdReply: {title: wm, body: lenguajeMY.smsCont18PornP2(), sourceUrl: redesMenu.getRandom(), thumbnail: await(await fetch(img16)).buffer() }}}
 let user = global.db.data.users[m.sender]
 let enlace = await pornovid[Math.floor(Math.random() * pornovid.length)] 
 let enlace1 = await pornovid2[Math.floor(Math.random() * pornovid2.length)] 
@@ -9,43 +9,43 @@ let enlace3 = await pornovidgay[Math.floor(Math.random() * pornovidgay.length)]
 let enlace4 = await pornovidbisexual[Math.floor(Math.random() * pornovidbisexual.length)] 
 let enlace5 = await pornovidrandom[Math.floor(Math.random() * pornovidrandom.length)] 
 
-if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `${lenguajeGB['smsContAdult']()}`
+if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `${lenguajeMY['smsContAdult']()}`
 try{
 switch (command) {  
 case "pornovid": case "nsfwvid":    
-//await conn.sendFile(m.chat, enlace, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, null, null, {viewOnce: false}, frep, m)
-await conn.sendFile(m.chat, enlace, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, m, null, {viewOnce: false})
-//await conn.sendButton(m.chat, lenguajeGB.smsCont18PornP(), `*_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace, [[lenguajeGB.smsSigPrem(), `${usedPrefix + command}`], [`🥵 ${lenguajeGB.lenguaje() == 'es' ? 'porno vid 2' : 'nsfw vid 2'} 🥵`.toUpperCase(), `${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'pornovid2' : 'nsfwvid2'}`]], m, frep) 
+//await conn.sendFile(m.chat, enlace, null, `${lenguajeMY['smsCont18Porn']()}\n${lenguajeMY['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, null, null, {viewOnce: false}, frep, m)
+await conn.sendFile(m.chat, enlace, null, `${lenguajeMY['smsCont18Porn']()}\n${lenguajeMY['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, m, null, {viewOnce: false})
+//await conn.sendButton(m.chat, lenguajeMY.smsCont18PornP(), `*_${lenguajeMY['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace, [[lenguajeMY.smsSigPrem(), `${usedPrefix + command}`], [`🥵 ${lenguajeMY.lenguaje() == 'es' ? 'porno vid 2' : 'nsfw vid 2'} 🥵`.toUpperCase(), `${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? 'pornovid2' : 'nsfwvid2'}`]], m, frep) 
 break  
     
 case "pornovid2": case "nsfwvid2":    
-await conn.sendFile(m.chat, enlace1, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, m, null, {viewOnce: false})
-//await conn.sendButton(m.chat, lenguajeGB.smsCont18PornP(), `*_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace1, [[lenguajeGB.smsSigPrem(), `${usedPrefix + command}`], [`🥵 ${lenguajeGB.lenguaje() == 'es' ? 'porno vid random' : 'nsfw vid random'} 🥵`.toUpperCase(), `${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'pornovidrandom' : 'nsfwvidrandom'}`]], m, frep) 
+await conn.sendFile(m.chat, enlace1, null, `${lenguajeMY['smsCont18Porn']()}\n${lenguajeMY['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, m, null, {viewOnce: false})
+//await conn.sendButton(m.chat, lenguajeMY.smsCont18PornP(), `*_${lenguajeMY['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace1, [[lenguajeMY.smsSigPrem(), `${usedPrefix + command}`], [`🥵 ${lenguajeMY.lenguaje() == 'es' ? 'porno vid random' : 'nsfw vid random'} 🥵`.toUpperCase(), `${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? 'pornovidrandom' : 'nsfwvidrandom'}`]], m, frep) 
 break 
 
 case "pornovidlesbi": case "nsfwvidlesbi":       
-await conn.sendFile(m.chat, enlace2, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, m, null, {viewOnce: false})
-//await conn.sendButton(m.chat, lenguajeGB.smsCont18PornP(), `*_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace2, [[lenguajeGB.smsSigPrem(), `${usedPrefix + command}`]], m, frep)  
+await conn.sendFile(m.chat, enlace2, null, `${lenguajeMY['smsCont18Porn']()}\n${lenguajeMY['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, m, null, {viewOnce: false})
+//await conn.sendButton(m.chat, lenguajeMY.smsCont18PornP(), `*_${lenguajeMY['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace2, [[lenguajeMY.smsSigPrem(), `${usedPrefix + command}`]], m, frep)  
 break 
 
 case "pornovidgay": case "nsfwvidgay":       
-await conn.sendFile(m.chat, enlace3, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, m, null, {viewOnce: false})
-//await conn.sendButton(m.chat, lenguajeGB.smsCont18PornP(), `*_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace3, [[lenguajeGB.smsSigPrem(), `${usedPrefix + command}`]], m, frep)  
+await conn.sendFile(m.chat, enlace3, null, `${lenguajeMY['smsCont18Porn']()}\n${lenguajeMY['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, m, null, {viewOnce: false})
+//await conn.sendButton(m.chat, lenguajeMY.smsCont18PornP(), `*_${lenguajeMY['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace3, [[lenguajeMY.smsSigPrem(), `${usedPrefix + command}`]], m, frep)  
 break 
     
 case "pornovidbisexual": case "nsfwvidbisexual":       
-await conn.sendFile(m.chat, enlace4, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, m, null, {viewOnce: false})
-//await conn.sendButton(m.chat, lenguajeGB.smsCont18PornP(), `*_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace4, [[lenguajeGB.smsSigPrem(), `${usedPrefix + command}`]], m, frep)  
+await conn.sendFile(m.chat, enlace4, null, `${lenguajeMY['smsCont18Porn']()}\n${lenguajeMY['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, m, null, {viewOnce: false})
+//await conn.sendButton(m.chat, lenguajeMY.smsCont18PornP(), `*_${lenguajeMY['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace4, [[lenguajeMY.smsSigPrem(), `${usedPrefix + command}`]], m, frep)  
 break 
     
 case "pornovidrandom": case "nsfwvidrandom":       
-await conn.sendFile(m.chat, enlace5, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, m, null, {viewOnce: false})
-//await conn.sendButton(m.chat, lenguajeGB.smsCont18PornP(), `*_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace5, [[lenguajeGB.smsSigPrem(), `${usedPrefix + command}`], [`🥵 ${lenguajeGB.lenguaje() == 'es' ? 'porno vid' : 'nsfw vid'} 🥵`.toUpperCase(), `${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'pornovid' : 'nsfwvid'}`]], m, frep)  
+await conn.sendFile(m.chat, enlace5, null, `${lenguajeMY['smsCont18Porn']()}\n${lenguajeMY['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, m, null, {viewOnce: false})
+//await conn.sendButton(m.chat, lenguajeMY.smsCont18PornP(), `*_${lenguajeMY['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace5, [[lenguajeMY.smsSigPrem(), `${usedPrefix + command}`], [`🥵 ${lenguajeMY.lenguaje() == 'es' ? 'porno vid' : 'nsfw vid'} 🥵`.toUpperCase(), `${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? 'pornovid' : 'nsfwvid'}`]], m, frep)  
 break 
         
 }} catch (e) {
-await conn.sendButton(m.chat, `\n${wm}`, lenguajeGB['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeGB.smsMensError1(), `#reporte ${lenguajeGB['smsMensError2']()} *${usedPrefix + command}*`]], m)
-console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
+await conn.sendButton(m.chat, `\n${wm}`, lenguajeMY['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeMY.smsMensError1(), `#reporte ${lenguajeMY['smsMensError2']()} *${usedPrefix + command}*`]], m)
+console.log(`❗❗ ${lenguajeMY['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)}
     
 }
