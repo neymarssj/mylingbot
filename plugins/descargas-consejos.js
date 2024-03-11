@@ -10,7 +10,7 @@ if (command == 'consejo' || command == 'advice') {
 let img = 'https://img.freepik.com/vector-premium/caracter-gato-ilustracion-hoja-trebol_75474-1263.jpg'
 let list = global.motivation 
 let contenido = list[Math.floor(Math.random() * list.length)]
-let result = await translate(`${contenido}`, { to: lenguajeGB.lenguaje(), autoCorrect: true })
+let result = await translate(`${contenido}`, { to: lenguajeMY.lenguaje(), autoCorrect: true })
 let texto = `
 ・☘️・》・》・》
 
@@ -18,14 +18,14 @@ let texto = `
 
 ・☘️・》・》・》`
 conn.sendFile(m.chat, img, 'error.png', texto.trim(), fkontak)}   
-//await conn.sendButton(m.chat, texto.trim(), wm, img, [[lenguajeGB.smsConj(), `${usedPrefix + command}`], [lenguajeGB.smsConMenu(), `${usedPrefix}menu`]], m, frep)}   
+//await conn.sendButton(m.chat, texto.trim(), wm, img, [[lenguajeMY.smsConj(), `${usedPrefix + command}`], [lenguajeMY.smsConMenu(), `${usedPrefix}menu`]], m, frep)}   
   
 if (command == 'frase2' || command == 'phrase2') { 
 let img = 'https://superpet.pe/blog/wp-content/uploads/2022/05/nombres-para-gatos-blancos.jpg'  
-let list = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/frase2.json`)).data  
+let list = (await axios.get(`https://raw.githubusercontent.com/WilsonOFC/MylingBot-MD/master/src/JSON/frase2.json`)).data  
 let contenido = await list[Math.floor(list.length * Math.random())]
 let frase = contenido.motivasi
-let frase2 = await translate(`${frase}`, { to: lenguajeGB.lenguaje(), autoCorrect: true })
+let frase2 = await translate(`${frase}`, { to: lenguajeMY.lenguaje(), autoCorrect: true })
 let texto = `
 ・☘️・》・》・》
 
@@ -33,10 +33,10 @@ let texto = `
 
 ・☘️・》・》・》`
 conn.sendFile(m.chat, img, 'error.png', texto.trim(), m, fkontak)} 
-//await conn.sendButton(m.chat, texto.trim(), wm, img, [[lenguajeGB.smsFras(), `${usedPrefix + command}`], [lenguajeGB.smsConMenu(), `${usedPrefix}menu`]], m, frep)} 
+//await conn.sendButton(m.chat, texto.trim(), wm, img, [[lenguajeMY.smsFras(), `${usedPrefix + command}`], [lenguajeMY.smsConMenu(), `${usedPrefix}menu`]], m, frep)} 
 } catch (e) {
-await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
-console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
+await m.reply(lenguajeMY['smsMalError3']() + '\n*' + lenguajeMY.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeMY.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeMY.smsMensError2()} ` + usedPrefix + command)
+console.log(`❗❗ ${lenguajeMY['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)}  
 }
 handler.command = ['consejo', 'advice', 'frase2', 'phrase2']
