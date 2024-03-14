@@ -6,7 +6,7 @@ let name = conn.getName(m.sender)
 
 if (/^e$/i.test(m.text) ) { //sin prefijo 
     let teks = `
-${pickRandom([`Que bueno sabe la letra E`, `eeeeee`])}
+${pickRandom([`Que bueno sabe la letra E`, `eeeeee`, `que pasa una fototeta dice?`, `:v`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
