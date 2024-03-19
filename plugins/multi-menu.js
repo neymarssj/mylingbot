@@ -87,18 +87,18 @@ const temaX = [['pornololi', 'nsfwloli'], ['pornopies', 'nsfwfoot'], ['pornoass'
 ['pornovid2', 'nsfwvid2'], ['pornovidlesbi', 'nsfwvidlesbi'], ['pornovidgay', 'nsfwvidgay'], ['pornovidbisexual', 'nsfwvidbisexual'], ['pornovidrandom', 'nsfwvidrandom']]
 
 if (command == 'audioefectomenu'){ //audio
-let menuA = `🎧 ${lenguajeGB['smsConfi2']()} *${username}*
+let menuA = `🎧 ${lenguajeMY['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 
-⠇ ${lenguajeGB['smsTex2']()} 🧰
+⠇ ${lenguajeMY['smsTex2']()} 🧰
 ∘ _${usedPrefix}bass_
 ∘ _${usedPrefix}blown_
 ∘ _${usedPrefix}deep_
@@ -113,21 +113,21 @@ let menuA = `🎧 ${lenguajeGB['smsConfi2']()} *${username}*
 ∘ _${usedPrefix}tupai_
 `.trim()
 await conn.sendFile(m.chat, pp, 'gata.mp4', menuA, fkontak)
-//conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
+//conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
 } if (command == 'buscarmenu'){ //buscador
-let menuA = `🎈 ${lenguajeGB['smsConfi2']()} *${username}*
+let menuA = `🎈 ${lenguajeMY['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex1']()} 🔍
+⠇ ${lenguajeMY['smsTex1']()} 🔍
 ∘ _${usedPrefix}animeinfo *texto*_
 ∘ _${usedPrefix}mangainfo *texto*_
 ∘ _${usedPrefix}google *texto*_
@@ -136,154 +136,154 @@ let menuA = `🎈 ${lenguajeGB['smsConfi2']()} *${username}*
 ∘ _${usedPrefix}wiki | wikipedia *texto*_
 `.trim()
 await conn.sendFile(m.chat, pp, 'gata.mp4', menuA, fkontak)
-//await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
+//await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
 } if (command == 'hornymenu'){ //comandos+18
 let pp = './src/+18.jpg'
 
-let menuA = `😏 ${lenguajeGB['smsConfi2']()} *${username}*
+let menuA = `😏 ${lenguajeMY['smsConfi2']()} *${username}*
 
 ╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex3']()} 🔞
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[0][0] : temaX[0][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[1][0] : temaX[1][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[2][0] : temaX[2][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[3][0] : temaX[3][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[4][0] : temaX[4][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[5][0] : temaX[5][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[6][0] : temaX[6][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[7][0] : temaX[7][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[8][0] : temaX[8][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[9][0] : temaX[9][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[10][0] : temaX[10][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[11][0] : temaX[11][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[12][0] : temaX[12][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[13][0] : temaX[13][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[14][0] : temaX[14][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[15][0] : temaX[15][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[16][0] : temaX[16][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[17][0] : temaX[17][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[18][0] : temaX[18][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[19][0] : temaX[19][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[20][0] : temaX[20][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[21][0] : temaX[21][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[22][0] : temaX[22][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[23][0] : temaX[23][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[24][0] : temaX[24][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[25][0] : temaX[25][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[26][0] : temaX[26][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[27][0] : temaX[27][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[28][0] : temaX[28][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[29][0] : temaX[29][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[30][0] : temaX[30][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[31][0] : temaX[31][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[32][0] : temaX[32][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[33][0] : temaX[33][1]}_
-⠇ ${lenguajeGB['smsTex5']()} ❤️‍🔥
+⠇ ${lenguajeMY['smsTex3']()} 🔞
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[0][0] : temaX[0][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[1][0] : temaX[1][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[2][0] : temaX[2][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[3][0] : temaX[3][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[4][0] : temaX[4][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[5][0] : temaX[5][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[6][0] : temaX[6][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[7][0] : temaX[7][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[8][0] : temaX[8][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[9][0] : temaX[9][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[10][0] : temaX[10][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[11][0] : temaX[11][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[12][0] : temaX[12][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[13][0] : temaX[13][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[14][0] : temaX[14][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[15][0] : temaX[15][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[16][0] : temaX[16][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[17][0] : temaX[17][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[18][0] : temaX[18][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[19][0] : temaX[19][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[20][0] : temaX[20][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[21][0] : temaX[21][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[22][0] : temaX[22][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[23][0] : temaX[23][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[24][0] : temaX[24][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[25][0] : temaX[25][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[26][0] : temaX[26][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[27][0] : temaX[27][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[28][0] : temaX[28][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[29][0] : temaX[29][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[30][0] : temaX[30][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[31][0] : temaX[31][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[32][0] : temaX[32][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[33][0] : temaX[33][1]}_
+⠇ ${lenguajeMY['smsTex5']()} ❤️‍🔥
 ∘ _${usedPrefix}xnxxsearch | buscarxnxx *texto*_
 ∘ _${usedPrefix}xvideossearch *texto*_
 ∘ _${usedPrefix}xnxxdl | xnxx *enlace*_
 ∘ _${usedPrefix}xvideosdl | xvideos *enlace*_
-⠇ ${lenguajeGB['smsTex6']()} 🔥
-${lenguajeGB['smsTex7']()}
-⠇ ${lenguajeGB['smsTex4']()} 🥵
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[34][0] : temaX[34][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[35][0] : temaX[35][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[36][0] : temaX[36][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[37][0] : temaX[37][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[38][0] : temaX[38][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[39][0] : temaX[39][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[40][0] : temaX[40][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[41][0] : temaX[41][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[42][0] : temaX[42][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[43][0] : temaX[43][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[44][0] : temaX[44][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[45][0] : temaX[45][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[46][0] : temaX[46][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[47][0] : temaX[47][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[48][0] : temaX[48][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[49][0] : temaX[49][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[50][0] : temaX[50][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[51][0] : temaX[51][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[52][0] : temaX[52][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[53][0] : temaX[53][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[54][0] : temaX[54][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[55][0] : temaX[55][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[56][0] : temaX[56][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[57][0] : temaX[57][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[58][0] : temaX[58][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[59][0] : temaX[59][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[60][0] : temaX[60][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[61][0] : temaX[61][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[62][0] : temaX[62][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[63][0] : temaX[63][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[64][0] : temaX[64][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[65][0] : temaX[65][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[66][0] : temaX[66][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[67][0] : temaX[67][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[68][0] : temaX[68][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[69][0] : temaX[69][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[70][0] : temaX[70][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[71][0] : temaX[71][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[72][0] : temaX[72][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[73][0] : temaX[73][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[74][0] : temaX[74][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[75][0] : temaX[75][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[76][0] : temaX[76][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[77][0] : temaX[77][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[78][0] : temaX[78][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[79][0] : temaX[79][1]}_
-⠇ ${lenguajeGB['smsTex4']()} 🥵
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[80][0] : temaX[80][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[81][0] : temaX[81][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[82][0] : temaX[82][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[83][0] : temaX[83][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[84][0] : temaX[84][1]}_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? temaX[85][0] : temaX[85][1]}_`.trim()
+⠇ ${lenguajeMY['smsTex6']()} 🔥
+${lenguajeMY['smsTex7']()}
+⠇ ${lenguajeMY['smsTex4']()} 🥵
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[34][0] : temaX[34][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[35][0] : temaX[35][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[36][0] : temaX[36][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[37][0] : temaX[37][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[38][0] : temaX[38][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[39][0] : temaX[39][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[40][0] : temaX[40][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[41][0] : temaX[41][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[42][0] : temaX[42][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[43][0] : temaX[43][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[44][0] : temaX[44][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[45][0] : temaX[45][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[46][0] : temaX[46][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[47][0] : temaX[47][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[48][0] : temaX[48][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[49][0] : temaX[49][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[50][0] : temaX[50][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[51][0] : temaX[51][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[52][0] : temaX[52][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[53][0] : temaX[53][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[54][0] : temaX[54][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[55][0] : temaX[55][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[56][0] : temaX[56][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[57][0] : temaX[57][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[58][0] : temaX[58][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[59][0] : temaX[59][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[60][0] : temaX[60][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[61][0] : temaX[61][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[62][0] : temaX[62][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[63][0] : temaX[63][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[64][0] : temaX[64][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[65][0] : temaX[65][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[66][0] : temaX[66][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[67][0] : temaX[67][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[68][0] : temaX[68][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[69][0] : temaX[69][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[70][0] : temaX[70][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[71][0] : temaX[71][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[72][0] : temaX[72][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[73][0] : temaX[73][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[74][0] : temaX[74][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[75][0] : temaX[75][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[76][0] : temaX[76][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[77][0] : temaX[77][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[78][0] : temaX[78][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[79][0] : temaX[79][1]}_
+⠇ ${lenguajeMY['smsTex4']()} 🥵
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[80][0] : temaX[80][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[81][0] : temaX[81][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[82][0] : temaX[82][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[83][0] : temaX[83][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[84][0] : temaX[84][1]}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? temaX[85][0] : temaX[85][1]}_`.trim()
 await conn.sendFile(m.chat, pp, 'gata.mp4', menuA, fkontak)
-//await conn.sendButton(m.chat, menuA, menuB, pp, [[lenguajeGB.smsBotonM1(), usedPrefix + 'menu'], [lenguajeGB.smsBotonM2(), usedPrefix + 'allmenu'], [lenguajeGB.lenguaje() == 'es' ? '🔞 ver lista porno 🔞'.toUpperCase() : '🔞 list horny🔞 '.toUpperCase(), lenguajeGB.lenguaje() == 'es' ? usedPrefix + 'listaporno' : usedPrefix + 'listhorny']], fkontak, adReply, m)
+//await conn.sendButton(m.chat, menuA, menuB, pp, [[lenguajeMY.smsBotonM1(), usedPrefix + 'menu'], [lenguajeMY.smsBotonM2(), usedPrefix + 'allmenu'], [lenguajeMY.lenguaje() == 'es' ? '🔞 ver lista porno 🔞'.toUpperCase() : '🔞 list horny🔞 '.toUpperCase(), lenguajeMY.lenguaje() == 'es' ? usedPrefix + 'listaporno' : usedPrefix + 'listhorny']], fkontak, adReply, m)
 
   
 }if (command == 'listaporno' || command == 'listhorny') { //comandos+18
-let sections = Object.keys(temaX).map((v, index, temaX2) => ({ title: `${lenguajeGB['smsTex4']().slice(1, -1)} : ${wm}`,
+let sections = Object.keys(temaX).map((v, index, temaX2) => ({ title: `${lenguajeMY['smsTex4']().slice(1, -1)} : ${wm}`,
 rows: [{ 
-title: `${1 + index <= 33 ? '🥵' : user.premiumTime > 0 ? '🎟️🥵' : '⚠️'} ${lenguajeGB.lenguaje() == 'es' ? temaX[index][0].toUpperCase() : temaX[index][1].toUpperCase()} ${1 + index <= 33 ? '🥵' : user.premiumTime > 0 ? '🥵🎟️' : '⚠️'} • ${lenguajeGB['smsBotonM7']()} ➜ ${user.premiumTime > 0 ? '✅' : '❌'}`, 
-description: `${1 + index}. ${lenguajeGB.lenguaje() == 'es' ? temaX[index][0] : temaX[index][1]} ➜ ${1 + index <= 33 ? user.limit < 2 ? lenguajeGB.smsList1() + lenguajeGB.eDiamante() + lenguajeGB.smsList2() + rpgshopp.emoticon('limit') : lenguajeGB.smsList3() : lenguajeGB.smsList4() + rpg.emoticon('premium')}`, 
-rowId: `${usedPrefix}${1 + index <= 33 ? user.limit < 2 ? 'buy limit 5' : lenguajeGB.lenguaje() == 'es' ? temaX[index][0] : temaX[index][1] : user.premiumTime > 0 ? lenguajeGB.lenguaje() == 'es' ? temaX[index][0] : temaX[index][1] : 'pase premium' }` }], }))
+title: `${1 + index <= 33 ? '🥵' : user.premiumTime > 0 ? '🎟️🥵' : '⚠️'} ${lenguajeMY.lenguaje() == 'es' ? temaX[index][0].toUpperCase() : temaX[index][1].toUpperCase()} ${1 + index <= 33 ? '🥵' : user.premiumTime > 0 ? '🥵🎟️' : '⚠️'} • ${lenguajeMY['smsBotonM7']()} ➜ ${user.premiumTime > 0 ? '✅' : '❌'}`, 
+description: `${1 + index}. ${lenguajeMY.lenguaje() == 'es' ? temaX[index][0] : temaX[index][1]} ➜ ${1 + index <= 33 ? user.limit < 2 ? lenguajeMY.smsList1() + lenguajeMY.eDiamante() + lenguajeMY.smsList2() + rpgshopp.emoticon('limit') : lenguajeMY.smsList3() : lenguajeMY.smsList4() + rpg.emoticon('premium')}`, 
+rowId: `${usedPrefix}${1 + index <= 33 ? user.limit < 2 ? 'buy limit 5' : lenguajeMY.lenguaje() == 'es' ? temaX[index][0] : temaX[index][1] : user.premiumTime > 0 ? lenguajeMY.lenguaje() == 'es' ? temaX[index][0] : temaX[index][1] : 'pase premium' }` }], }))
 
 let name = await conn.getName(m.sender)
 const listMessage = {
-text: `${user.premiumTime > 0 ? lenguajeGB.smsCont18PornP() : lenguajeGB.smsCont18Porn()}`,
+text: `${user.premiumTime > 0 ? lenguajeMY.smsCont18PornP() : lenguajeMY.smsCont18Porn()}`,
 footer: `╭━━━✦ 🛐 ✦━━━━⬣
-🔞 ${lenguajeGB.smsConfi2()} *${name}*
-${lenguajeGB.smsList5()}
+🔞 ${lenguajeMY.smsConfi2()} *${name}*
+${lenguajeMY.smsList5()}
 ╰━━━✦ *${vs}* ✦━━━⬣
 ${wm}`,
 title: null,
-buttonText: lenguajeGB.smsList6(),
+buttonText: lenguajeMY.smsList6(),
 sections }
 conn.sendMessage(m.chat, listMessage, {quoted: fkontak})
   
   
 } if (command == 'convertidormenu'){ //convertidor
-let menuA = `📍 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
+let menuA = `📍 ${lenguajeMY['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex8']()} 🛰️
+⠇ ${lenguajeMY['smsTex8']()} 🛰️
 ∘ _${usedPrefix}toimg | img | jpg *sticker*_
 ∘ _${usedPrefix}tomp3 | mp3 *video o nota de voz*_
 ∘ _${usedPrefix}tovn | vn *video o audio*_
@@ -292,20 +292,20 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}toenlace  *video, imagen o audio*_
 ∘ _${usedPrefix}tts es *texto*_
 `.trim()
-await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)  
+await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)  
 
   
 } if (command == 'descargasmenu'){ //descargas
-let menuA = `🪄 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
+let menuA = `🪄 ${lenguajeMY['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex9']()} 🚀
+⠇ ${lenguajeMY['smsTex9']()} 🚀
 ∘ _${usedPrefix}imagen | image *texto*_
 ∘ _${usedPrefix}pinterest | dlpinterest *texto*_
 ∘ _${usedPrefix}wallpaper|wp *texto*_
@@ -328,26 +328,26 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}mediafire | dlmediafire *link*_
 ∘ _${usedPrefix}clonarepo | gitclone *link*_
 ∘ _${usedPrefix}clima *país ciudad*_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'consejo' : 'advice'}_ 
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? 'consejo' : 'advice'}_ 
 ∘ _${usedPrefix}frase_
-∘ _${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'frase2' : 'phrase2'}_
+∘ _${usedPrefix}${lenguajeMY.lenguaje() == 'es' ? 'frase2' : 'phrase2'}_
 ∘ _${usedPrefix}morse codificar *texto*_
 ∘ _${usedPrefix}morse decodificar *morse*_
 `.trim()
-await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
+await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
 } if (command == 'juegosmenu'){ //fun
-let menuA = `🎠 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
+let menuA = `🎠 ${lenguajeMY['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex10']()} 🎡
+⠇ ${lenguajeMY['smsTex10']()} 🎡
 ∘ _${usedPrefix}mates | matemáticas | math_
 ∘ _${usedPrefix}ppt *piedra : papel : tijera*_
 ∘ _${usedPrefix}tictactoe | ttt *sala*_
@@ -385,20 +385,20 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}multijuegos_
 ∘ _${usedPrefix}juegos_
 `.trim()
-await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
+await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
 } if (command == 'grupomenu'){ //grupo
-let menuA = `🔰 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
+let menuA = `🔰 ${lenguajeMY['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex11']()} 🌐
+⠇ ${lenguajeMY['smsTex11']()} 🌐
 ∘ _${usedPrefix}add *numero*_
 ∘ _${usedPrefix}sacar | ban | kick  *@tag*_
 ∘ _${usedPrefix}grupo *abrir : cerrar*_
@@ -432,20 +432,20 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}on_
 ∘ _${usedPrefix}off_
 `.trim()
-await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
+await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
 } if (command == 'herramientasmenu'){ //herramientas
-let menuA = `🔩 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
+let menuA = `🔩 ${lenguajeMY['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex12']()} 🛠️
+⠇ ${lenguajeMY['smsTex12']()} 🛠️
 ∘ _${usedPrefix}afk *motivo*_
 ∘ _${usedPrefix}acortar *url*_
 ∘ _${usedPrefix}calc *operacion math*_
@@ -460,20 +460,20 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}encuesta | poll *Motivo*_
 ∘ _${usedPrefix}horario_
 `.trim()
-await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
+await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)
 
  
 } if (command == 'infomenu'){ //info
-let menuA = `🌟 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
+let menuA = `🌟 ${lenguajeMY['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex13']()} 💫
+⠇ ${lenguajeMY['smsTex13']()} 💫
 ∘ _${usedPrefix}cuentasgatabot | cuentasgb_
 ∘ _${usedPrefix}gruposgb | grupos | groupgb_
 ∘ _${usedPrefix}donar | donate_
@@ -490,20 +490,20 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _términos y condiciones_
 ∘ _Bot_ 
 `.trim()
-await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
+await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
 } if (command == 'makermenu'){ //maker
-let menuA = `✨ ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
+let menuA = `✨ ${lenguajeMY['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex14']()} ⛺
+⠇ ${lenguajeMY['smsTex14']()} ⛺
 ∘ _${usedPrefix}logos *efecto texto*_
 ∘ _${usedPrefix}simpcard *@tag*_
 ∘ _${usedPrefix}hornycard *@tag*_
@@ -513,20 +513,20 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}pixelar_
 ∘ _${usedPrefix}blur_
 `.trim()
-await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
+await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
 } if (command == 'menulogos2'){ //marker
-let menuA = `⛲ ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
+let menuA = `⛲ ${lenguajeMY['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex15']()} 🌅
+⠇ ${lenguajeMY['smsTex15']()} 🌅
 ∘ ${usedPrefix}logocorazon *Texto*
 ∘ ${usedPrefix}3dtext *Texto*
 ∘ ${usedPrefix}angels *Texto*
@@ -555,20 +555,20 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ ${usedPrefix}cardchristmas *Texto*
 ∘ ${usedPrefix}flowercard *Texto*
 `.trim()
-await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
+await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
 } if (command == 'ownermenu'){ //propietario(a)
-let menuA = `🛂 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
+let menuA = `🛂 ${lenguajeMY['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex20']()} 💎
+⠇ ${lenguajeMY['smsTex20']()} 💎
 ∘ _${usedPrefix}join *enlace*_
 ∘ _${usedPrefix}unete *enlace*_
 ∘ _${usedPrefix}dardiamantes *cantidad*_
@@ -598,20 +598,20 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}añadirxp *@tag cantidad*_
 ∘ _${usedPrefix}añadirgatacoins *@tag cantidad*_
 `.trim()
-await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
+await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
 } if (command == 'randommenu'){ //randomm
-let menuA = `⛩️ ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
+let menuA = `⛩️ ${lenguajeMY['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex23']()} 🧩
+⠇ ${lenguajeMY['smsTex23']()} 🧩
 ∘ _${usedPrefix}chica_
 ∘ _${usedPrefix}chico_
 ∘ _${usedPrefix}cristianoronaldo_
@@ -663,20 +663,20 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}sakura_
 ∘ _${usedPrefix}cosplay_
 `.trim()
-await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
+await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)
 
   
 } if (command == 'rpgmenu'){ //rpg
-let menuA = `🪅 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
+let menuA = `🪅 ${lenguajeMY['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex21']()} ⚗️
+⠇ ${lenguajeMY['smsTex21']()} ⚗️
 ∘ _${usedPrefix}botemporal *enlace* *cantidad*_
 ∘ _${usedPrefix}addbot *enlace* *cantidad*_
 ∘ _${usedPrefix}pase premium_
@@ -721,20 +721,20 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}cofre | abrircofre | coffer_
 ∘ _${usedPrefix}trabajar | work_
 `.trim()
-await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
+await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)
 
 
 } if (command == 'stickermenu'){ //sticker
-let menuA = `🧸 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
+let menuA = `🧸 ${lenguajeMY['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-⠇ ${lenguajeGB['smsTex22']()} 🎐
+⠇ ${lenguajeMY['smsTex22']()} 🎐
 ∘ _${usedPrefix}sticker | s *imagen o video*_
 ∘ _${usedPrefix}sticker | s *url de tipo jpg*_
 ∘ _${usedPrefix}emojimix *😺+😆*_
@@ -759,11 +759,11 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}stickerfilter *efecto : responder a imagen*_
 ∘ _${usedPrefix}cs *:* cs2_
 `.trim()
-await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
+await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)
 } 
 } catch (e) {
-await conn.sendButton(m.chat, `\n${wm}`, lenguajeGB['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeGB.smsMensError1(), `#reporte ${lenguajeGB['smsMensError2']()} *${usedPrefix + command}*`]], m)
-console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
+await conn.sendButton(m.chat, `\n${wm}`, lenguajeMY['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeMY.smsMensError1(), `#reporte ${lenguajeMY['smsMensError2']()} *${usedPrefix + command}*`]], m)
+console.log(`❗❗ ${lenguajeMY['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)}
 }
 handler.help = ['infomenu'].map(v => v + 'able <option>')

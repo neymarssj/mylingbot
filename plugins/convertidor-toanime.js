@@ -18,7 +18,7 @@ try {
 const anime3 = `https://api.caliph.biz.id/api/animeai?img=${image}&apikey=caliphkey`;
 await conn.sendFile(m.chat, anime3, 'error.jpg', null, m);
 } catch (e) {
-throw `${lenguajeGB.smsAvisoFG()}𝙀𝙍𝙍𝙊𝙍, 𝙑𝙀𝙍𝙄𝙁𝙄𝙌𝙐𝙀 𝙌𝙐𝙀 𝙇𝘼 𝙄𝙈𝘼𝙂𝙀𝙉 𝙎𝙀𝘼 𝙀𝙇 𝙍𝙊𝙎𝙏𝙍𝙊 𝘿𝙀 𝙐𝙉𝘼 𝙋𝙀𝙍𝙎𝙊𝙉𝘼`
+throw `${lenguajeMY.smsAvisoFG()}𝙀𝙍𝙍𝙊𝙍, 𝙑𝙀𝙍𝙄𝙁𝙄𝙌𝙐𝙀 𝙌𝙐𝙀 𝙇𝘼 𝙄𝙈𝘼𝙂𝙀𝙉 𝙎𝙀𝘼 𝙀𝙇 𝙍𝙊𝙎𝙏𝙍𝙊 𝘿𝙀 𝙐𝙉𝘼 𝙋𝙀𝙍𝙎𝙊𝙉𝘼`
 }}}}
 handler.help = ['toanime'];
 handler.tags = ['tools'];

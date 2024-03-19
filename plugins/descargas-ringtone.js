@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async(m, { conn, groupMetadata, usedPrefix, text, args, command }) => {
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙏𝙀𝙓𝙏𝙊 𝙌𝙐𝙀 𝘿𝙀𝙎𝙀𝙀 𝘽𝙐𝙎𝘾𝘼𝙍\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊: ${usedPrefix + command} Hola*`
+if (!text) throw `${lenguajeMY['smsAvisoMG']()}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙏𝙀𝙓𝙏𝙊 𝙌𝙐𝙀 𝘿𝙀𝙎𝙀𝙀 𝘽𝙐𝙎𝘾𝘼𝙍\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊: ${usedPrefix + command} Hola*`
 let anu = await ringtone(text)
 let result = anu[Math.floor(Math.random() * anu.length)]
 conn.sendMessage(m.chat, { audio: { url: result.audio }, fileName: result.title+'.mp3', mimetype: 'audio/mpeg' }, { quoted: m })}

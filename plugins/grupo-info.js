@@ -4,31 +4,31 @@ const groupAdmins = participants.filter(p => p.admin)
 const listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.id.split('@')[0]}`).join('\n')
 const owner = groupMetadata.owner || groupAdmins.find(p => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net'
 let text = 
-`✦ - - ${lenguajeGB['smsGI1']()} - - ✦
+`✦ - - ${lenguajeMY['smsGI1']()} - - ✦
 
-⇢ ${lenguajeGB['smsGI2']()}
+⇢ ${lenguajeMY['smsGI2']()}
 ・ ${groupMetadata.id}
 
-⇢ ${lenguajeGB['smsGI3']()}
+⇢ ${lenguajeMY['smsGI3']()}
 ・ ${groupMetadata.subject}
 
-⇢ ${lenguajeGB['smsGI4']()}
-・ ${groupMetadata.desc?.toString() || lenguajeGB['smsGI5']()}
+⇢ ${lenguajeMY['smsGI4']()}
+・ ${groupMetadata.desc?.toString() || lenguajeMY['smsGI5']()}
 
-⇢ ${lenguajeGB['smsGI6']()}
-・ ${participants.length} ${lenguajeGB['smsGI7']()}
+⇢ ${lenguajeMY['smsGI6']()}
+・ ${participants.length} ${lenguajeMY['smsGI7']()}
 
-⇢ ${lenguajeGB['smsGI8']()}
+⇢ ${lenguajeMY['smsGI8']()}
 ・ @${owner.split('@')[0]}
 
-⇢ ${lenguajeGB['smsGI9']()}
+⇢ ${lenguajeMY['smsGI9']()}
 ${listAdmin}
 
 *《 - - - - - - - 𓃠 ${vs} - - - - - - - 》*
 `.trim()
   
 await conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })   
-//await conn.sendButton(m.chat, wm, text, pp, [[lenguajeGB.smsGI10(), '.on'], [lenguajeGB.smsConMenu(), '/menu']], m, { mentions: [...groupAdmins.map(v => v.id), owner] })
+//await conn.sendButton(m.chat, wm, text, pp, [[lenguajeMY.smsGI10(), '.on'], [lenguajeMY.smsConMenu(), '/menu']], m, { mentions: [...groupAdmins.map(v => v.id), owner] })
 }
 handler.help = ['infogrup']
 handler.tags = ['group']

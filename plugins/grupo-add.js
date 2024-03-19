@@ -30,7 +30,7 @@ export default handler
 /*const { getBinaryNodeChild, getBinaryNodeChildren } = (await import('@adiwajshing/baileys')).default
 let handler = async (m, { conn, text, participants, usedPrefix, command }) => {
 const fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net"}
-if (!global.db.data.settings[conn.user.jid].restrict) return conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`, fkontak, m) 
+if (!global.db.data.settings[conn.user.jid].restrict) return conn.reply(m.chat, `${lenguajeMY['smsAvisoAG']()}${lenguajeMY['smsSoloOwner']()}`, fkontak, m) 
 try {
 let _participants = participants.map(user => user.jid)
 let users = (await Promise.all(
@@ -62,7 +62,7 @@ for (const user of participant.filter(item => item.attrs.error == 403)) {
 const content = getBinaryNodeChild(user, 'add_request')
 const invite_code = content.attrs.code
 const invite_code_exp = content.attrs.expiration
-let teks = `${lenguajeGB['smsAddB1']()}`
+let teks = `${lenguajeMY['smsAddB1']()}`
 m.reply(teks, null, {
 mentions: conn.parseMention(teks)
 })}

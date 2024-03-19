@@ -4,7 +4,7 @@ if (text) {
 global.db.data.chats[m.chat].sBye = text
 conn.reply(m.chat, lenguajeMY.smsSetB(), fkontak, m)  
 //conn.sendButton(m.chat, wm, lenguajeMY['smsSetB'](), null, [[lenguajeMY.smsConMenu(), `/menu`]], fkontak, m)
-} else throw `${lenguajeGB['smsSetB2']()}`
+} else throw `${lenguajeMY['smsSetB2']()}`
 }
 handler.command = ['setbye', 'despedida'] 
 handler.botAdmin = true

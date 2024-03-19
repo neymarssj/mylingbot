@@ -1,6 +1,6 @@
 import {search, download} from 'aptoide-scraper';
 const handler = async (m, {conn, usedPrefix: prefix, command, text}) => {
- if (!text) throw `${lenguajeGB['smsAvisoMG']()} *ESCRIBA EL NOMBRE DEL APK*`;
+ if (!text) throw `${lenguajeMY['smsAvisoMG']()} *ESCRIBA EL NOMBRE DEL APK*`;
   try {    
 const searchA = await search(text);
 const data5 = await download(searchA[0].id);
@@ -10,7 +10,7 @@ if (data5.size.includes('GB') || data5.size.replace(' MB', '') > 999) {
 return await conn.sendMessage(m.chat, {text: '*EL APK ES MUY PESADO.*'}, {quoted: m})}
 await conn.sendMessage(m.chat, {document: {url: data5.dllink}, mimetype: 'application/vnd.android.package-archive', fileName: data5.name + '.apk', caption: null}, {quoted: m});
 } catch {
-throw `${lenguajeGB['smsAvisoFG']()} *NO HAY RESULTADOS DE LO QUE SOLICITA*`;
+throw `${lenguajeMY['smsAvisoFG']()} *NO HAY RESULTADOS DE LO QUE SOLICITA*`;
 }};
 handler.command = /^(apkmod|apk|modapk|dapk2|aptoide|aptoidedl)$/i;
 handler.register = true

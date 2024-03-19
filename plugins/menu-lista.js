@@ -31,51 +31,51 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
 const sections = [{
-title: comienzo + ' ' + lenguajeGB['smsLista1']() + ' ' + fin,
+title: comienzo + ' ' + lenguajeMY['smsLista1']() + ' ' + fin,
 rows: [
-{title: lenguajeGB['smsLista2'](), rowId: `${usedPrefix}creadora`},
-{title: lenguajeGB['smsLista3'](), rowId: `${usedPrefix}donar`},
-{title: lenguajeGB['smsLista4'](), rowId: `${usedPrefix}ping`},
-{title: lenguajeGB['smsLista5'](), rowId: `${usedPrefix}infomenu`},
-{title: lenguajeGB['smsLista6'](), rowId: `${usedPrefix}allmenu`},
-{title: lenguajeGB['smsLista7'](), rowId: `${usedPrefix}instalarbot`},
-{title: lenguajeGB['smsLista8'](), rowId: `${usedPrefix}serbot`},
-{title: lenguajeGB['smsLista9'](), rowId: `${usedPrefix}términos`, description: '\n'}
+{title: lenguajeMY['smsLista2'](), rowId: `${usedPrefix}creadora`},
+{title: lenguajeMY['smsLista3'](), rowId: `${usedPrefix}donar`},
+{title: lenguajeMY['smsLista4'](), rowId: `${usedPrefix}ping`},
+{title: lenguajeMY['smsLista5'](), rowId: `${usedPrefix}infomenu`},
+{title: lenguajeMY['smsLista6'](), rowId: `${usedPrefix}allmenu`},
+{title: lenguajeMY['smsLista7'](), rowId: `${usedPrefix}instalarbot`},
+{title: lenguajeMY['smsLista8'](), rowId: `${usedPrefix}serbot`},
+{title: lenguajeMY['smsLista9'](), rowId: `${usedPrefix}términos`, description: '\n'}
 ]},{
-title: comienzo + ' ' + lenguajeGB['smsLista10']() + ' ' + fin,
+title: comienzo + ' ' + lenguajeMY['smsLista10']() + ' ' + fin,
 rows: [
-{title: lenguajeGB['smsLista11'](), rowId: `${usedPrefix}top`},
-{title: lenguajeGB['smsLista12'](), rowId: `${usedPrefix}listprem`},
-{title: lenguajeGB['smsLista13'](), rowId: `${usedPrefix}pase premium`},
-{title: lenguajeGB['smsLista14'](), rowId: `${usedPrefix}inventario 3`},
-{title: lenguajeGB['smsLista15'](), rowId: `${usedPrefix}rpgmenu`},
-{title: lenguajeGB['smsLista16'](), rowId: `${usedPrefix}buy`},
-{title: lenguajeGB['smsLista17'](), rowId: `${usedPrefix}inventory`, description: '\n'}
+{title: lenguajeMY['smsLista11'](), rowId: `${usedPrefix}top`},
+{title: lenguajeMY['smsLista12'](), rowId: `${usedPrefix}listprem`},
+{title: lenguajeMY['smsLista13'](), rowId: `${usedPrefix}pase premium`},
+{title: lenguajeMY['smsLista14'](), rowId: `${usedPrefix}inventario 3`},
+{title: lenguajeMY['smsLista15'](), rowId: `${usedPrefix}rpgmenu`},
+{title: lenguajeMY['smsLista16'](), rowId: `${usedPrefix}buy`},
+{title: lenguajeMY['smsLista17'](), rowId: `${usedPrefix}inventory`, description: '\n'}
 ]},{	
-title: comienzo + ' ' + lenguajeGB['smsLista18']() + ' ' + fin,
+title: comienzo + ' ' + lenguajeMY['smsLista18']() + ' ' + fin,
 rows: [
-{title: lenguajeGB['smsLista19'](), rowId: `${usedPrefix}descargasmenu`},
-{title: lenguajeGB['smsLista20'](), rowId: `${usedPrefix}buscarmenu`},
-{title: lenguajeGB['smsLista21'](), rowId: `${usedPrefix}convertidormenu`},
-{title: lenguajeGB['smsLista22'](), rowId: `${usedPrefix}audioefectomenu`},
-{title: lenguajeGB['smsLista22_1'](), rowId: `${usedPrefix}herramientasmenu`, description: '\n'}
+{title: lenguajeMY['smsLista19'](), rowId: `${usedPrefix}descargasmenu`},
+{title: lenguajeMY['smsLista20'](), rowId: `${usedPrefix}buscarmenu`},
+{title: lenguajeMY['smsLista21'](), rowId: `${usedPrefix}convertidormenu`},
+{title: lenguajeMY['smsLista22'](), rowId: `${usedPrefix}audioefectomenu`},
+{title: lenguajeMY['smsLista22_1'](), rowId: `${usedPrefix}herramientasmenu`, description: '\n'}
 ]},{
-title: comienzo + ' ' + lenguajeGB['smsLista23']() + ' ' + fin,
+title: comienzo + ' ' + lenguajeMY['smsLista23']() + ' ' + fin,
 rows: [
-{title: lenguajeGB['smsLista24'](), rowId: `${usedPrefix}juegosmenu`},
-{title: lenguajeGB['smsLista25'](), rowId: `${usedPrefix}audios`},
-{title: lenguajeGB['smsLista26'](), rowId: `${usedPrefix}stickermenu`},
-{title: lenguajeGB['smsLista27'](), rowId: `${usedPrefix}makermenu`},
-{title: lenguajeGB['smsLista28'](), rowId: `${usedPrefix}menulogos2`},
-{title: lenguajeGB['smsLista29'](), rowId: `${usedPrefix}randommenu`},
-{title: lenguajeGB['smsLista30'](), rowId: `${usedPrefix}hornymenu`, description: '\n'}
+{title: lenguajeMY['smsLista24'](), rowId: `${usedPrefix}juegosmenu`},
+{title: lenguajeMY['smsLista25'](), rowId: `${usedPrefix}audios`},
+{title: lenguajeMY['smsLista26'](), rowId: `${usedPrefix}stickermenu`},
+{title: lenguajeMY['smsLista27'](), rowId: `${usedPrefix}makermenu`},
+{title: lenguajeMY['smsLista28'](), rowId: `${usedPrefix}menulogos2`},
+{title: lenguajeMY['smsLista29'](), rowId: `${usedPrefix}randommenu`},
+{title: lenguajeMY['smsLista30'](), rowId: `${usedPrefix}hornymenu`, description: '\n'}
 ]},{	
-title: comienzo + ' ' + lenguajeGB['smsLista31']() + ' ' + fin,
+title: comienzo + ' ' + lenguajeMY['smsLista31']() + ' ' + fin,
 rows: [
-{title: lenguajeGB['smsLista32'](), rowId: `${usedPrefix}grupomenu`},
-{title: lenguajeGB['smsLista33'](), rowId: `${usedPrefix}listas`},
-{title: lenguajeGB['smsLista34'](), rowId: `${usedPrefix}on`},
-{title: lenguajeGB['smsLista35'](), rowId: `${usedPrefix}ownermenu`}
+{title: lenguajeMY['smsLista32'](), rowId: `${usedPrefix}grupomenu`},
+{title: lenguajeMY['smsLista33'](), rowId: `${usedPrefix}listas`},
+{title: lenguajeMY['smsLista34'](), rowId: `${usedPrefix}on`},
+{title: lenguajeMY['smsLista35'](), rowId: `${usedPrefix}ownermenu`}
 ]}]
 
 const listMessage = {
@@ -90,42 +90,42 @@ text: `╭━⊰ *${ucapan()}* ⊱━⬣
 ┃
 ┃ *︾ M E N U ︾*
 ┃
-┃✜ *${lenguajeGB['smsVersion']()}* 
+┃✜ *${lenguajeMY['smsVersion']()}* 
 ┃➺ \`\`\`${vs}\`\`\`
 ┃✜ *Tipo de registro* 
 ┃➺ ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '_' + usedPrefix + 'verificar_'} 
 ┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃✜ *${lenguajeGB['smsTotalUsers']()}* 
+┃✜ *${lenguajeMY['smsTotalUsers']()}* 
 ┃➺ _${Object.keys(global.db.data.users).length}_
 ┃✜ *Registrados* 
 ┃➺ _${rtotalreg}/${totalreg}_
-┃✜ *${lenguajeGB['smsMode']()}* 
-┃➺ _${global.opts['self'] ? `*${lenguajeGB['smsModePrivate']()}*` : `*${lenguajeGB['smsModePublic']()}*`}_
+┃✜ *${lenguajeMY['smsMode']()}* 
+┃➺ _${global.opts['self'] ? `*${lenguajeMY['smsModePrivate']()}*` : `*${lenguajeMY['smsModePublic']()}*`}_
 ┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃✜ *${lenguajeGB['smsTime']()}* 
+┃✜ *${lenguajeMY['smsTime']()}* 
 ┃➺ _${time}_ 	    
-┃✜ *${lenguajeGB['smsUptime']()}* 
+┃✜ *${lenguajeMY['smsUptime']()}* 
 ┃➺ _${uptime}_
 ┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃✜ *${lenguajeGB['smsBanChats']()}* 
+┃✜ *${lenguajeMY['smsBanChats']()}* 
 ┃➺ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
-┃✜ *${lenguajeGB['smsBanUsers']()}* 
+┃✜ *${lenguajeMY['smsBanUsers']()}* 
 ┃➺ _${Object.entries(global.db.data.users).filter(user => user[1].banned).length}_
 ┃
 ╰━⊰ *${wm}* ⊱━⬣\n
 *»» ✨ Pasatiempo(s)* ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
-*»» ${lenguajeGB['smsPareja']()} ➺ ${pareja ? `${name} 💕 ${conn.getName(pareja)}` : `🛐 ${lenguajeGB['smsResultPareja']()}`}* ${(conn.user.jid == global.conn.user.jid ? '' : `\n»» *Sub Bot del:* wa.me/${global.conn.user.jid.split`@`[0]}`) || ''}`,
+*»» ${lenguajeMY['smsPareja']()} ➺ ${pareja ? `${name} 💕 ${conn.getName(pareja)}` : `🛐 ${lenguajeMY['smsResultPareja']()}`}* ${(conn.user.jid == global.conn.user.jid ? '' : `\n»» *Sub Bot del:* wa.me/${global.conn.user.jid.split`@`[0]}`) || ''}`,
 footer: `*↓ TRUSTED LINK* ✅
-${readMore}${redesMenu.getRandom()}`, //${name} ${ucapan()} //lenguajeGB['smsMenu']()
+${readMore}${redesMenu.getRandom()}`, //${name} ${ucapan()} //lenguajeMY['smsMenu']()
 title: null,
-buttonText: `${lenguajeGB['smsListaMenu']()}`, 
+buttonText: `${lenguajeMY['smsListaMenu']()}`, 
 sections }
 await conn.sendMessage(m.chat, listMessage, {quoted: fkontak})
 
 
 } catch (e) {
-await conn.sendButton(m.chat, `\n${wm}`, lenguajeGB['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeGB.smsMensError1(), `#reporte ${lenguajeGB['smsMensError2']()} *${usedPrefix + command}*`]], m)
-console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
+await conn.sendButton(m.chat, `\n${wm}`, lenguajeMY['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeMY.smsMensError1(), `#reporte ${lenguajeMY['smsMensError2']()} *${usedPrefix + command}*`]], m)
+console.log(`❗❗ ${lenguajeMY['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)	
 }}
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|m|\?)$/i
@@ -145,18 +145,18 @@ const readMore = more.repeat(4001)
 
 function ucapan() {
   const time = moment.tz('America/Los_Angeles').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
-  let res = `${lenguajeGB['smsSaludo']()}`
+  let res = `${lenguajeMY['smsSaludo']()}`
   if (time >= 4) {
-    res = `${lenguajeGB['smsDia']()}`
+    res = `${lenguajeMY['smsDia']()}`
   }
   if (time >= 11) {
-    res = `${lenguajeGB['smsTarde']()}`
+    res = `${lenguajeMY['smsTarde']()}`
   }
   if (time >= 15) {
-    res = `${lenguajeGB['smsTarde2']()}`
+    res = `${lenguajeMY['smsTarde2']()}`
   }
   if (time >= 17) {
-    res = `${lenguajeGB['smsNoche']()}`
+    res = `${lenguajeMY['smsNoche']()}`
   }
   return res
 } 

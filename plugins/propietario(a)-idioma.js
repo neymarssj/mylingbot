@@ -9,29 +9,29 @@ let texto = `*Idioma de GataBot cambiado Correctamente:* `
 let texto2 = `*Seleccione el idioma para GataBot*`
 let texto3 = `*Los Comandos no cambiaran de Idioma, solo el contenido del Mensaje*`
 let idioma = await translate(`${texto}`, { to: args[0], autoCorrect: true })
-let idioma2 = await translate(`${texto2}`, { to: lenguajeGB.lenguaje(), autoCorrect: true })
-let idioma3 = await translate(`${texto3}`, { to: lenguajeGB.lenguaje(), autoCorrect: true })
+let idioma2 = await translate(`${texto2}`, { to: lenguajeMY.lenguaje(), autoCorrect: true })
+let idioma3 = await translate(`${texto3}`, { to: lenguajeMY.lenguaje(), autoCorrect: true })
 
 try {  
 if (args[0] == 'es'){
-global.lenguajeGB = es
-await conn.sendButton(m.chat, lenguajeGB['smsAvisoEG']() + idioma.text + '\n' + 'დ ```Español```', wm, null, [[`☘️ 𝗠 𝗘 𝗡 𝗨`, `${usedPrefix}menu`]], fkontak, m)
+global.lenguajeMY = es
+await conn.sendButton(m.chat, lenguajeMY['smsAvisoEG']() + idioma.text + '\n' + 'დ ```Español```', wm, null, [[`☘️ 𝗠 𝗘 𝗡 𝗨`, `${usedPrefix}menu`]], fkontak, m)
   
 }else if (args[0] == 'en'){
-global.lenguajeGB = en
-await conn.sendButton(m.chat, lenguajeGB['smsAvisoEG']() + idioma.text + '\n' + 'დ ```English```', wm, null, [[`☘️ 𝗠 𝗘 𝗡 𝗨`, `${usedPrefix}menu`]], fkontak, m)
+global.lenguajeMY = en
+await conn.sendButton(m.chat, lenguajeMY['smsAvisoEG']() + idioma.text + '\n' + 'დ ```English```', wm, null, [[`☘️ 𝗠 𝗘 𝗡 𝗨`, `${usedPrefix}menu`]], fkontak, m)
   
 }else if (args[0] == 'id'){
-global.lenguajeGB = id
-await conn.sendButton(m.chat, lenguajeGB['smsAvisoEG']() + idioma.text + '\n' + 'დ ```Bahasa Indonesia```', wm, null, [[`☘️ 𝗠 𝗘 𝗡 𝗨`, `${usedPrefix}menu`]], fkontak, m)
+global.lenguajeMY = id
+await conn.sendButton(m.chat, lenguajeMY['smsAvisoEG']() + idioma.text + '\n' + 'დ ```Bahasa Indonesia```', wm, null, [[`☘️ 𝗠 𝗘 𝗡 𝗨`, `${usedPrefix}menu`]], fkontak, m)
   
 }else if (args[0] == 'ar'){
-global.lenguajeGB = ar
-await conn.sendButton(m.chat, lenguajeGB['smsAvisoEG']() + idioma.text + '\n' + 'დ ```عرب```', wm, null, [[`☘️ 𝗠 𝗘 𝗡 𝗨`, `${usedPrefix}menu`]], fkontak, m)
+global.lenguajeMY = ar
+await conn.sendButton(m.chat, lenguajeMY['smsAvisoEG']() + idioma.text + '\n' + 'დ ```عرب```', wm, null, [[`☘️ 𝗠 𝗘 𝗡 𝗨`, `${usedPrefix}menu`]], fkontak, m)
   
 }else if (args[0] == 'pt'){
-global.lenguajeGB = pt
-await conn.sendButton(m.chat, lenguajeGB['smsAvisoEG']() + idioma.text + '\n' + 'დ ```Português```', wm, null, [[`☘️ 𝗠 𝗘 𝗡 𝗨`, `${usedPrefix}menu`]], fkontak, m)
+global.lenguajeMY = pt
+await conn.sendButton(m.chat, lenguajeMY['smsAvisoEG']() + idioma.text + '\n' + 'დ ```Português```', wm, null, [[`☘️ 𝗠 𝗘 𝗡 𝗨`, `${usedPrefix}menu`]], fkontak, m)
 }else{
   
 const sections = [{

@@ -72,8 +72,8 @@ let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardi
 let str = `
 ─ ❖ ── ✦ ──『 _Audios_ 』── ✦ ── ❖ ──╗
 
-⠇ *${lenguajeGB['smsTex16']()}* 🔊
-⠇ ${lenguajeGB['smsTex17']()}
+⠇ *${lenguajeMY['smsTex16']()}* 🔊
+⠇ ${lenguajeMY['smsTex17']()}
 ∘ _Noche de paz_
 ∘ _Buenos dias_
 ∘ _Audio hentai_
@@ -207,19 +207,19 @@ let str = `
 ∘ _Gol!_
 ─ ❖ ── ✦ ── ✧ ── ✦ ── ❖ ──╝`.trim()
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
-/*let menuA = `🎶 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
+/*let menuA = `🎶 ${lenguajeMY['smsConfi2']()} *${username}*`.trim()
 let menuB = `
 ╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊დ *${lenguajeMY['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊დ *${lenguajeMY['smsBotonM5']()} »* ${role}
+┊დ *${lenguajeMY['smsBotonM6']()} » ${level}*
+┊დ *${lenguajeMY['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 
-⠇ *${lenguajeGB['smsTex16']()}* 🔊
-⠇ ${lenguajeGB['smsTex17']()}
+⠇ *${lenguajeMY['smsTex16']()}* 🔊
+⠇ ${lenguajeMY['smsTex17']()}
 ∘ _Noche de paz_
 ∘ _Buenos dias_
 ∘ _Audio hentai_
@@ -352,15 +352,15 @@ let menuB = `
 ∘ _Se pudrio_
 ∘ _Gol!_`.trim()
   
-await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
+await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeMY.smsBotonM1(), '.menu', lenguajeMY.smsBotonM2(), '/allmenu', lenguajeMY.smsBotonM3(), '#inventario', fkontak, adReply)
 */
 const sections = [
 {
-title: `${lenguajeGB.smsTex18()}`,
+title: `${lenguajeMY.smsTex18()}`,
 rows: [
-{title: lenguajeGB['smsLista2'](), description: null, rowId: `${usedPrefix}creadora`},
-{title: lenguajeGB['smsLista5'](), description: null, rowId: `${usedPrefix}infomenu`},
-{title: lenguajeGB['smsLista6'](), description: null, rowId: `${usedPrefix}allmenu`},  
+{title: lenguajeMY['smsLista2'](), description: null, rowId: `${usedPrefix}creadora`},
+{title: lenguajeMY['smsLista5'](), description: null, rowId: `${usedPrefix}infomenu`},
+{title: lenguajeMY['smsLista6'](), description: null, rowId: `${usedPrefix}allmenu`},  
   
 {title: "➥🔊 Noche de paz", description: null, rowId: `Noche de paz`},
 {title: "➥🔊 Buenos dias", description: null, rowId: `Buenos dias`},
@@ -505,16 +505,16 @@ rows: [
 
 const listMessage = {
 text: `${wm}`,
-footer: `*${lenguajeGB['smsTex16']()}*
-${lenguajeGB['smsTex19']()}`,
+footer: `*${lenguajeMY['smsTex16']()}*
+${lenguajeMY['smsTex19']()}`,
 title: null,
-buttonText: `🔊 ${lenguajeGB['smsTex16']()} 🔊`, 
+buttonText: `🔊 ${lenguajeMY['smsTex16']()} 🔊`, 
 sections }
 await conn.sendMessage(m.chat, listMessage, {quoted: fkontak})	
 
 } catch (e) {
-await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
-console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
+await m.reply(lenguajeMY['smsMalError3']() + '\n*' + lenguajeMY.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeMY.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeMY.smsMensError2()} ` + usedPrefix + command)
+console.log(`❗❗ ${lenguajeMY['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)	
 }}
 

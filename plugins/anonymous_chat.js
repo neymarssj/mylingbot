@@ -7,7 +7,7 @@ case 'leave': {
 let room = Object.values(this.anonymous).find(room => room.check(m.sender))
 if (!room) return this.sendMessage(m.chat, { text: `${lenguajeMY['smsChatAn1']()}\n${lenguajeMY['smsChatAn2']()}`}, { quoted: m })
 //this.sendButton(m.chat, `${lenguajeMY['smsChatAn1']()}`, lenguajeMY.smsChatAn2() + wm, null, [[lenguajeMY.smsChatAn3(), `.start`]], m)
-m.reply(`${lenguajeGB['smsChatAn4']()}`)
+m.reply(`${lenguajeMY['smsChatAn4']()}`)
 let other = room.other(m.sender) 
 if (other) await this.sendMessage(other, { text: `${lenguajeMY['smsChatAn5']()}`}, { quoted: m })
 //this.sendButton(other, `${lenguajeMY['smsChatAn5']()}`, lenguajeMY.smsChatAn6() + wm, null, [[lenguajeMY.smsChatAn3(), `.start`]], m)

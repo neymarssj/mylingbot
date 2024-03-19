@@ -4,8 +4,8 @@ global.dfail('admin', m, conn)
 throw false
 }
 let pesan = args.join` `
-let oi = `ღ ${lenguajeGB['smsAddB5']()} ${pesan}`
-let teks = `╭━〔 *${lenguajeGB['smstagaa']()}* 〕━⬣\n\n${oi}\n\n`
+let oi = `ღ ${lenguajeMY['smsAddB5']()} ${pesan}`
+let teks = `╭━〔 *${lenguajeMY['smstagaa']()}* 〕━⬣\n\n${oi}\n\n`
 for (let mem of participants) {
 teks += `┃⊹ @${mem.id.split('@')[0]}\n`}
 teks += `┃\n`

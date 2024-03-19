@@ -15,14 +15,14 @@ const isParticipant = participants.some((u) => conn.decodeJid(u.id) === conn.use
 const participantStatus = isParticipant ? '✅ *SIGO AQUÍ | YES*' : '❌ *SIN ESTAR AQUÍ | NO*';
 const totalParticipants = participants.length;
 txt += `🐈 *${i + 1}*
-${lenguajeGB.smsLisC()} ${await conn.getName(jid)} ${participantStatus}
-${lenguajeGB.smsLisD()} ${jid}
-${lenguajeGB.smsLisF()} ${isBotAdmin ? '✅' : '❌'}
-${lenguajeGB.smsLisE()}  ${totalParticipants}
-${lenguajeGB.smsLisG()} ${isBotAdmin ? `https://chat.whatsapp.com/${await conn.groupInviteCode(jid) || 'Error'}` : 'NO SOY ADMIN'}\n\n`;
+${lenguajeMY.smsLisC()} ${await conn.getName(jid)} ${participantStatus}
+${lenguajeMY.smsLisD()} ${jid}
+${lenguajeMY.smsLisF()} ${isBotAdmin ? '✅' : '❌'}
+${lenguajeMY.smsLisE()}  ${totalParticipants}
+${lenguajeMY.smsLisG()} ${isBotAdmin ? `https://chat.whatsapp.com/${await conn.groupInviteCode(jid) || 'Error'}` : 'NO SOY ADMIN'}\n\n`;
 }
-m.reply(`${packname} ${lenguajeGB.smsLisA()}
-${lenguajeGB.smsLisB()} ${totalGroups}\n\n${txt}`.trim());
+m.reply(`${packname} ${lenguajeMY.smsLisA()}
+${lenguajeMY.smsLisB()} ${totalGroups}\n\n${txt}`.trim());
 } catch {
 const groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats);
 const totalGroups = groups.length;
@@ -36,14 +36,14 @@ const isParticipant = participants.some((u) => conn.decodeJid(u.id) === conn.use
 const participantStatus = isParticipant ? '✅ *SIGO AQUÍ | YES*' : '❌ *SIN ESTAR AQUÍ | NO*';
 const totalParticipants = participants.length;    
     txt += `🐈 ${i + 1}
-${lenguajeGB.smsLisC()} ${await conn.getName(jid)} ${participantStatus}
-${lenguajeGB.smsLisD()} ${jid}
-${lenguajeGB.smsLisF()} ${isBotAdmin ? '✅' : '❌'}
-${lenguajeGB.smsLisE()} ${totalParticipants}
-${lenguajeGB.smsLisG()} ${isBotAdmin ? 'Error' : 'NO SOY ADMINS'}\n\n`
+${lenguajeMY.smsLisC()} ${await conn.getName(jid)} ${participantStatus}
+${lenguajeMY.smsLisD()} ${jid}
+${lenguajeMY.smsLisF()} ${isBotAdmin ? '✅' : '❌'}
+${lenguajeMY.smsLisE()} ${totalParticipants}
+${lenguajeMY.smsLisG()} ${isBotAdmin ? 'Error' : 'NO SOY ADMINS'}\n\n`
 }
-m.reply(`${packname} ${lenguajeGB.smsLisA()}
-${lenguajeGB.smsLisB()} ${totalGroups}\n\n${txt}`.trim());
+m.reply(`${packname} ${lenguajeMY.smsLisA()}
+${lenguajeMY.smsLisB()} ${totalGroups}\n\n${txt}`.trim());
 }}
 handler.help = ['groups', 'grouplist']
 handler.tags = ['info']
