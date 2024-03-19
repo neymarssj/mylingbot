@@ -1,6 +1,3 @@
-//
-//By @NeKosmic || https://github.com/NeKosmic/
-//
 
 import * as fs from 'fs'
 
