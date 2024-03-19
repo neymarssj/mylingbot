@@ -15,7 +15,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, usedPrefix }) {
   let name = await conn.getName(m.sender)
   let fakemek = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "51995386439-1616969743@g.us","inviteCode": "m","groupName": "P", "caption": 'MylingBot-MD', 'jpegThumbnail': null}}}
    if (chat.antiTraba && m.text.length > 2000) { //Cantidad máxima de caracteres aceptados en un mensaje//
-    if (isAdmin) return conn.sendMessage(m.chat, { text: `${lenguajeGB['smsEnlaceWat']()}𝙀𝙇 𝘼𝘿𝙈𝙄𝙉𝙄𝙎𝙏𝙍𝘼𝘿𝙊𝙍 @${m.sender.split("@")[0]} 𝘼𝘾𝘼𝘽𝘼 𝘿𝙀 𝙀𝙉𝙑𝙄𝘼𝙍 𝙐𝙉 𝙏𝙀𝙓𝙏𝙊 𝘾𝙊𝙉 𝙈𝙐𝘾𝙃𝙊𝙎 𝘾𝙃𝘼𝙍𝘼𝘾𝙏𝙀𝙍𝙎 -.- `, mentions: [m.sender] }, { quoted: fakemek })
+    if (isAdmin) return conn.sendMessage(m.chat, { text: `${lenguajeMY['smsEnlaceWat']()}𝙀𝙇 𝘼𝘿𝙈𝙄𝙉𝙄𝙎𝙏𝙍𝘼𝘿𝙊𝙍 @${m.sender.split("@")[0]} 𝘼𝘾𝘼𝘽𝘼 𝘿𝙀 𝙀𝙉𝙑𝙄𝘼𝙍 𝙐𝙉 𝙏𝙀𝙓𝙏𝙊 𝘾𝙊𝙉 𝙈𝙐𝘾𝙃𝙊𝙎 𝘾𝙃𝘼𝙍𝘼𝘾𝙏𝙀𝙍𝙎 -.- `, mentions: [m.sender] }, { quoted: fakemek })
     conn.sendMessage(m.chat, `*[ ! ] Se detecto un mensaje que contiene muchos caracteres [ ! ]*\n`, `${isBotAdmin ? '' : 'No soy administrador, no puedo hacer nada :/'}`, m)
     //await conn.sendButton(m.chat, `*[ ! ] Se detecto un mensaje que contiene muchos caracteres [ ! ]*\n`, `${isBotAdmin ? '' : 'No soy administrador, no puedo hacer nada :/'}`, author, ['[ ᴅᴇsᴀᴄᴛɪᴠᴀ ᴀɴᴛɪᴛʀᴀʙᴀ ]', usedPrefix+'apagar antitraba'], fakemek )
         if (isBotAdmin) {
@@ -26,7 +26,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, usedPrefix }) {
         setTimeout(() => { 
         	conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
             }, 1000)
-        } else if (!bot.restrict) return m.reply(`${lenguajeGB['smsSoloOwner']()}`)
+        } else if (!bot.restrict) return m.reply(`${lenguajeMY['smsSoloOwner']()}`)
     }
     return !0
 } 
