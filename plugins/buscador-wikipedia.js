@@ -43,3 +43,4 @@ handler.command = /^(wiki|wikipedia)$/i
 handler.exp = 40
 handler.level = 2
 export default handler
+
