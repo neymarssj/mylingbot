@@ -15,10 +15,10 @@ return !1
 if (isToxic && chat.antitoxic && !isOwner && !isAdmin) {
 user.warn += 1
 if (!(user.warn >= 4)) await m.reply(`${user.warn == 1 ? `*@${m.sender.split`@`[0]}*` : `*@${m.sender.split`@`[0]}*`}, ${lenguajeMY['smsToxic1']()} (${isToxic}) ${lenguajeMY['smsToxic2']()} ${lenguajeMY['smsToxic3']()} *${user.warn}/4*\n\n${wm}`, false, { mentions: [m.sender] })}
-/*await conn.sendButton(m.chat,`${user.warn == 1 ? `*@${m.sender.split`@`[0]}*` : `*@${m.sender.split`@`[0]}*`} *${lenguajeGB['smsToxic1']()} (${isToxic}) ${lenguajeGB['smsToxic2']()}*`, `${lenguajeGB['smsToxic3']()} *${user.warn}/4*\n\n${wm}`, img, [
-[lenguajeGB.smsToxic4(), 'ok'],
-[lenguajeGB.smsToxic5(), '.off antitoxic'],
-[lenguajeGB.smsConMenu(), '/menu']], false, { mentions: [m.sender] })}*/
+/*await conn.sendButton(m.chat,`${user.warn == 1 ? `*@${m.sender.split`@`[0]}*` : `*@${m.sender.split`@`[0]}*`} *${lenguajeMY['smsToxic1']()} (${isToxic}) ${lenguajeMY['smsToxic2']()}*`, `${lenguajeMY['smsToxic3']()} *${user.warn}/4*\n\n${wm}`, img, [
+[lenguajeMY.smsToxic4(), 'ok'],
+[lenguajeMY.smsToxic5(), '.off antitoxic'],
+[lenguajeMY.smsConMenu(), '/menu']], false, { mentions: [m.sender] })}*/
 
 if (user.warn >= 4) {
 user.warn = 0
