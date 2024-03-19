@@ -247,10 +247,10 @@ global.timestamp.connect = new Date
 if (global.db.data == null) loadDatabase()
 if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
 if (opcion == '1' || methodCodeQR) {
-console.log(chalk.bold.yellow(lenguajeGB['smsCodigoQR']()))}
+console.log(chalk.bold.yellow(lenguajeMY['smsCodigoQR']()))}
 }
 if (connection == 'open') {
-console.log(chalk.bold.greenBright(lenguajeGB['smsConexion']()))}
+console.log(chalk.bold.greenBright(lenguajeMY['smsConexion']()))}
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
 if (reason == 405) {
 await fs.unlinkSync("./KatashiBotSession/" + "creds.json")
