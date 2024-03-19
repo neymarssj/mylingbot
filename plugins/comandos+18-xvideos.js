@@ -66,3 +66,4 @@ url: url[i]
 }
 resolve(hasil);
 })})};
+
