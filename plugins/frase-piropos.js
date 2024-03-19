@@ -1,4 +1,4 @@
-CONTENIDO PRESERVADO POR: MYLINGBOT-MD
+
 
 let handler = async (m, { conn, text}) => {
 
