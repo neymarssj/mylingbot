@@ -21,7 +21,7 @@ if (m.text.includes(linkThisGroup2)) return !0
 if (m.text.includes(linkThisGroup3)) return !0 
 }    
 await conn.sendMessage(m.chat, {text: `${lenguajeMY['smsEnlaceWatt']()} ${user}`, mentions: [m.sender]}, {quoted: m})
-//await conn.sendButton(m.chat, `${lenguajeMY['smsEnlaceWatt']()} ${await this.getName(m.sender)} ${isBotAdmin ? '' : `\n\n${lenguajeMU['smsAvisoFG']()}${lenguajeMY['smsAllAdmin']()}`}`, wm, [`${lenguajeMY['smsApagar']()}`, '/disable antilink'], m)    
+//await conn.sendButton(m.chat, `${lenguajeMY['smsEnlaceWatt']()} ${await this.getName(m.sender)} ${isBotAdmin ? '' : `\n\n${lenguajeMY['smsAvisoFG']()}${lenguajeMY['smsAllAdmin']()}`}`, wm, [`${lenguajeMY['smsApagar']()}`, '/disable antilink'], m)    
 if (!isBotAdmin) return conn.sendMessage(m.chat, {text: `*⛔ ${lenguajeMY.smsAddB4()} ⛔*\n${listAdmin}\n\n${lenguajeMY['smsAllAdmin']()}`, mentions: [...groupAdmins.map(v => v.id)] }, {quoted: m})
 //m.reply(`${lenguajeMY['smsAvisoFG']()} ${lenguajeMY['smsAllAdmin']()}`)  
 if (isBotAdmin) {
@@ -30,3 +30,4 @@ await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 }
 return !0
 }
+
