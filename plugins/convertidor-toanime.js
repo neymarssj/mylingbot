@@ -24,3 +24,4 @@ handler.help = ['toanime'];
 handler.tags = ['tools'];
 handler.command = /^(jadianime|toanime)$/i;
 export default handler;
+
