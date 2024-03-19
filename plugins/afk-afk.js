@@ -10,7 +10,7 @@ text = m.quoted.text
 if (text.length < 10) return m.reply(`${lenguajeMY['smsAfkQ2']()}`)
 user.afk = + new Date
 user.afkReason = text
-await conn.reply(m.chat, `${lenguajeMY['smsAvisoAG']()}🟦 *A F K* 🟦
+await conn.reply(m.chat, `${lenguajeMY['smsAvisoAG']()}🪄 *AFK* 🪄
 *▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔*
 ${lenguajeMY['smsAfkM1A']()} *@${m.sender.split("@")[0]}* ${lenguajeMY['smsAfkM1B']()}${text ? '\n👉 ' + text : ''}`, m, { mentions: [m.sender] })
 }
