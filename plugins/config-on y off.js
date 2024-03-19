@@ -598,9 +598,9 @@ ${m.isGroup ? `` : `${lenguajeMY.smsConfi9()}`}
 
 ┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
 
-✓ ${ lenguajeMY . smsParaOw ( ) }  ${ bot . ¿ antiprivado ? '✅' : '❌' }
-✓ ${ usedPrefix  +  comando } antiprivado
-✓ Prohibe el uso en privado del bot
+✓ ${lenguajeMY.smsParaOw()} ${bot.antiPrivate ? '✅' : '❌'}
+✓ ${usedPrefix + command} antiprivado
+✓ Prohibido usar el bot en privado
 
 ┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
 
