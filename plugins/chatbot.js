@@ -49,12 +49,12 @@ if (/^¿que es un bot?|Que es un bot|Que es MylingBot?$/i.test(m.text) ) { //sem
 ┆ 「 ⓂⓎⓁⒾⓃⒼ-ⒷⓄⓉ-ⓂⒹ 」
 ╰━━━⊰ 𓃠 ${vs} ⊱━━━━დ*`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 
-}  
+
 return !0 
 }
 export default handler
 
 function pickRandom(list) {
     return list[Math.floor(Math.random() * list.length)]
-}*/
+}
 
