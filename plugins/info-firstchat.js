@@ -1,4 +1,4 @@
-export async function before(m) {
+/*export async function before(m) {
 
 const username = conn.getName(m.sender)
 
@@ -16,3 +16,4 @@ await m.reply(`🌟 *Hola ${username}, bienvenido a KatashiBot* 🥷🏻
 🌟 https://www.paypal.com/paypalme/KatashiF ✨`) 
 user.pc = new Date * 1
 }
+*/
