@@ -248,17 +248,6 @@ const connectionOptions = {
   return console.log(chalk.bold.redBright("\n[ ❌ ] CONEXION REPLAZADA, POR FAVOR ESPERE UN MOMENTO ME VOY A REINICIAR...\nSI SALE ERROR VUELVE A INICIAR CON: npm start")) 
   process.send('reset')}
   if (connection === 'close') {
-  
-      
-            
-              
-      
-  
-            
-            Expand Down
-      
-      
-    
   if (reason === DisconnectReason.badSession) {
   console.log(chalk.bold.cyanBright(lenguajeMY['smsConexionOFF']()))
   } else if (reason === DisconnectReason.connectionClosed) {
