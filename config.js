@@ -93,7 +93,7 @@ global.moment = moment
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.official = [ // Agregate si eres Owner
-["5492964650915", '♥️🎩⚠︎    シ︎𝑾𝒊𝒍𝖘𝒐𝒏シ︎   ⚠︎🎩♥️', 1],
+["5492964650915", '♥️🎩⚠︎   シ︎𝑾𝒊𝒍𝖘𝒐𝒏シ︎  ⚠︎🎩♥️', 1],
 ["5493795319022", '𝙂𝙇 𝙔𝙏 𝙈𝙓 - 𝙊𝙁𝘾', 1]]
 
 global.mail = '' //agrega tú correo
@@ -102,7 +102,7 @@ global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasa
 global.country = '' //agrega tú país ejemplo: 🇦🇷
 
 global.packname = "☆𝑴𝒚𝒍𝒊𝒏𝒈-𝑩𝒐𝒕☆"
-global.author = "♥️🎩⚠︎    シ︎𝑾𝒊𝒍𝖘𝒐𝒏シ︎   ⚠︎🎩♥️"
+global.author = "♥️🎩⚠︎   シ︎𝑾𝒊𝒍𝖘𝒐𝒏シ︎  ⚠︎🎩♥️"
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
