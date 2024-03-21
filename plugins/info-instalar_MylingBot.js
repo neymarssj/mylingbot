@@ -14,13 +14,13 @@ const fkontak = {
 	"participant": "0@s.whatsapp.net"
 }
 
-let picture = './media/menus/Menu1.jpg'
+let picture = './media/menus/img2.jpg'
 let gata = `𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝘾𝙄𝙊𝙉 𝘿𝙀 𝙆𝘼𝙏𝘼𝙎𝙃𝙄𝘽𝙊𝙏 🥷
 *━━━━━━━━━━━━━⬣*
 ✅ 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝙍 𝙀𝙉 𝙏𝙀𝙍𝙈𝙐𝙓
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 termux-setup-storage
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/katashi.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/WilsonOFC/MylingBot-MD/master/Myling.sh | bash
 *━━━━━━━━━━━━━⬣*
 
 *━━━━━━━━━━━━━⬣*
@@ -51,7 +51,7 @@ _https://panel.boxmineworld.com_
 _https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git_
 _https://github.com/clhuang/heroku-buildpack-webp-binaries.git_
 *━━━━━━━━━━━━━⬣*`
-await conn.sendFile(m.chat, picture, 'gata.mp4', gata, fkontak)}
+await conn.sendFile(m.chat, picture, 'Hola.mp3', gata, fkontak)}
 /*conn.sendButton(m.chat, gata, `Comunícate con Mí Creadora si necesitas ayuda con la Instalación.\n\nContact My Creator if you need help with the Installation.\n\n${ig}\n${wm}`, picture, [
 ['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨 ✅', '.cuentasgb'],
 ['🎁 𝘿𝙤𝙣𝙖𝙧 | 𝘿𝙤𝙣𝙖𝙩𝙚', '.donar']], fkontak, m)}*/
