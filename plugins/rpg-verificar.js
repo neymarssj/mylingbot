@@ -1,12 +1,10 @@
-//CÓDIGO CREADO POR GataNina-Li : https://github.com/GataNina-Li 
-
 import { createHash } from 'crypto'
 let nombre = 0, edad = 0, genero = 0, bio = 0, identidad = 0, pasatiempo = 0, registro, _registro, fecha, hora, tiempo, registrando
 let pas1 = 0, pas2 = 0, pas3 = 0, pas4 = 0, pas5 = 0  
 
 let handler = async function (m, { conn, text, command, usedPrefix }) {
 let key 
-let sinDefinir = '𝘕𝘖 𝘋𝘌𝘍𝘐𝘕𝘐𝘋𝘈 𝘗𝘖𝘙 𝘌𝘓 𝘜𝘚𝘜𝘈𝘙𝘐𝘖(𝘈)'
+let sinDefinir = '𝘕𝘖 𝘋𝘌𝘍𝘐𝘕𝘐𝘋𝘖'
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }	
 let d = new Date(new Date + 3600000)
 let locale = 'es'
@@ -29,7 +27,7 @@ return list[Math.floor(Math.random() * list.length)]}
 let nombreWA = await usedPrefix + conn.getName(m.sender) //'@' + m.sender.split("@s.whatsapp.net")[0]
 let user = global.db.data.users[m.sender]
 let verificar = new RegExp(usedPrefix)
-let biografia = await conn.fetchStatus(m.sender).catch(_ => 'undefined')
+let biografia = await conn.fetchStatus(m.sender).catch(_ => '𝘕𝘖 𝘋𝘌𝘍𝘐𝘕𝘐𝘋𝘖')
 bio = biografia.status?.toString() || sinDefinir
 	
 let intervalId
@@ -56,7 +54,7 @@ conn.reply(m.chat, `*SU TIEMPO DE REGISTRO HA FINALIZADO!!*\n\n_SI NO CONTINUA E
 if (user.registered === true) return conn.reply(m.chat, `${lenguajeMY['smsAvisoIIG']()}*YA ESTÁ REGISTRADO!!*\n*SI QUIERE ANULAR SU REGISTRO, USE ESTE COMANDO*\n*${usedPrefix}unreg numero de serie*\n\n*SI NO RECUERDA SU NÚMERO DE SERIE, USE ESTE COMANDO*\n*${usedPrefix}myns*`, fkontak, m)	
 
 if (command == 'verificar' || command == 'verify' || command == 'register' || command == 'reg' || command == 'registrar') {
-await conn.reply(m.chat, `*💕 ¿CÓMO DESEA REGISTRARSE?*\n\n> 📑 REGISTRO RÁPIDO\n\n◉ 𝘐𝘕𝘚𝘐𝘎𝘕𝘌𝘈 𝘋𝘌 𝘝𝘌𝘙𝘐𝘍𝘐𝘊𝘈𝘊𝘐𝘖𝘕\n◉ 𝘋𝘌𝘚𝘉𝘓𝘖𝘘𝘜𝘌𝘈 𝘊𝘖𝘔𝘈𝘕𝘋𝘖𝘚 𝘘𝘜𝘌 𝘚𝘌 𝘙𝘌𝘘𝘜𝘐𝘌𝘙𝘈𝘕 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖\n\n𝘌𝘚𝘊𝘙𝘐𝘉𝘈 𝘗𝘈𝘙𝘈 𝘌𝘓 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖 𝘙𝘈𝘗𝘐𝘋𝘖:\n${usedPrefix}reg nombre edad\n\n> 📝 REGISTRO COMPLETO\n◉ 𝘐𝘕𝘚𝘐𝘎𝘕𝘐𝘈 𝘋𝘌 𝘝𝘌𝘙𝘐𝘍𝘐𝘊𝘈𝘊𝘐𝘖𝘕\n◉ 𝘋𝘌𝘚𝘉𝘓𝘖𝘘𝘜𝘌𝘈 𝘊𝘖𝘔𝘈𝘕𝘋𝘖𝘚 𝘘𝘜𝘌 𝘚𝘌 𝘙𝘌𝘘𝘜𝘐𝘌𝘙𝘈𝘕 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖\n◉ 𝘗𝘙𝘌𝘔𝘐𝘜𝘔 𝘛𝘌𝘔𝘗𝘖𝘙𝘈𝘓 𝘎𝘙𝘈𝘛𝘜𝘐𝘛𝘖\n◉ 𝘔𝘈𝘚 𝘖𝘗𝘊𝘐𝘖𝘕𝘌𝘚 𝘗𝘈𝘙𝘈 𝘌𝘚𝘛𝘌 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖\n\𝘌𝘚𝘊𝘙𝘐𝘉𝘈 𝘗𝘈𝘙𝘈 𝘌𝘓 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖 𝘊𝘖𝘔𝘗𝘓𝘌𝘛𝘖\n${usedPrefix}nombre\n\n\> GUIA PARA EL REGISTRO COMPLETO\n${usedPrefix}nombre - 𝘐𝘕𝘎𝘙𝘌𝘚𝘌 𝘚𝘜 𝘕𝘖𝘔𝘉𝘙𝘌\n${usedPrefix}edad - 𝘐𝘕𝘎𝘙𝘌𝘚𝘌 𝘚𝘜 𝘌𝘋𝘈𝘋\n${usedPrefix}genero - 𝘐𝘕𝘎𝘙𝘌𝘚𝘌 𝘚𝘜 𝘎𝘌𝘕𝘌𝘙𝘖\n${usedPrefix}identidad - 𝘐𝘕𝘎𝘙𝘌𝘚𝘌 𝘚𝘜 𝘐𝘋𝘌𝘕𝘛𝘐𝘋𝘈𝘋 - 𝘖𝘙𝘐𝘌𝘕𝘛𝘈𝘊𝘐𝘖𝘕 𝘚𝘌𝘟𝘜𝘈𝘓\n${usedPrefix}pasatiempo - 𝘌𝘓𝘐𝘎𝘈 𝘚𝘜 𝘗𝘈𝘚𝘈𝘛𝘐𝘌𝘔𝘗𝘖\n\n\`\`\`⭐ 𝘊𝘖𝘕𝘚𝘐𝘋𝘌𝘙𝘌 𝘘𝘜𝘌 𝘛𝘌𝘕𝘋𝘙𝘈 𝘜𝘕 𝘛𝘐𝘌𝘔𝘗𝘖 𝘗𝘈𝘙𝘈 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘈𝘙𝘚𝘌\`\`\``, fkontak, m)
+await conn.reply(m.chat, `*💕 ¿CÓMO DESEA REGISTRARSE?*📃 REGISTRO RÁPIDO\n\n*_BENEFICIOS:_*\n- 𝘐𝘕𝘚𝘐𝘎𝘕𝘌𝘈 𝘋𝘌 𝘝𝘌𝘙𝘐𝘍𝘐𝘊𝘈𝘊𝘐𝘖𝘕\n◉ 𝘋𝘌𝘚𝘉𝘓𝘖𝘘𝘜𝘌𝘈 𝘊𝘖𝘔𝘈𝘕𝘋𝘖𝘚 𝘘𝘜𝘌 𝘚𝘌 𝘙𝘌𝘘𝘜𝘐𝘌𝘙𝘈𝘕 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖\n\n𝘌𝘚𝘊𝘙𝘐𝘉𝘈 𝘗𝘈𝘙𝘈 𝘌𝘓 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖 𝘙𝘈𝘗𝘐𝘋𝘖:\n${usedPrefix}reg nombre edad\n\n> 📝 REGISTRO COMPLETO\n◉ 𝘐𝘕𝘚𝘐𝘎𝘕𝘐𝘈 𝘋𝘌 𝘝𝘌𝘙𝘐𝘍𝘐𝘊𝘈𝘊𝘐𝘖𝘕\n◉ 𝘋𝘌𝘚𝘉𝘓𝘖𝘘𝘜𝘌𝘈 𝘊𝘖𝘔𝘈𝘕𝘋𝘖𝘚 𝘘𝘜𝘌 𝘚𝘌 𝘙𝘌𝘘𝘜𝘐𝘌𝘙𝘈𝘕 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖\n◉ 𝘗𝘙𝘌𝘔𝘐𝘜𝘔 𝘛𝘌𝘔𝘗𝘖𝘙𝘈𝘓 𝘎𝘙𝘈𝘛𝘜𝘐𝘛𝘖\n◉ 𝘔𝘈𝘚 𝘖𝘗𝘊𝘐𝘖𝘕𝘌𝘚 𝘗𝘈𝘙𝘈 𝘌𝘚𝘛𝘌 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖\n\𝘌𝘚𝘊𝘙𝘐𝘉𝘈 𝘗𝘈𝘙𝘈 𝘌𝘓 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖 𝘊𝘖𝘔𝘗𝘓𝘌𝘛𝘖\n${usedPrefix}nombre\n\n\> GUIA PARA EL REGISTRO COMPLETO\n${usedPrefix}nombre - 𝘐𝘕𝘎𝘙𝘌𝘚𝘌 𝘚𝘜 𝘕𝘖𝘔𝘉𝘙𝘌\n${usedPrefix}edad - 𝘐𝘕𝘎𝘙𝘌𝘚𝘌 𝘚𝘜 𝘌𝘋𝘈𝘋\n${usedPrefix}genero - 𝘐𝘕𝘎𝘙𝘌𝘚𝘌 𝘚𝘜 𝘎𝘌𝘕𝘌𝘙𝘖\n${usedPrefix}identidad - 𝘐𝘕𝘎𝘙𝘌𝘚𝘌 𝘚𝘜 𝘐𝘋𝘌𝘕𝘛𝘐𝘋𝘈𝘋 - 𝘖𝘙𝘐𝘌𝘕𝘛𝘈𝘊𝘐𝘖𝘕 𝘚𝘌𝘟𝘜𝘈𝘓\n${usedPrefix}pasatiempo - 𝘌𝘓𝘐𝘎𝘈 𝘚𝘜 𝘗𝘈𝘚𝘈𝘛𝘐𝘌𝘔𝘗𝘖\n\n\`\`\`⭐ 𝘊𝘖𝘕𝘚𝘐𝘋𝘌𝘙𝘌 𝘘𝘜𝘌 𝘛𝘌𝘕𝘋𝘙𝘈 𝘜𝘕 𝘛𝘐𝘌𝘔𝘗𝘖 𝘗𝘈𝘙𝘈 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘈𝘙𝘚𝘌\`\`\``, fkontak, m)
 }
 
 if (command == 'reg1') {
