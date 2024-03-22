@@ -947,7 +947,7 @@ global.db.data.chats[m.chat] = {}
 		
 if (chat) {
 if (!('isBanned' in chat)) chat.isBanned = false                    
-if (!('welcome' in chat)) chat.welcome = true                    
+if (!('welcome' in chat)) chat.welcome = false                    
 if (!('detect' in chat)) chat.detect = true                    
 if (!('sWelcome' in chat)) chat.sWelcome = ''                    
 if (!('sBye' in chat)) chat.sBye = ''                    
@@ -958,7 +958,7 @@ if (!('modohorny' in chat)) chat.modohorny = false
 if (!('stickers' in chat)) chat.stickers = false                   
 if (!('autosticker' in chat)) chat.autosticker = false                      
 if (!('audios' in chat)) chat.audios = false                     
-if (!('antiver' in chat)) chat.antiver = false                  
+if (!('antiver' in chat)) chat.antiver = true                  
 if (!('antiLink' in chat)) chat.antiLink = false                    
 if (!('antiLink2' in chat)) chat.antiLink2 = false
 if (!('antiTiktok' in chat)) chat.antiTiktok = false
@@ -968,18 +968,18 @@ if (!('antiFacebook' in chat)) chat.antiFacebook = false
 if (!('antiInstagram' in chat)) chat.antiInstagram = false
 if (!('antiTwitter' in chat)) chat.antiInstagram = false
 if (!('antifake' in chat)) chat.antifake = false
-if (!('reaction' in chat)) chat.reaction = true    
+if (!('reaction' in chat)) chat.reaction = false    
 if (!('viewonce' in chat)) chat.viewonce = true         
 if (!('modoadmin' in chat)) chat.modoadmin = false           
 if (!('antitoxic' in chat)) chat.antitoxic = true 
 if (!('simi' in chat)) chat.simi = false
-if (!('antiTraba' in chat)) chat.antiTraba = true
+if (!('antiTraba' in chat)) chat.antiTraba = false
 if (!('autolevelup' in chat))  chat.autolevelup = false
 if (!isNumber(chat.expired)) chat.expired = 0
 } else
 global.db.data.chats[m.chat] = {
 isBanned: false,
-welcome: true,
+welcome: false,
 detect: true,
 sWelcome: '',
 sBye: '',
@@ -990,7 +990,7 @@ modohorny: true,
 stickers: false,
 autosticker: false,
 audios: false,
-antiver: false,
+antiver: true,
 antiLink: false,
 antiLink2: false,
 antiTiktok: false,
@@ -1000,12 +1000,12 @@ antiFacebook: false,
 antiInstagram: false,
 antiTwitter: false,
 antifake: false,
-reaction: true,
+reaction: false,
 viewonce: true,
 modoadmin: false,
 antitoxic: true,
 simi: false,
-antiTraba: true,
+antiTraba: false,
 autolevelup: false,
 expired: 0,
 }
@@ -1016,23 +1016,23 @@ if (!('self' in settings)) settings.self = false
 if (!('autoread' in settings)) settings.autoread = false
 if (!('autoread2' in settings)) settings.autoread2 = false
 if (!('restrict' in settings)) settings.restrict = false
-if (!('temporal' in settings)) settings.temporal = true
+if (!('temporal' in settings)) settings.temporal = false
 if (!('antiPrivate' in settings)) settings.antiPrivate = false
 if (!('antiCall' in settings)) settings.antiCall = true
 if (!('antiSpam' in settings)) settings.antiSpam = true 
 if (!('modoia' in settings)) settings.modoia = false
-if (!('jadibotmd' in settings)) settings.jadibotmd = true  
+if (!('jadibotmd' in settings)) settings.jadibotmd = false  
 } else global.db.data.settings[this.user.jid] = {
 self: false,
 autoread: false,
 autoread2: false,
 restrict: false,
-temporal: true,
+temporal: false,
 antiPrivate: false,
 antiCall: true,
 antiSpam: true,
 modoia: false, 
-jadibotmd: true,
+jadibotmd: false,
 }} catch (e) {
 console.error(e)
 }
@@ -1346,10 +1346,9 @@ if (opts['autoread']) await this.readMessages([m.key])
 if (settingsREAD.autoread2) await this.readMessages([m.key])  
 //if (settingsREAD.autoread2 == 'true') await this.readMessages([m.key])    
 	    
-if (!db.data.chats[m.chat].reaction && m.isGroup) throw 0
-if (!m.fromMem && m.text.match(/(ata|des|able|izo|ido|.-.|._.|:)|:(|:v|v:|o.o|;v|v;|v':|:'v)/gi)) {
+if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|but|ify)/gi)) {
 let emot = pickRandom(["😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🙈", "🙉", "🙊", "🐵", "❤️", "🧡", "💛", "💚", "💙", "💜", "🤎", "🖤", "🤍", "💘", "💝", "💖", "💗", "💓", "💞", "💕", "💌", "💟", "♥️", "❣️", "💔", "💋", "🗣️", "💪", "👏", "👍", "👎", "🙌", "👐", "🤘", "🤞", "✌️", "🤙", "🖕", "☝️", "🙋", "💁", "🙆", "🙅", "🤦", "🙍", "🤵", "👰", "👩‍🎓", "👩‍🦳", "👩‍🍳", "🌩️", "⛈️", "🌞", "🌝", "🌚", "🌜", "🌛", "⚡", "⭐", "🌟", "✨", "💫", "🌙", "☢️", "⚠️", "❌", "🛑", "❔", "❗", "🆗", "🏳️‍🌈", "😀", "😄", "😆", "😅", "😂", "🤣", "😭", "🥳", "🤩", "😍", "🥰", "😘", "😉", "🥴", "🤪", "😜", "😛", "🥺", "😪", "😴", "🤤", "😶", "😐", "🤐", "🤔", "🤫", "🤭", "🥱", "🤗", "😱", "🙄", "😡", "😠", "🤬", "😨", "😓", "😥", "😖", "🤯", "😫", "😵", "🥶", "🥵", "🤮", "🤑", "🤢", "🤓", "😎", "🤥", "🤒", "👻", "🔥", "🎉", "😈", "👿", "👾", "👽"])
-this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
+if (!m.fromMe) return this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
 }}
 
