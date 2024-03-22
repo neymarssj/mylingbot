@@ -92,14 +92,14 @@ let registroRapido = ` *𓆩 🜲 REGISTRO ACTUAL 🜲 𓆪*
 ╰┈┈┈┈┈┈┈┈┈┈┈┈•
 *∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷*
 
-✨ \`\`\`*PARA FINALIZAR CON SU REGISTRO, ESCRIBA:*\`\`\`
+*✨ \`\`\`PARA FINALIZAR CON SU REGISTRO, ESCRIBA:*\`\`\`
 ✪ *${usedPrefix}finalizar*`
 
 await conn.sendMessage(m.chat, {
 text: registroRapido,
 contextInfo: {
 externalAdReply: {
-title: 👻 𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫 👻,
+title: wm,
 body: '彡 Moderme By GL YT MX - DEV',
 thumbnailUrl: pp, 
 sourceUrl: 'https://www.atom.bio/MylingBot',
