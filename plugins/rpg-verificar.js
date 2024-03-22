@@ -54,7 +54,7 @@ conn.reply(m.chat, `*SU TIEMPO DE REGISTRO HA FINALIZADO!!*\n\n_SI NO CONTINUA E
 if (user.registered === true) return conn.reply(m.chat, `${lenguajeMY['smsAvisoIIG']()}*YA ESTÁ REGISTRADO!!*\n*SI QUIERE ANULAR SU REGISTRO, USE ESTE COMANDO*\n*${usedPrefix}unreg numero de serie*\n\n*SI NO RECUERDA SU NÚMERO DE SERIE, USE ESTE COMANDO*\n*${usedPrefix}myns*`, fkontak, m)	
 
 if (command == 'verificar' || command == 'verify' || command == 'register' || command == 'reg' || command == 'registrar') {
-await conn.reply(m.chat, `*💕 ¿CÓMO DESEA REGISTRARSE?*\n\n *𖥳 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖱𝖠𝖯𝖨𝖣𝖮*\n\n*_BENEFICIOS:_*\n彡 _INSIGNEA DE VERIFICACION_\n彡 _DESBLOQUEA COMANDOS QUE SE REQUIERA REGISTRO_\n-----------------\n*_ESCRIBA PARA EL REGISTRO RAPIDO:_*\n${usedPrefix}reg1 nombre edad\n\n> 📝 REGISTRO COMPLETO\n◉ 𝘐𝘕𝘚𝘐𝘎𝘕𝘐𝘈 𝘋𝘌 𝘝𝘌𝘙𝘐𝘍𝘐𝘊𝘈𝘊𝘐𝘖𝘕\n◉ 𝘋𝘌𝘚𝘉𝘓𝘖𝘘𝘜𝘌𝘈 𝘊𝘖𝘔𝘈𝘕𝘋𝘖𝘚 𝘘𝘜𝘌 𝘚𝘌 𝘙𝘌𝘘𝘜𝘐𝘌𝘙𝘈𝘕 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖\n◉ 𝘗𝘙𝘌𝘔𝘐𝘜𝘔 𝘛𝘌𝘔𝘗𝘖𝘙𝘈𝘓 𝘎𝘙𝘈𝘛𝘜𝘐𝘛𝘖\n◉ 𝘔𝘈𝘚 𝘖𝘗𝘊𝘐𝘖𝘕𝘌𝘚 𝘗𝘈𝘙𝘈 𝘌𝘚𝘛𝘌 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖\n\𝘌𝘚𝘊𝘙𝘐𝘉𝘈 𝘗𝘈𝘙𝘈 𝘌𝘓 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖 𝘊𝘖𝘔𝘗𝘓𝘌𝘛𝘖\n${usedPrefix}nombre\n\n\> GUIA PARA EL REGISTRO COMPLETO\n${usedPrefix}nombre - 𝘐𝘕𝘎𝘙𝘌𝘚𝘌 𝘚𝘜 𝘕𝘖𝘔𝘉𝘙𝘌\n${usedPrefix}edad - 𝘐𝘕𝘎𝘙𝘌𝘚𝘌 𝘚𝘜 𝘌𝘋𝘈𝘋\n${usedPrefix}genero - 𝘐𝘕𝘎𝘙𝘌𝘚𝘌 𝘚𝘜 𝘎𝘌𝘕𝘌𝘙𝘖\n${usedPrefix}identidad - 𝘐𝘕𝘎𝘙𝘌𝘚𝘌 𝘚𝘜 𝘐𝘋𝘌𝘕𝘛𝘐𝘋𝘈𝘋 - 𝘖𝘙𝘐𝘌𝘕𝘛𝘈𝘊𝘐𝘖𝘕 𝘚𝘌𝘟𝘜𝘈𝘓\n${usedPrefix}pasatiempo - 𝘌𝘓𝘐𝘎𝘈 𝘚𝘜 𝘗𝘈𝘚𝘈𝘛𝘐𝘌𝘔𝘗𝘖\n\n\`\`\`⭐ 𝘊𝘖𝘕𝘚𝘐𝘋𝘌𝘙𝘌 𝘘𝘜𝘌 𝘛𝘌𝘕𝘋𝘙𝘈 𝘜𝘕 𝘛𝘐𝘌𝘔𝘗𝘖 𝘗𝘈𝘙𝘈 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘈𝘙𝘚𝘌\`\`\``, fkontak, m)
+await conn.reply(m.chat, `*👻 ¿CÓMO DESEA REGISTRARSE?*\n\n *𖥳 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖱𝖠𝖯𝖨𝖣𝖮*\n\n*_BENEFICIOS:_*\n彡 _INSIGNEA DE VERIFICACION_\n彡 _DESBLOQUEA COMANDOS QUE SE REQUIERA REGISTRO_\n\n*_ESCRIBA PARA EL REGISTRO RAPIDO:_*\n${usedPrefix}reg1 nombre edad\n-----------------\n*𖥳 REGISTRO COMPLETO*\n彡 _INSIGNIA DE VERIFICACION_\n彡 _DESBLOQUEA COMANDOS QUE REQUIERAN ESTE REGISTRO_\n彡 _PREMIUM TEMPORAL GRATUITO_\n彡 _MAS OPCIONES PARA ESTE REGISTRO_\n\n*_ESCRIBA PARA EL REGISTRO COMPLETO:_*\n${usedPrefix}nombre\n\n\`\`\`✨ 𝘊𝘖𝘕𝘚𝘐𝘋𝘌𝘙𝘌 𝘘𝘜𝘌 𝘛𝘌𝘕𝘋𝘙𝘈 𝘜𝘕 𝘛𝘐𝘌𝘔𝘗𝘖 𝘗𝘈𝘙𝘈 𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘈𝘙𝘚𝘌.\`\`\``, fkontak, m)
 }
 
 if (command == 'reg1') {
@@ -67,7 +67,7 @@ clearInterval(intervalId)}, 126000) //2.1 min
 
 registro = text.replace(/\s+/g, usedPrefix) 
 _registro = text.split(" ",2)
-if (!text) return conn.reply(m.chat, `${lenguajeMY['smsAvisoIIG']()}👉 *PARÁMETROS DEL REGISTRO:*\n${usedPrefix + command} nombre edad\n\n\`\`\`EJEMPLO:\`\`\`\n${usedPrefix + command} ${gt} 20\n\n*✨ CONSEJO:*\n• _Su nombre no debe de contener números_\n• _La edad no debe de contener letras_\n\n⭐ *Si desea personalizar más su registro, escriba:*\n${usedPrefix}nombre`, fkontak, m)
+if (!text) return conn.reply(m.chat, `${lenguajeMY['smsAvisoIIG']()}👉 *PARÁMETROS DEL REGISTRO:*\n${usedPrefix + command} nombre edad\n\n\`\`\`EJEMPLO:\`\`\`\n${usedPrefix + command} GL YT MX 20\n\n*✨ CONSEJO:*\n• _SU NOMBRE NO DEBE CONTENER NUMEROS_\n• _LA EDAD NO DEBE CONTENER LETRAS_\n\n⭐ *Si desea personalizar más su registro, escriba:*\n${usedPrefix}nombre`, fkontak, m)
 //if (_registro['length'] >= 3 || isNaN(_registro[1])) return 
 //conn.sendButton(m.chat, fg + '😐 *ESTÁ INTENTANDO SEPARAR SU NOMBRE O UNIR TODO?* ', '🧐 *COINCIDE COMO EN ESTOS EJEMPLOS:*\n' + `\`\`\`${usedPrefix + command} Super${gt}20\`\`\`` + '\n' + `\`\`\`${usedPrefix + command} Super 15 ${gt} \`\`\`` + '\n' + `\`\`\`${usedPrefix + command} Super ${gt} 24 De ${author}\`\`\`\n\n` + '*Si cumple que tenga (Nombre/Frase y Edad) Autocompletaremos su Registro, de lo contraio vuelva a registrarse*\n➘ _Use el Botón de abajo_', null, [[`🌟 AUTOCOMPLETAR MI REGISTRO`, usedPrefix + 'reg1' + ' ' + text.replace(/[♧◇♡♤■□●○•°☆▪︎¤¿?¡¬¦±×÷°µ§©®™¶€¢£¥₽₹₩₱₸₪₫₮₦₴₡₭₲₼₿.,\/#!$%\^&\*;:{}@=\-_`~()\s\0-9]/gi, "") + ' ' + text.replace(/[♧◇♡♤■□●○•°☆▪︎¤¿?¡¬¦±×÷°µ§©®™¶€¢£¥₽₹₩₱₸₪₫₮₦₴₡₭₲₼₿.,\/#!$%\^&\*;:{}@=\-_`~()\s\a-z]/gi, "")], ['📑 VOLVER A REGISTRAR', command + usedPrefix]], m)
 if (!_registro[0]) return conn.reply(m.chat, `${lenguajeMY['smsAvisoFG']()}*FALTA SU NOMBRE, PARÁMETROS DEL REGISTRO:*\n\`\`\`${usedPrefix + command} nombre edad\`\`\``, fkontak, m)
@@ -84,12 +84,13 @@ global.db.data.users[m.sender]['registroR'] = true
 
 let registroRapido = ` *𓆩 🜲 REGISTRO ACTUAL 🜲 𓆪*
  *∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷*
-┊ *✿ NOMBRE DEL USUARIO(A)*
+┊ *- NOMBRE:*
 ┊ ➥ ${user.name === 0 ? sinDefinir : user.name}
 ┊
-┊ *✿ EDAD DEL USUARIO(A) *
+┊ *- EDAD:*
 ┊ ➥ ${user.age === 0 ? sinDefinir : user.age + ' años'}
 ╰┈┈┈┈┈┈┈┈┈┈┈┈•
+*∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷*
 
 ✨ \`\`\`*PARA FINALIZAR CON SU REGISTRO, ESCRIBA:*\`\`\`
 ✪ *${usedPrefix}finalizar*`
@@ -98,8 +99,8 @@ await conn.sendMessage(m.chat, {
 text: registroRapido,
 contextInfo: {
 externalAdReply: {
-title: wm,
-body: '🌟 PUEDE MODIFICAR SU REGISTRO ANTES DE FINALIZAR',
+title: 👻 𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫 👻,
+body: '彡 Moderme By GL YT MX - DEV',
 thumbnailUrl: pp, 
 sourceUrl: 'https://www.atom.bio/MylingBot',
 mediaType: 1,
