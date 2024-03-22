@@ -92,7 +92,7 @@ let registroRapido = ` *𓆩 🜲 REGISTRO ACTUAL 🜲 𓆪*
 ╰┈┈┈┈┈┈┈┈┈┈┈┈•
 *∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷*
 
-*✨ \`\`\`PARA FINALIZAR CON SU REGISTRO, ESCRIBA:*\`\`\`
+*✨ PARA FINALIZAR CON SU REGISTRO, ESCRIBA:*\`\`\`
 ✪ *${usedPrefix}finalizar*`
 
 await conn.sendMessage(m.chat, {
