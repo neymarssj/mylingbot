@@ -806,7 +806,7 @@ ${readMore}
 ┃ ╸╸╸╸╸╸╸╸╸╸╸╸╸╸╯
 ┃ ${rpgg.emoticon('exp')} *Exp » ${exp}*
 ┃ ${rpgg.emoticon('limit')} *Diamante : Diamond » ${dia}*
-┃ ${rpgg.emoticon('money')} *KataCoins: » ${money}*
+┃ ${rpgg.emoticon('money')} *MylingCoins: » ${money}*
 ┃ ${rpgg.emoticon('joincount')} *Token » ${token}*
 ┃ *${rpgshop.emoticon('emerald')} » ${member.emerald}*
 ┃ *${rpgshop.emoticon('berlian')} » ${member.berlian}*

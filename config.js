@@ -406,7 +406,7 @@ global.rpgg = { //Solo emojis
       ayam: '🐓', babi: '🐖', Jabali: '🐗', bull: '🐃', buaya: '🐊', cat: '🐈',      
       centaur: '🐐', chicken: '🐓', cow: '🐄', dog: '🐕', dragon: '🐉', elephant: '🐘',
       fox: '🦊', giraffe: '🦒', griffin: '🦅', //Mascota : Griffin',
-      horse: '🐎', kambing: '🐐', kerbau: '🐃', lion: '🦁', money: '🐱', monyet: '🐒', panda: '🐼',
+      horse: '🐎', kambing: '🐐', kerbau: '🐃', lion: '🦁', money: '💵', monyet: '🐒', panda: '🐼',
       snake: '🐍', phonix: '🕊️', rhinoceros: '🦏',
       wolf: '🐺', tiger: '🐅', cumi: '🦑', udang: '🦐', ikan: '🐟',
       
@@ -465,7 +465,7 @@ global.rpgshopp = { //Tienda
     let emotttt = {
       exp: '⚡', limit: '💎', diamond: '💎+', joincount: '🪙',
       emerald: '💚', berlian: '♦️', kyubi: '🌀', gold: '👑',
-      money: '🐱', tiketcoin: '🎫', stamina: '✨',
+      money: '💵', tiketcoin: '🎫', stamina: '✨',
             
       potion: '🥤', aqua: '💧', trash: '🗑', wood: '🪵',
       rock: '🪨', batu: '🥌', string: '🕸️', iron: '⛓️',
@@ -473,7 +473,7 @@ global.rpgshopp = { //Tienda
       
       eleksirb: '💡', emasbatang: '〽️', emasbiasa: '🧭', rubah: '🦊🌫️',
       sampah: '🗑🌫️', serigala: '🐺🌫️', kayu: '🛷', sword: '⚔️',
-      umpan: '🪱', healtmonster: '💵', emas: '🪅', pancingan: '🪝',
+      umpan: '🪱', healtmonster: '💔', emas: '🪅', pancingan: '🪝',
       pancing: '🎣',
        
       common: '📦', uncoommon: '🥡', mythic: '🗳️',
