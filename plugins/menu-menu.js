@@ -92,15 +92,15 @@ let menu = `
 
 ᖫ━━━━━━━━━━━━━━ᖭ
 
-⪨━━•❅•°• 𝐈𝐍𝐅𝐎 - 𝐌𝐘 •°•❅•━━⪩
+⪨━•❅•°• 𝐈𝐍𝐅𝐎 - 𝐌𝐘 •°•❅•━⪩
 彡 𝐑𝐄𝐆𝐒𝐈𝐓𝐑𝐀𝐃𝐎𝐒 » ${rtotalreg}/${totalreg}
 彡_${lenguajeMY['smsUptime']()}_ » _${uptime}_ 
 彡_${lenguajeMY['smsVersion']()}_ » _${vs}_
 彡_${lenguajeMY['smsMode']()}_ » _${global.opts['self'] ? `${lenguajeMY['smsModePrivate']().charAt(0).toUpperCase() + lenguajeMY['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeMY['smsModePublic']().charAt(0).toUpperCase() + lenguajeMY['smsModePublic']().slice(1).toLowerCase()}`}_
 彡_${lenguajeMY['smsBanChats']()}_ » _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
-⪨━━•❅•°• 𝐈𝐍𝐅𝐎 - 𝐌𝐘 •°•❅•━━⪩
+⪨━•❅•°• 𝐈𝐍𝐅𝐎 - 𝐌𝐘 •°•❅•━⪩
 
-ᖫ━━•❅•°• 𝐓𝐔 𝐈𝐍𝐅𝐎 •°•❅•━━ᖭ
+ᖫ━•❅•°• 𝐓𝐔 𝐈𝐍𝐅𝐎 •°•❅•━ᖭ
 𖠰 𝐓𝐈𝐏𝐎 𝐃𝐄 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 » ${user.registered === true ? `_${user.registroC === true ? '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖢𝖮𝖬𝖯𝖫𝖤𝖳𝖮' : '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖱𝖠𝖯𝖨𝖣𝖮'}_` : '✎ _𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮_'}
 𖠰 𝐄𝐒𝐓𝐀𝐃𝐎 » ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + '𝖬𝖨𝖤𝖲𝖳𝖠𝖣𝖮_' : '_𝖬𝖤 𝖲𝖨𝖤𝖭𝖳𝖮' + user.miestado + '_'}
 𖠰 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 » ${user.registered === true ? '✅' : '❌ _' + usedPrefix + '𝖵𝖤𝖱𝖨𝖥𝖨𝖢𝖠𝖱_'}
@@ -109,7 +109,7 @@ let menu = `
 𖠰 ${lenguajeMY['smsBotonM6']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM6']().slice(1).toLowerCase()} »_ ${emoji} || ${user.exp - min}/${xp}
 𖠰 ${lenguajeMY['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*🛐 ${lenguajeMY['smsResultPareja']()}*_`}
 𖠰 𝐏𝐀𝐒𝐀𝐓𝐈𝐄𝐌𝐏𝐎(𝐒) ⧎ » ${user.pasatiempo === 0 ? '_𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮_' : user.pasatiempo + '_'}
-ᖫ━━━•❅•°•━━━━•°•❅•━━━ᖭ
+ᖫ━━━•❅•°•━━•°•❅•━━━ᖭ
 
 ·͙⁺˚•̩̩✩•̩̩˚⁺‧͙⁺˚•̩̩ - ✩•̩̩˚⁺‧͙⁺˚•̩̩✩•̩̩˚⁺‧͙·͙⁺˚•̩̩✩•̩̩˚⁺ ·͙⁺˚•̩̩✩•̩̩˚⁺
  ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒 [ - ] 🍒｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟﾟ･｡·͙⁺
