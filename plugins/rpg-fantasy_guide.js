@@ -69,7 +69,7 @@ showAdAttribution: false,
 title: `🌟 FANTASÍA RPG`,
 body: `😻 Una aventura nos espera...`,
 mediaType: 1,
-sourceUrl: accountsgb.getRandom(),
+sourceUrl: accountsmy.getRandom(),
 thumbnailUrl: 'https://i.imgur.com/vIH5SKp.jpg'
 }}})
 }

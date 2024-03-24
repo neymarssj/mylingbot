@@ -395,7 +395,7 @@ ${personajesSuperlike > 0 ? txtSuperLike : personajesSuperlike}
 *❰ Por dar 👎 ❱* 
 ${personajesNoGustados > 0 ? txtDislike : personajesNoGustados}
 `
-//let fake = { contextInfo: { externalAdReply: { title: `🌟 FANTASÍA RPG`, body: `😼 RPG de: » ${conn.getName(userId)}`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: 'https://telegra.ph/file/2bc10639d4f5cf5685185.jpg' }}}
+//let fake = { contextInfo: { externalAdReply: { title: `🌟 FANTASÍA RPG`, body: `😼 RPG de: » ${conn.getName(userId)}`, sourceUrl: accountsmy.getRandom(), thumbnailUrl: 'https://telegra.ph/file/2bc10639d4f5cf5685185.jpg' }}}
 let image = [
 'https://telegra.ph/file/77cd4b654273b5cde1ce8.jpg', 
 'https://telegra.ph/file/feb1553dffb7410556c8f.jpg',
@@ -413,7 +413,7 @@ renderLargerThumbnail: true,
 title: `🌟 FANTASÍA RPG`,
 body: `😼 RPG de: » ${conn.getName(userId)}`,
 mediaType: 1,
-sourceUrl: accountsgb.getRandom(),
+sourceUrl: accountsmy.getRandom(),
 thumbnailUrl: 'https://telegra.ph/file/2bc10639d4f5cf5685185.jpg'
 }}})*/
 //await conn.reply(m.chat, mensaje.trim(), fkontak, { mentions: conn.parseMention(mensaje) })    

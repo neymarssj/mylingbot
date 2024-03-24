@@ -78,7 +78,7 @@ showAdAttribution: false,
 title: `🌟 FANTASÍA RPG`,
 body: `🎈 Lista de personajes`,
 mediaType: 1,
-sourceUrl: accountsgb.getRandom(),
+sourceUrl: accountsmy.getRandom(),
 thumbnailUrl: 'https://telegra.ph/file/feb1553dffb7410556c8f.jpg'
 }}})
 
