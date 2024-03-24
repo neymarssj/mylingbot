@@ -425,7 +425,7 @@ global.rpgshop = { //Tienda
     let emottt = {
       exp: lenguajeMY.eExp(), limit: lenguajeMY.eDiamante(), diamond: lenguajeMY.eDiamantePlus(), joincount: lenguajeMY.eToken(),
       emerald: lenguajeMY.eEsmeralda(), berlian: lenguajeMY.eJoya(), kyubi: lenguajeMY.eMagia(), gold: lenguajeMY.eOro(),
-      money: lenguajeMY.eMylingCoins(), tiketcoin: lenguajeMY.eMylingTickers(), stamina: lenguajeMY.eEnergia(),
+      money: lenguajeMY.eMylingCoins(), tiketcoin: lenguajeMY.eMylingTickets(), stamina: lenguajeMY.eEnergia(),
             
       potion: lenguajeMY.ePocion(), aqua: lenguajeMY.eAgua(), trash: lenguajeMY.eBasura(), wood: lenguajeMY.eMadera(),
       rock: lenguajeMY.eRoca(), batu: lenguajeMY.ePiedra(), string: lenguajeMY.eCuerda(), iron: lenguajeMY.eHierro(),
