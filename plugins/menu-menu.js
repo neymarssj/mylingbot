@@ -92,15 +92,18 @@ let menu = `
 
 ᖫ━━━━━━━━━━━━━━ᖭ
 
-⪨━━━•❅•°• 𝐈𝐍𝐅𝐎 𝐌𝐘 •°•❅•━━━⪩
+⪨━━•❅•°• 𝐈𝐍𝐅𝐎 - 𝐃𝐀𝐓𝐀 •°•❅•━━⪩
+
 彡 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎𝐒 » ${rtotalreg}/${totalreg}
 彡 _${lenguajeMY['smsUptime']()}_ » _${uptime}_ 
 彡 _${lenguajeMY['smsVersion']()}_ » _${vs}_
 彡 _${lenguajeMY['smsMode']()}_ » _${global.opts['self'] ? `${lenguajeMY['smsModePrivate']().charAt(0).toUpperCase() + lenguajeMY['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeMY['smsModePublic']().charAt(0).toUpperCase() + lenguajeMY['smsModePublic']().slice(1).toLowerCase()}`}_
-彡 _${lenguajeMY['smsBanChats']()}_ » _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
+彡 _${lenguajeMY['smsBanChats']()}_ » _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_
+
 ⪨━•❅•°•━━━━━━━•°•❅•━⪩
 
-ᖫ━─•❅•°• 𝐓𝐔 𝐈𝐍𝐅𝐎 •°•❅•━━ᖭ
+ᖫ━━•❅•°• 𝐓𝐔 𝐈𝐍𝐅𝐎 •°•❅•━━ᖭ
+
 𖠰 𝐓𝐈𝐏𝐎 𝐃𝐄 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 » ${user.registered === true ? `_${user.registroC === true ? '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖢𝖮𝖬𝖯𝖫𝖤𝖳𝖮' : '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖱𝖠𝖯𝖨𝖣𝖮'}_` : '✎ _𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮_'}
 𖠰 𝐄𝐒𝐓𝐀𝐃𝐎 » ${typeof user.miestado !== 'string' ? '✕ _' + usedPrefix + 'MIESTADO_' : '_𝖬𝖤 𝖲𝖨𝖤𝖭𝖳𝖮' + user.miestado + '_'}
 𖠰 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 » ${user.registered === true ? '✓' : '✕ _' + usedPrefix + 'VERIFICAR_'}
@@ -109,6 +112,7 @@ let menu = `
 𖠰 ${lenguajeMY['smsBotonM6']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM6']().slice(1).toLowerCase()} »_ ${emoji} || ${user.exp - min}/${xp}
 𖠰 ${lenguajeMY['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*ღ ${lenguajeMY['smsResultPareja']()}*`}
 𖠰 𝐏𝐀𝐒𝐀𝐓𝐈𝐄𝐌𝐏𝐎(𝐒) ⧎ » ${user.pasatiempo === 0 ? '_𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮_' : user.pasatiempo + '_'}
+
 ᖫ━━━•━━━━━•━━━ᖭ
 
 ·͙⁺˚•̩̩✩•̩̩˚⁺‧͙⁺˚•̩̩ - ✩•̩̩˚⁺‧͙⁺˚•̩̩✩•̩̩˚⁺‧͙·͙⁺˚•̩̩✩•̩̩˚⁺ ·͙⁺˚•̩̩✩•̩̩˚⁺
@@ -120,30 +124,31 @@ let menu = `
 ┃ _DIAMANTES ➟_ ${limit} 💎
 ┃ _MYLINGCOINS ➟_ ${money} ⫹⫺
 ┃ _TOKENS ➟_ ${joincount} ✧
-┗━━━━━━━━━━━━━━━◉
-┏━ 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 - 𝐌𝐘 ━━⪼
-┃⏤͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞DESCUBRE TODA LA INFORMACION DE MYLINGBOT-MD
-┃☭│ _${usedPrefix}cuentasmyling | cuentasmy_
-┃☭│ _${usedPrefix}gruposmy | grupos | groupmy_
-┃☭│ _${usedPrefix}donar | donate_
-┃☭│ _${usedPrefix}listagrupos | grouplist_
-┃☭│ _${usedPrefix}estado | heykata | status_
-┃☭│ _${usedPrefix}infomyling | infobot_
-┃☭│ _${usedPrefix}instalarbot | installbot_
-┃☭│ _${usedPrefix}creador | owner_      
-┃☭│ _${usedPrefix}velocidad | ping_      
-┃☭│ _términos y condiciones_
-┃☭│ _Bot_ 
-┃☭╰───────────────
-╰═════════════════⊷
+┗━━━━━━━━━━━━━━◉
 
-┏━━━⫷✿_SUB BOT - MYLING_✿⫸━━━━◈
-┃◉╭──────────────
-┃◉│ _${usedPrefix}serbot | jadibot_
-┃◉│ _${usedPrefix}bots | listjadibots_
-┃◉│ _${usedPrefix}detener | stop_
-┃◉╰───────────────
-╰═══════════════════⊷
+┏━ 𝐈𝐍𝐅𝐎 - 𝐌𝐘 ━━⪼
+┃⏤͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞DESCUBRE TODA LA INFORMACION DE MYLINGBOT-MD
+┃𖥑 _${usedPrefix}cuentasmyling | cuentasmy_
+┃𖥑 _${usedPrefix}gruposmy | grupos | groupmy_
+┃𖥑 _${usedPrefix}donar | donate_
+┃𖥑 _${usedPrefix}listagrupos | grouplist_
+┃𖥑 _${usedPrefix}estado | heykata | status_
+┃𖥑 _${usedPrefix}infomyling | infobot_
+┃𖥑 _${usedPrefix}instalarbot | installbot_
+┃𖥑 _${usedPrefix}creador | owner_      
+┃𖥑 _${usedPrefix}velocidad | ping_      
+┃𖥑 _términos y condiciones_
+┃𖥑 _Bot_ 
+┗━━━━━━━━━━━━𖣘
+
+┏━𖢻 𝐒𝐔𝐁- 𝐁𝐎𝐓 𖢻━━━━━━⚙︎
+┃𖡦 CONVIERTE EN SUB - BOT
+┃𖤐 _${usedPrefix}serbot | jadibot_
+┃𖤐 _${usedPrefix}serbot --code | jadicode_
+┃𖤐 _${usedPrefix}infosubbot | infosub_
+┃𖤐 _${usedPrefix}bots | listjadibots_
+┃𖤐 _${usedPrefix}detener | stop_
+┗━━━━━━━━━━━━━━𖤍
 
 ╭═══〘𓆩 _REPORTES_ 𓆪〙═══⊷❍
 ┃🜲╭──────────────
