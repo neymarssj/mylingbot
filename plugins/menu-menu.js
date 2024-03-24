@@ -108,7 +108,7 @@ let menu = `
 
 𖠰 𝐓𝐈𝐏𝐎 𝐃𝐄 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 » ${user.registered === true ? `${user.registroC === true ? '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖢𝖮𝖬𝖯𝖫𝖤𝖳𝖮' : '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖱𝖠𝖯𝖨𝖣𝖮'}` : '✕ 𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮'}
 𖠰 𝐄𝐒𝐓𝐀𝐃𝐎 » ${typeof user.miestado !== 'string' ? '✕ ' + usedPrefix + 'MIESTADO' : '_ME SIENTO' + user.miestado + '_'}
-𖠰 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 » ${user.registered === true ? '✓' : '✕' + usedPrefix + 'VERIFICAR'}
+𖠰 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 » ${user.registered === true ? '✓' : '✕ ' + usedPrefix + 'VERIFICAR'}
 𖠰 ${lenguajeMY['smsBotonM7']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM7']().slice(1).toLowerCase()} » ${user.premiumTime > 0 ? '✓' : '✕ ' + usedPrefix + 'PASE PREMIUM'}
 𖠰 ${lenguajeMY['smsBotonM5']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM5']().slice(1).toLowerCase()} » ${role}
 𖠰 ${lenguajeMY['smsBotonM6']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM6']().slice(1).toLowerCase()} » ${emoji} || ${user.exp - min}/${xp}
@@ -118,7 +118,7 @@ let menu = `
 ᖫ━━━•━━━━━•━━━ᖭ
 
 ·͙⁺˚•̩̩✩•̩̩˚⁺‧͙⁺˚•̩̩ - ✩•̩̩˚⁺‧͙⁺˚•̩̩✩•̩̩˚⁺‧͙·͙⁺˚•̩̩✩•̩̩˚⁺ ·͙⁺˚•̩̩✩•̩̩˚⁺
- ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒 [ - ] 🍒｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟﾟ･｡·͙⁺
+ ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒  🍒｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟﾟ･｡·͙⁺
 
 ┏━━━━ 𝐓𝐔 𝐍𝐈𝐕𝐄𝐋 ━━━━◈
 ┃꧁TU NIVEL CON MYLINGBOT-MD
@@ -159,7 +159,7 @@ let menu = `
 ┃🜲 _${usedPrefix}reporte *texto*_
 ┃🜲
 ┃🜲 _REPORTE UN COMANDO, EN CASO DE QUE FALLE O TENGA ERRORES._
-┗━━━━━━━━━━━━━꧂
+┗━━━━━━━━━━꧂
 
 ╭═══⟬𖣘 _USUARIO(A) PREMIUM_ 𖣘⟭═══⊷❍
 ┃◈╭──────────────
