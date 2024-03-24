@@ -102,16 +102,18 @@ let menu = `
 
 ⪨━•❅•°•━━━━━━━•°•❅•━⪩
 
+---- 𝙼𝙾𝙳𝙴𝚁𝙼𝙴 𝙱𝚈 𝚆𝙸𝙻𝚂𝙾𝙽 ----
+
 ᖫ━━•❅•°• 𝐓𝐔 𝐈𝐍𝐅𝐎 •°•❅•━━ᖭ
 
-𖠰 𝐓𝐈𝐏𝐎 𝐃𝐄 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 » ${user.registered === true ? `${user.registroC === true ? '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖢𝖮𝖬𝖯𝖫𝖤𝖳𝖮' : '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖱𝖠𝖯𝖨𝖣𝖮'}` : '_✕ 𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮_'}
+𖠰 𝐓𝐈𝐏𝐎 𝐃𝐄 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 » ${user.registered === true ? `${user.registroC === true ? '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖢𝖮𝖬𝖯𝖫𝖤𝖳𝖮' : '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖱𝖠𝖯𝖨𝖣𝖮'}` : '✕ 𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮'}
 𖠰 𝐄𝐒𝐓𝐀𝐃𝐎 » ${typeof user.miestado !== 'string' ? '✕ ' + usedPrefix + 'MIESTADO' : '_ME SIENTO' + user.miestado + '_'}
-𖠰 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 » ${user.registered === true ? '✓' : '✕ _' + usedPrefix + 'VERIFICAR_'}
-𖠰 _${lenguajeMY['smsBotonM7']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM7']().slice(1).toLowerCase()} »_ ${user.premiumTime > 0 ? '✓' : '✕' + usedPrefix + 'PASE PREMIUM'}
-𖠰 _${lenguajeMY['smsBotonM5']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM5']().slice(1).toLowerCase()} »_ ${role}
-𖠰 _${lenguajeMY['smsBotonM6']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM6']().slice(1).toLowerCase()} »_ ${emoji} || ${user.exp - min}/${xp}
-𖠰 ${lenguajeMY['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*» ღ ${lenguajeMY['smsResultPareja']()}*`}
-𖠰 𝐏𝐀𝐒𝐀𝐓𝐈𝐄𝐌𝐏𝐎(𝐒) ⧎ » ${user.pasatiempo === 0 ? '_SIN REGISTRO_' : user.pasatiempo + '_'}
+𖠰 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 » ${user.registered === true ? '✓' : '✕' + usedPrefix + 'VERIFICAR'}
+𖠰 ${lenguajeMY['smsBotonM7']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM7']().slice(1).toLowerCase()} » ${user.premiumTime > 0 ? '✓' : '✕ ' + usedPrefix + 'PASE PREMIUM'}
+𖠰 ${lenguajeMY['smsBotonM5']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM5']().slice(1).toLowerCase()} » ${role}
+𖠰 ${lenguajeMY['smsBotonM6']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM6']().slice(1).toLowerCase()} » ${emoji} || ${user.exp - min}/${xp}
+𖠰 ${lenguajeMY['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `» ღ *${lenguajeMY['smsResultPareja']()}*`}
+𖠰 𝐏𝐀𝐒𝐀𝐓𝐈𝐄𝐌𝐏𝐎(𝐒) ⧎ » ${user.pasatiempo === 0 ? 'SIN REGISTRO' : user.pasatiempo}
 
 ᖫ━━━•━━━━━•━━━ᖭ
 
@@ -121,20 +123,20 @@ let menu = `
 ┏━━━━ 𝐓𝐔 𝐍𝐈𝐕𝐄𝐋 ━━━━◈
 ┃꧁TU NIVEL CON MYLINGBOT-MD
 ┃
-┃ _EXP/EXPERIENCIA ➟_ ${exp} ×͜×
+┃ _EXPERIENCIA ➟_ ${exp} ×͜×
 ┃ _DIAMANTES ➟_ ${limit} 💎
 ┃ _MYLINGCOINS ➟_ ${money} ⫹⫺
 ┃ _TOKENS ➟_ ${joincount} ✧
-┗━━━━━━━━━━━━━━◉
+┗━━━━━━━━━━━━━◉
 
-┏━ 𝐈𝐍𝐅𝐎 - 𝐌𝐘 ━━⪼
+┏━━━ 𝐈𝐍𝐅𝐎 - 𝐌𝐘 ━━━━━⪼
 ┃⏤͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞DESCUBRE TODA LA INFORMACION DE MYLINGBOT-MD_
 ┃
 ┃𖥑 _${usedPrefix}cuentasmyling | cuentasmy_
-┃𖥑 _${usedPrefix}gruposmy | grupos | groupmy_
+┃𖥑 _${usedPrefix}gruposmy | grupos_
 ┃𖥑 _${usedPrefix}donar | donate_
 ┃𖥑 _${usedPrefix}listagrupos | grouplist_
-┃𖥑 _${usedPrefix}estado | heykata | status_
+┃𖥑 _${usedPrefix}estado | heymy | status_
 ┃𖥑 _${usedPrefix}infomyling | infobot_
 ┃𖥑 _${usedPrefix}instalarbot | installbot_
 ┃𖥑 _${usedPrefix}creador | owner_      
@@ -143,7 +145,7 @@ let menu = `
 ┃𖥑 _Bot_ 
 ┗━━━━━━━━━━━━𖣘
 
-┏━𖢻 𝐒𝐔𝐁- 𝐁𝐎𝐓 𖢻━━━━━━⚙︎
+┏━𖢻 𝐒𝐔𝐁 - 𝐁𝐎𝐓 𖢻━━━⚙︎
 ┃𖡦 CONVIERTE EN SUB - BOT
 ┃𖤐 _${usedPrefix}serbot | jadibot_
 ┃𖤐 _${usedPrefix}serbot --code | jadicode_
@@ -156,8 +158,7 @@ let menu = `
 ┃
 ┃🜲 _${usedPrefix}reporte *texto*_
 ┃🜲
-┃🜲 _REPORTE UN COMANDO, EN CASO DE QUE FALLE O TENGA ERRORES_
-┃
+┃🜲 _REPORTE UN COMANDO, EN CASO DE QUE FALLE O TENGA ERRORES._
 ┗━━━━━━━━━━━━━꧂
 
 ╭═══⟬𖣘 _USUARIO(A) PREMIUM_ 𖣘⟭═══⊷❍
