@@ -230,9 +230,9 @@ global.tagmd = 'https://telegra.ph/file/894e2ca457f185fc1a268.jpg'
 
 global.welgata = [ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb]
 global.redesMenu = [cnl, nna, nn, nnn, nnnt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, md, ig, paypal, yt, asistencia, fb]
-global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18, tagmd]
-global.gataVidMenu = ['https://telegra.ph/file/93af7de92aa4e791b77b4.mp4', 'https://telegra.ph/file/a848eeb479e662f2e3fab.mp4', 'https://telegra.ph/file/117391db9016a51f73618.mp4']
-global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13, tagmd]
+global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18]
+global.gataVidMenu = ['https://telegra.ph/file/e43024f4f2d970e3c7cbf.png', 'https://telegra.ph/file/45c66b22615c030476cc0.jpg', 'https://telegra.ph/file/5f861408375b072c4b3d8.jpg']
+global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13]
 global.accountsmy = [cnl, nna, nn2, nn, nnn, nnnt, nnntt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, nnnttt5, paypal, asistencia, asistencia2].getRandom()
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
