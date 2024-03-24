@@ -82,43 +82,37 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `╭═══≪ _MYLINGBOT-MD_≫═══⊷❍
-┃☭╭──────────────
-┃☭│ 〘 卐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 卐 〙
-┃☭│ 
-┃☭│ _ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ 🥷🏻_
-┃☭│ _ɪᴢɪ_ 𝅙
-┃☭│ シWɪʟsᴏɴシ︎
-┃☭│
-┃☭│    ║▌│█║▌│█║▌│█│║▌║
-┃☭│    ║▌│█║▌│█║▌│█│║▌║
-┃☭│ᴋᴀᴛᴀsʜɪ ʙᴏᴛ x ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ
-┃☭│ 
-┃☭╰───────────────
-╰═════════════════⊷
+let menu = `
+彡 𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃 彡
 
-╭════〘卐 _INFO MYLINGBOT-MD_ 卐〙════⊷❍
-┃
-┃☭│ ᩭ✎ _Registrados »_ ${rtotalreg}/${totalreg}
-┃☭│ ᩭ✎ _${lenguajeMY['smsUptime']()}_ ➣ _${uptime}_ 
-┃☭│ ᩭ✎ _${lenguajeMY['smsVersion']()}_ ➢ _${vs}_
-┃☭│ ᩭ✎ _${lenguajeMY['smsMode']()} ➣_ _${global.opts['self'] ? `${lenguajeMY['smsModePrivate']().charAt(0).toUpperCase() + lenguajeMY['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeMY['smsModePublic']().charAt(0).toUpperCase() + lenguajeMY['smsModePublic']().slice(1).toLowerCase()}`}_
-┃☭│ ᩭ✎ _${lenguajeMY['smsBanChats']()}_ ➣ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+- 𝐖𝐈𝐋𝐒𝐎𝐍𝐎𝐅𝐂
+- 𝐢𝐙𝐢
+- 𝐆𝐋 𝐘𝐓 𝐌𝐗
+- 𝐀𝐫𝐱𝐞𝐥𝐃𝐞𝐯 (𝐀.𝐌) 
 
-╭════〘卐 _INFO DEL USUARIO(A)_ 卐〙════⊷❍
+ᖫ━━━━━━━━━━━━━━━ᖭ
 
-┃☭│ _Tipo de registro »_ ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '❌ _Sin registro_'}
-┃☭│ _Estado »_ ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
-┃☭│ _Registrado »_ ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
-┃☭│ _${lenguajeMY['smsBotonM7']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM7']().slice(1).toLowerCase()} »_ ${user.premiumTime > 0 ? '✅' : '❌ _' + usedPrefix + 'pase premium_'}
-┃☭│ _${lenguajeMY['smsBotonM5']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM5']().slice(1).toLowerCase()} »_ ${role}
-┃☭│ _${lenguajeMY['smsBotonM6']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM6']().slice(1).toLowerCase()} »_ ${emoji} || ${user.exp - min}/${xp}
-┃☭│ _${lenguajeMY['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*🛐 ${lenguajeMY['smsResultPareja']()}*_`}
-┃☭│ _Pasatiempo(s) 🍁 ${user.pasatiempo === 0 ? '*Sin Registro*_' : user.pasatiempo + '_'}
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+⪨━━━•❅•°• 𝐈𝐍𝐅𝐎 - 𝐌𝐘 •°•❅•━━━⪩
+彡_𝐑𝐄𝐆𝐒𝐈𝐓𝐑𝐀𝐃𝐎𝐒 »_ ${rtotalreg}/${totalreg}
+彡_${lenguajeMY['smsUptime']()}_ » _${uptime}_ 
+彡_${lenguajeMY['smsVersion']()}_ » _${vs}_
+彡_${lenguajeMY['smsMode']()}_ » _${global.opts['self'] ? `${lenguajeMY['smsModePrivate']().charAt(0).toUpperCase() + lenguajeMY['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeMY['smsModePublic']().charAt(0).toUpperCase() + lenguajeMY['smsModePublic']().slice(1).toLowerCase()}`}_
+彡_${lenguajeMY['smsBanChats']()}_ » _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
+⪨━━━•❅•°• 𝐈𝐍𝐅𝐎 - 𝐌𝐘 •°•❅•━━━⪩
+
+ᖫ━━━•❅•°• 𝐓𝐔 𝐈𝐍𝐅𝐎 •°•❅•━━━ᖭ
+𖠰 _𝐓𝐈𝐏𝐎 𝐃𝐄 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎_ » ${user.registered === true ? `_${user.registroC === true ? '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖢𝖮𝖬𝖯𝖫𝖤𝖳𝖮' : '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖱𝖠𝖯𝖨𝖣𝖮'}_` : '✎ _𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮_'}
+𖠰 _𝐄𝐒𝐓𝐀𝐃𝐎 »_ ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + '𝖬𝖨𝖤𝖲𝖳𝖠𝖣𝖮_' : '_𝖬𝖤 𝖲𝖨𝖤𝖭𝖳𝖮' + user.miestado + '_'}
+𖠰 _𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 »_ ${user.registered === true ? '✅' : '❌ _' + usedPrefix + '𝖵𝖤𝖱𝖨𝖥𝖨𝖢𝖠𝖱_'}
+𖠰 _${lenguajeMY['smsBotonM7']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM7']().slice(1).toLowerCase()} »_ ${user.premiumTime > 0 ? '✅' : '❌ _' + usedPrefix + '𝖯𝖠𝖲𝖤 𝖯𝖱𝖤𝖬𝖨𝖴𝖬_'}
+𖠰 _${lenguajeMY['smsBotonM5']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM5']().slice(1).toLowerCase()} »_ ${role}
+𖠰 _${lenguajeMY['smsBotonM6']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM6']().slice(1).toLowerCase()} »_ ${emoji} || ${user.exp - min}/${xp}
+𖠰 _${lenguajeMY['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*🛐 ${lenguajeMY['smsResultPareja']()}*_`}
+𖠰 _𝐏𝐀𝐒𝐀𝐓𝐈𝐄𝐌𝐏𝐎(𝐒) ⧎_ » ${user.pasatiempo === 0 ? '_𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮_' : user.pasatiempo + '_'}
+ᖫ━━━•❅•°•━━━━━━•°•❅•━━━ᖭ
+
+·͙⁺˚•̩̩✩•̩̩˚⁺‧͙⁺˚•̩̩ - ✩•̩̩˚⁺‧͙⁺˚•̩̩✩•̩̩˚⁺‧͙
+ ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒 [ - ] 🍒｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡
 
 ╭═══〘卐 _RECURSOS DEL USUARIO(A)_ 卐〙═══⊷❍
 ┃☭╭──────────────
