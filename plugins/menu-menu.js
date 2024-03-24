@@ -103,8 +103,8 @@ let menu = `
 ᖫ━─•❅•°• 𝐓𝐔 𝐈𝐍𝐅𝐎 •°•❅•━━ᖭ
 𖠰 𝐓𝐈𝐏𝐎 𝐃𝐄 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 » ${user.registered === true ? `_${user.registroC === true ? '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖢𝖮𝖬𝖯𝖫𝖤𝖳𝖮' : '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖱𝖠𝖯𝖨𝖣𝖮'}_` : '✎ _𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮_'}
 𖠰 𝐄𝐒𝐓𝐀𝐃𝐎 » ${typeof user.miestado !== 'string' ? '✕ _' + usedPrefix + 'MIESTADO_' : '_𝖬𝖤 𝖲𝖨𝖤𝖭𝖳𝖮' + user.miestado + '_'}
-𖠰 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 » ${user.registered === true ? '✅' : '✕ _' + usedPrefix + 'VERIFICAR_'}
-𖠰 ${lenguajeMY['smsBotonM7']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM7']().slice(1).toLowerCase()} »_ ${user.premiumTime > 0 ? '✅' : '✕' + usedPrefix + 'PASE PREMIUM'}
+𖠰 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 » ${user.registered === true ? '✓' : '✕ _' + usedPrefix + 'VERIFICAR_'}
+𖠰 ${lenguajeMY['smsBotonM7']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM7']().slice(1).toLowerCase()} »_ ${user.premiumTime > 0 ? '✓' : '✕' + usedPrefix + 'PASE PREMIUM'}
 𖠰 ${lenguajeMY['smsBotonM5']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM5']().slice(1).toLowerCase()} »_ ${role}
 𖠰 ${lenguajeMY['smsBotonM6']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM6']().slice(1).toLowerCase()} »_ ${emoji} || ${user.exp - min}/${xp}
 𖠰 ${lenguajeMY['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*ღ ${lenguajeMY['smsResultPareja']()}*`}
@@ -114,19 +114,15 @@ let menu = `
 ·͙⁺˚•̩̩✩•̩̩˚⁺‧͙⁺˚•̩̩ - ✩•̩̩˚⁺‧͙⁺˚•̩̩✩•̩̩˚⁺‧͙·͙⁺˚•̩̩✩•̩̩˚⁺ ·͙⁺˚•̩̩✩•̩̩˚⁺
  ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒 [ - ] 🍒｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟﾟ･｡·͙⁺
 
-╭═══〘卐 _RECURSOS DEL USUARIO(A)_ 卐〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _Experiencia ➟_ ${exp} ×͜×
-┃☭│ _Diamantes ➟_ ${limit} 💎
-┃☭│ _MylingCoins ➟_ ${money} ⫹⫺
-┃☭│ _Tokens ➟_ ${joincount} ✧
-┃☭╰───────────────
-╰═════════════════⊷
-
-${readMore}
-
-╭═══〘卐 _I N F O - M Y L I N G - B O T_ 卐〙═══⊷❍
-┃☭╭──────────────
+┏━━━━ 𝐓𝐔 𝐍𝐈𝐕𝐄𝐋 ━━━━◈
+┃꧁TU NIVEL CON MYLINGBOT-MD
+┃ _EXP/EXPERIENCIA ➟_ ${exp} ×͜×
+┃ _DIAMANTES ➟_ ${limit} 💎
+┃ _MYLINGCOINS ➟_ ${money} ⫹⫺
+┃ _TOKENS ➟_ ${joincount} ✧
+┗━━━━━━━━━━━━━━━◉
+┏━ 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 - 𝐌𝐘 ━━⪼
+┃⏤͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞DESCUBRE TODA LA INFORMACION DE MYLINGBOT-MD
 ┃☭│ _${usedPrefix}cuentasmyling | cuentasmy_
 ┃☭│ _${usedPrefix}gruposmy | grupos | groupmy_
 ┃☭│ _${usedPrefix}donar | donate_
