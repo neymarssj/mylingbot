@@ -624,8 +624,9 @@ let menu = `
 ┃❀│ _${usedPrefix}añadirkatacoins *@tag cantidad*_
 ┃❀╰─────────────────❍
 ╰══════════════════⊷❍`.trim()
+await conn.sendFile(m.chat, "./Menu2.jpg" , menu, fkontak)
 
- const vi = ['https://telegra.ph/file/45c66b22615c030476cc0.jpg',
+const vi = ['https://telegra.ph/file/45c66b22615c030476cc0.jpg',
 'https://telegra.ph/file/e43024f4f2d970e3c7cbf.png',
 'https://telegra.ph/file/40689ea4040746fd3d9d9.jpg']
 await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, imgPlayback: true, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak })
