@@ -8,7 +8,7 @@ if (process.send) { process.send('uptime')
 _muptime = await new Promise(resolve => { process.once('message', resolve) 
 setTimeout(resolve, 2000) }) * 1000}
 let uptime = clockString(_uptime)
-let bio = `𝘔𝘠𝘓𝘐𝘕𝘎-𝘉𝘖𝘛-𝘔𝘋 ✿「𝗧𝗜𝗘𝗠𝗣𝗢 𝗔𝗖𝗧𝗜𝗩𝗢」: ${uptime} 💫┆𝘊𝘖𝘔𝘈𝘕𝘋𝘖𝘚 𝘔𝘈𝘚 𝘜𝘚𝘈𝘋𝘖𝘚 - #menu #owner #verificar`
+let bio = `𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃 :: ${uptime} - 𝐙𝐊 𝐃𝐄𝐕`
 await this.updateProfileStatus(bio).catch(_ => _)
 setting.status = new Date() * 1
 } 
@@ -19,5 +19,5 @@ function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [d, ' » ', h, ' ・ ', m, ' ・ ', s].map(v => v.toString().padStart(2, 0)).join('') 
+  return [d, ' ⪼ ', h, ' ⪼ ', m, ' ⪼ ', s].map(v => v.toString().padStart(2, 0)).join('') 
 } 
