@@ -109,6 +109,7 @@ global.author = "♥️🎩⚠︎   シ︎𝑾𝒊𝒍𝖘𝒐𝒏シ︎  ⚠︎
 global.vs = "1.0.0"
 global.vsJB = "1.0 (Beta)"
 
+global.ds = "𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃"
 global.gt = "☆𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫☆"
 global.yt = "https://youtube.com/"
 global.yt2 = "https://www.youtube.com/shorts/"
