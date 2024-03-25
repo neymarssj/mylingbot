@@ -134,7 +134,7 @@ nnnttt5: 'https://chat.whatsapp.com/10',
 paypal: 'https://paypal.me/WilsonWaoz',
 asistencia: 'Wa.me/5492964650915', //Dudas? escríbeme...
 asistencia2: 't.me/MylingBot_DS_Bot', //Asistencia MylingBot-MD y Otros temas...
-}
+};
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
