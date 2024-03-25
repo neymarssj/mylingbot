@@ -11,7 +11,7 @@ if (!mime) throw `${mg} 𝙍𝙀𝙎𝙋𝙊𝙉𝘿𝘼 𝘼 𝙐𝙉𝘼 𝙄�
 let media = await q.download()
 let isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime)
 let link = await (isTele ? uploadImage : uploadFile)(media)
-let caption = `🛑 𝙀𝙉𝙇𝘼𝘾𝙀:\n${link}\n🥏 𝙏𝘼𝙈𝘼𝙉𝙊: ${media.length}\n🚀 𝙀𝙓𝙋𝙄𝙍𝘼𝘾𝙄𝙊𝙉: ${isTele ? '𝙉𝙊 𝙀𝙓𝙋𝙄𝙍𝘼' : '𝘿𝙀𝙎𝘾𝙊𝙉𝙊𝘾𝙄𝘿𝙊'}\n🔰 𝘼𝘾𝙊𝙍𝙏𝘼𝘿𝙊: ${await shortUrl(link)}`
+let caption = `🌐 𝙀𝙉𝙇𝘼𝘾𝙀:\n${link}\n📦 𝙏𝘼𝙈𝘼𝙉𝙊: ${media.length}\n🚀 𝙀𝙓𝙋𝙄𝙍𝘼𝘾𝙄𝙊𝙉: ${isTele ? '𝙉𝙊 𝙀𝙓𝙋𝙄𝙍𝘼' : '𝘿𝙀𝙎𝘾𝙊𝙉𝙊𝘾𝙄𝘿𝙊'}\n🔰 𝘼𝘾𝙊𝙍𝙏𝘼𝘿𝙊: ${await shortUrl(link)}`
 conn.reply(m.chat, caption, m, { contextInfo: {externalAdReply :{mediaUrl: md, mediaType: 2, title: wm, body: botdate, thumbnail: await(await fetch(link)).buffer(), sourceUrl: link }}})}
 handler.help = ['tourl']
 handler.tags = ['herramientas']
