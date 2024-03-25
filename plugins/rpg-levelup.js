@@ -81,11 +81,11 @@ let user = global.db.data.users[m.sender]
         throw `
 ╭─ ❖ ── *Level* ── ❖ ──╗
 ┃ *Nombre :* ${name}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *Nivel:* *${user.level}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *Rango:* ${user.role}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *XP:* *${user.exp - min}/${xp}*
 ╰─ ❖ ── ✦ ── ✦ ── ❖ ──╝
 
@@ -100,15 +100,15 @@ let user = global.db.data.users[m.sender]
         let str = `
 ╭─ ❖ ── *LevelUp* ── ❖ ──╗
 ┃ *NIVEL ANTERIOR:* *${before}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *NIVEL ACTUAL:* *${user.level}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *RANGO* ${user.role}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *FECHA:* *${new Date().toLocaleString('id-ID')}*
 ╰─ ❖ ── ✦ ── ✦ ── ❖ ──╝
 
-*_Cuanto más interactúes con KatashiBot-MD, mayor será tu nivel!!_*
+*_Cuanto más interactúes con MylingBot-MD, mayor será tu nivel!!_*
 *_Actualiza tú rango con el comando ${usedPrefix}rol!!_*
 `.trim()
         try {
