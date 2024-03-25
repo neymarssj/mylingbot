@@ -625,7 +625,7 @@ let menu = `
 ┃❀╰─────────────────❍
 ╰══════════════════⊷❍`.trim()
  
-const vi = ['https://telegra.ph/file/45c66b22615c030476cc0.jpg',
+const img = ['https://telegra.ph/file/45c66b22615c030476cc0.jpg',
 'https://telegra.ph/file/e43024f4f2d970e3c7cbf.png',
 'https://telegra.ph/file/40689ea4040746fd3d9d9.jpg']
 await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak })
