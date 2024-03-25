@@ -625,8 +625,7 @@ let menu = `
 ┃❀╰─────────────────❍
 ╰══════════════════⊷❍`.trim()
 await conn.sendFile(m.chat, "./Menu2.jpg" , menu, fkontak)
-await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: truTe, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak })
-	
+
 } catch (e) {
 await m.reply(lenguajeMY['smsMalError3']() + '\n*' + lenguajeMY.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeMY.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeMY.smsMensError2()} ` + usedPrefix + command)
 console.log(`❗❗ ${lenguajeMY['smsMensError2']()} ${usedPrefix + command} ❗❗`)
