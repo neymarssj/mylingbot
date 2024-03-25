@@ -134,7 +134,7 @@ global.nnnttt5 = 'https://chat.whatsapp.com/10'
 global.paypal = 'https://paypal.me/WilsonWaoz'
 global.asistencia = 'Wa.me/5492964650915' //Dudas? escríbeme...
 global.asistencia2 = 'Wa.me/5493795319022' //Asistencia MylingBot-MD y Otros temas...
-global.accountsmy = [cnl, nna, nn2, nn, nnn, nnnt, nnntt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, nnnttt5]
+// global.accountsmy = [cnl, nna, nn2, nn, nnn, nnnt, nnntt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, nnnttt5]
 // let selectedAccount = accountsmy[Math.floor(Math.random() * accountsmy.length)];
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
