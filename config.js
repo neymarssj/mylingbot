@@ -231,6 +231,7 @@ global.logogit = 'https://telegra.ph/file/75bbb5686e0dff952e79c.jpg'
 
 global.tagmd = 'https://telegra.ph/file/894e2ca457f185fc1a268.jpg'
 
+global.unity = ['https://telegra.ph/file/4df5e5acb792b18f282af.jpg', 'https://telegra.ph/file/2ec58abd9b31e4b40406e.png', 'https://telegra.ph/file/4f397f6c8bfddd9611354.jpg']
 global.welgata = [ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb]
 global.redesMenu = [cnl, nna, nn, nnn, nnnt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, md, ig, paypal, yt, asistencia, fb]
 global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18]
@@ -287,7 +288,7 @@ global.fgif = {
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
-global.multiplier = 60 // Cuanto más alto, más difícil subir de nivel | The higher, The harder levelup 
+global.multiplier = 150 // Cuanto más alto, más difícil subir de nivel | The higher, The harder levelup 
 
 //Emojis RPG - Referencias
 global.rpg = {
