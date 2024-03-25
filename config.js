@@ -116,24 +116,25 @@ global.ig = "https://www.instagram.com/"
 global.md = "https://github.com/WilsonOFC/MylingBot-MD/"
 global.fb = "https://www.facebook.com/WilsonWaoz"
 
-cnl = 'https://whatsapp.com/channel/1'
-nna = 'https://whatsapp.com/channel/2'
-nn2 = 'https://whatsapp.com/channel/3'
-nna2 = 'https://chat.whatsapp.com/1'
-nn = 'https://chat.whatsapp.com/2'
-nnn = 'https://chat.whatsapp.com/3'
-nnnt = 'https://chat.whatsapp.com/4'
-nnntt = 'https://chat.whatsapp.com/5'
-nnnttt = 'https://chat.whatsapp.com/LgxLCZwejjSFaeREilUo7r' //Grupo 5 - Anexados del infierno
-nnnttt1 = 'https://chat.whatsapp.com/6'
-nnnttt2 = 'https://chat.whatsapp.com/7'
-nnnttt3 = 'https://chat.whatsapp.com/8'
-nnnttt4 = 'https://chat.whatsapp.com/9'
-nnnttt5 = 'https://chat.whatsapp.com/10'
-paypal = 'https://paypal.me/WilsonWaoz'
-asistencia = 'Wa.me/5492964650915' //Dudas? escríbeme...
-asistencia2 = 't.me/MylingBot_DS_Bot' //Asistencia MylingBot-MD y Otros temas...
-
+global.accountsmy = {
+cnl: 'https://whatsapp.com/channel/1',
+nna: 'https://whatsapp.com/channel/2',
+nn2: 'https://whatsapp.com/channel/3',
+nna2: 'https://chat.whatsapp.com/1',
+nn: 'https://chat.whatsapp.com/2',
+nnn: 'https://chat.whatsapp.com/3',
+nnnt: 'https://chat.whatsapp.com/4',
+nnntt: 'https://chat.whatsapp.com/5',
+nnnttt: 'https://chat.whatsapp.com/LgxLCZwejjSFaeREilUo7r', //Grupo 5 - Anexados del infierno
+nnnttt1: 'https://chat.whatsapp.com/6',
+nnnttt2: 'https://chat.whatsapp.com/7',
+nnnttt3: 'https://chat.whatsapp.com/8',
+nnnttt4: 'https://chat.whatsapp.com/9',
+nnnttt5: 'https://chat.whatsapp.com/10',
+paypal: 'https://paypal.me/WilsonWaoz',
+asistencia: 'Wa.me/5492964650915', //Dudas? escríbeme...
+asistencia2: 't.me/MylingBot_DS_Bot', //Asistencia MylingBot-MD y Otros temas...
+}.getRandom()
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
@@ -233,7 +234,7 @@ global.redesMenu = [cnl, nna, nn, nnn, nnnt, nnntt, nnnttt, nnnttt1, nnnttt2, nn
 global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18]
 global.gataVidMenu = ['https://telegra.ph/file/e43024f4f2d970e3c7cbf.png', 'https://telegra.ph/file/45c66b22615c030476cc0.jpg', 'https://telegra.ph/file/5f861408375b072c4b3d8.jpg']
 global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13]
-global.accountsmy = [cnl, nna, nn2, nn, nnn, nnnt, nnntt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, nnnttt5, paypal, asistencia, asistencia2].getRandom()
+//global.accountsmy = [cnl, nna, nn2, nn, nnn, nnnt, nnntt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, nnnttt5, paypal, asistencia, asistencia2].getRandom()
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
