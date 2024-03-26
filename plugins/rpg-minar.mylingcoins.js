@@ -16,23 +16,23 @@ const fkontak = {
 
 let user = global.db.data.users[m.sender]
 let premium = user.premium  
-let minar = `${pickRandom(['Que pro 😎 has minado',
-'🌟✨ Genial!! Obtienes',
-'WOW!! eres un(a) gran Minero(a) ⛏️ Obtienes',
-'Has Minado!!',
-'😲 Lograste Minar la cantidad de',
-'Tus Ingresos subiran gracias a que minaste',
-'⛏️⛏️⛏️⛏️⛏️ Minando',
-'🤩 SII!!! AHORA TIENES',
-'La minaria esta de tu lado, por ello obtienes',
-'😻 La suerte de Minar',
+let minar = `${pickRandom(['🌹 MINASTE',
+'🌟✨ ¡VAMOS! MINASTE',
+'MINASTE TODA LA NOCHE Y OBTUVISTE',
+'¡QUE GRANDE! HAZ MINADO Y GANASTE',
+'¡WAOZ! MINASTE',
+'DISTE TU MAYOR ESFUERZO Y MINASTE',
+'¿NO TE DICEN MINADOR PROFESIONAL? GANASTE',
+'👻 SII!!! AHORA TIENES',
+'LA MINERIA ESTA PAGANDO MENOS PERO IGUAL GANASTE',
+'👻 MINASTE PARA MYLINGBOT-MD Y GANASTE',
 '♻️ Tu Mision se ha cumplido, lograste minar',
-'⛏️ La Mineria te ha beneficiado con',
-'🛣️ Has encontrado un Lugar y por minar dicho lugar Obtienes',
-'👾 Gracias a que has minado tus ingresos suman',
-'Felicidades!! Ahora tienes','⛏️⛏️⛏️ Obtienes'])}`
+'¡😼 SUERTUDO! GANASTE',
+'👻 MINANDO ENCONTRASTE UN TESORO Y PUEDES ABRIRLO CON:\n#cofre',
+'🌹 AHORA ERES MINADOR DORADO Y GANASTE',
+'FELICIDADES!! AHORA MINASTE'])}`
 
-let pp = 'https://telegra.ph/file/a1b6fab3ffffb320b3bd0.jpg'
+let pp = 'https://telegra.ph/file/074a772f461ee079cca42.png'
 
 let aqua = `${pickRandom([0, 2, 3, 1, 5])}` * 1
 let aquapremium = `${pickRandom([2, 4, 6, 7, 5, 9])}` * 1
