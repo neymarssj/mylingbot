@@ -286,17 +286,16 @@ let menu = `
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭═══〘卐 _Chat ANONIMO_ 卐〙═══⊷❍
-┃ _podras enviar mensajes a otra
-┃ _persona usando a Katashi bot_
+┏━━━━ CHAT ANÓNIMO ━━━━𖢖
+┃ _PODRAS ENVIAR SMS DE FORMA_
+┃ _PRIVADA A UNA ANONIMA CON MYLING_
 ┃
-┃☭│ _${usedPrefix}chatanonimo | anonimochat_
-┃☭│ _${usedPrefix}anonimoch_
-┃☭│ _${usedPrefix}start_
-┃☭│ _${usedPrefix}next_
-┃☭│ _${usedPrefix}leave_
-┃☭╰───────────────
-╰═════════════════════⊷
+┃𖤌 _${usedPrefix}chatanonimo | anonimochat_
+┃𖤌 _${usedPrefix}anonimoch_
+┃𖤌 _${usedPrefix}start_
+┃𖤌 _${usedPrefix}next_
+┃𖤌 _${usedPrefix}leave_
+┗━━━━━━━━━━━━━━━𖢖
  
 ╭════〘卐 _GRUPOS_ 卐〙════⊷❍
 │➢ _CONFIGURACION EN GRUPOS CON MYLINGBOT-MD_
