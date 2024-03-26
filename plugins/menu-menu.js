@@ -170,11 +170,12 @@ let menu = `
 ┗━━━━━━━━━━━━━━𖡛
 
 ┏━━━━━━ JUEGOS ━━━━━━━━𖡟
+┃_DIVIERTETE CON JUEGOS EN GRUPOS/PRIVADO_
 ┃
 ┃⧎ _${usedPrefix}trivia 
-│⧎ _${usedPrefix}acertijo_
-│⧎ _${usedPrefix}palabra | ordenar_
-│⧎ _${usedPrefix}pelicula | adv_
+┃⧎ _${usedPrefix}acertijo_
+┃⧎ _${usedPrefix}palabra | ordenar_
+┃⧎ _${usedPrefix}pelicula | adv_
 ┃⧎ _${usedPrefix}mates | matemáticas | math_
 ┃⧎ _${usedPrefix}ppt *piedra : papel : tijera*_
 ┃⧎ _${usedPrefix}lanzar *cara* | *cruz*_
@@ -214,46 +215,44 @@ let menu = `
 ┃⧎ _${usedPrefix}juegos_
 ┗━━━━━━━━━━━━━━━━𖡟
 
-╭═══〘卐 _IA KATASHI_ 卐〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _puedes buscar lo que deseas usando:_
-┃☭│ _${usedPrefix}simi | ia *texto*_
-┃☭│ _${usedPrefix}alexa | siri | cortana *texto*_ 
-┃☭│ _${usedPrefix}simsimi | bixby *texto*_
-┃☭╰───────────────
-╰═════════════════⊷
+┏━━━━ IA - MYLING ━━━━━━━━━𖤓
+┃*UTILIZA INTELIGENCIA ARTIFICIAL*
+┃ 
+┃𖤝 _${usedPrefix}simi | ia *texto*_
+┃𖤝 _${usedPrefix}alexa | siri | cortana *texto*_ 
+┃𖤝 _${usedPrefix}simsimi | bixby *texto*_
+╰═════════════════𖤓
 
-╭════≪𖤌 AJUSTES EN CHATS/GRUPOS 𖤌≫════⊷❍
-│➢ _PUEDES MEJORAR TUS GRUPOS CON MYLINGBOT-MD_
-┃☭│ _${usedPrefix}on *:* off *bienvenida | welcome*_
-┃☭│ _${usedPrefix}on *:* off *avisos | detect*_
-┃☭│ _${usedPrefix}on *:* off *autonivel | autolevelup*_
-┃☭│ _${usedPrefix}on *:* off *restringir | restrict*_
-┃☭│ _${usedPrefix}on *:* off *antillamar | anticall*_
-┃☭│ _${usedPrefix}on *:* off *publico | public*_
-┃☭│ _${usedPrefix}on *:* off *autovisto | autoread*_
-┃☭│ _${usedPrefix}on *:* off *temporal*_
-┃☭│ _${usedPrefix}on *:* off *stickers*_
-┃☭│ _${usedPrefix}on *:* off *autosticker*_
-┃☭│ _${usedPrefix}on *:* off *reacciones | reaction*_
-┃☭│ _${usedPrefix}on *:* off *audios*_
-┃☭│ _${usedPrefix}on *:* off *modocaliente | modohorny*_
-┃☭│ _${usedPrefix}on *:* off *antitoxicos | antitoxic*_
-┃☭│ _${usedPrefix}on *:* off *antiver | antiviewonce*_ 
-┃☭│ _${usedPrefix}on *:* off *antieliminar | antidelete*_ 
-┃☭│ _${usedPrefix}on *:* off *antinternacional | antifake*_
-┃☭│ _${usedPrefix}on *:* off *antienlace | antilink*_
-┃☭│ _${usedPrefix}on *:* off *antienlace2 | antilink2*_
-┃☭│ _${usedPrefix}on *:* off *antitiktok | antitk*_
-┃☭│ _${usedPrefix}on *:* off *antiyoutube | antiyt*_
-┃☭│ _${usedPrefix}on *:* off *antitelegram | antitel*_
-┃☭│ _${usedPrefix}on *:* off *antifacebook | antifb*_
-┃☭│ _${usedPrefix}on *:* off *antinstagram | antig*_
-┃☭│ _${usedPrefix}on *:* off *antitwitter | antitw*_
-┃☭│ _${usedPrefix}on *:* off *soloprivados | pconly*_
-┃☭│ _${usedPrefix}on *:* off *sologrupos | gconly*_
-┃☭╰─────────────────❍
-╰══════════════════════════⊷
+┏━━ GESTIONES DE GRUPOS ━━━━𖥂
+┃➢ _PUEDES MEJORAR TUS GRUPOS CON MYLINGBOT-MD_
+┃𖥳 _${usedPrefix}on *:* off *bienvenida | welcome*_
+┃𖥳 _${usedPrefix}on *:* off *avisos | detect*_
+┃𖥳 _${usedPrefix}on *:* off *autonivel | autolevelup*_
+┃𖥳 _${usedPrefix}on *:* off *restringir | restrict*_
+┃𖥳 _${usedPrefix}on *:* off *antillamar | anticall*_
+┃𖥳 _${usedPrefix}on *:* off *publico | public*_
+┃𖥳 _${usedPrefix}on *:* off *autovisto | autoread*_
+┃𖥳 _${usedPrefix}on *:* off *temporal*_
+┃𖥳 _${usedPrefix}on *:* off *stickers*_
+┃𖥳 _${usedPrefix}on *:* off *autosticker*_
+┃𖥳 _${usedPrefix}on *:* off *reacciones | reaction*_
+┃𖥳 _${usedPrefix}on *:* off *audios*_
+┃𖥳 _${usedPrefix}on *:* off *modocaliente | modohorny*_
+┃𖥳 _${usedPrefix}on *:* off *antitoxicos | antitoxic*_
+┃𖥳 _${usedPrefix}on *:* off *antiver | antiviewonce*_ 
+┃𖥳 _${usedPrefix}on *:* off *antieliminar | antidelete*_ 
+┃𖥳 _${usedPrefix}on *:* off *antinternacional | antifake*_
+┃𖥳 _${usedPrefix}on *:* off *antienlace | antilink*_
+┃𖥳 _${usedPrefix}on *:* off *antienlace2 | antilink2*_
+┃𖥳 _${usedPrefix}on *:* off *antitiktok | antitk*_
+┃𖥳 _${usedPrefix}on *:* off *antiyoutube | antiyt*_
+┃𖥳 _${usedPrefix}on *:* off *antitelegram | antitel*_
+┃𖥳 _${usedPrefix}on *:* off *antifacebook | antifb*_
+┃𖥳 _${usedPrefix}on *:* off *antinstagram | antig*_
+┃𖥳 _${usedPrefix}on *:* off *antitwitter | antitw*_
+┃𖥳 _${usedPrefix}on *:* off *soloprivados | pconly*_
+┃𖥳 _${usedPrefix}on *:* off *sologrupos | gconly*_
+┗━━━━━━━━━━━━━━━━━━━𖥂
 
 ╭════〘✲ _DESCARGAS_ ✮〙════⊷❍
 │➥ _DESCARGUE O BUSQUE TODO LO QUE QUIERA CON MYLINGBOT-MD_
