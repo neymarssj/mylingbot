@@ -57,41 +57,41 @@ let old = performance.now()
 
 let info = `╭━━━━[ ${gt} ]━━━━━⬣
 ┃➥ *CREADOR | CREATOR*
-┃ღ *𝑲𝒂𝒕𝒂𝒔𝒉𝒊 𝑭𝒖𝒌𝒖𝒔𝒉𝒊𝒎𝒂*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃ღ *シ︎𝑾𝒊𝒍𝖘𝒐𝒏シ︎*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *CONTACTO | CONTACT* 
 ┃ღ *${ig}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃𓃠 *VERSIÓN ACTUAL | VERSION*
 ┃ღ ${vs}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *PREFIJO | PREFIX*
 ┃ღ *${usedPrefix}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *CHATS PRIVADOS | PRIVATE CHAT*
 ┃ღ *${chats.length - groups.length}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *CHATS DE GRUPOS | GROUP CHAT*
 ┃ღ *${groups.length}* 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *CHATS EN TOTAL | TOTAL CHATS*
 ┃ღ *${chats.length}* 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *ACTIVIDAD | ACTIVITY*
 ┃ღ *${uptime}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *USUARIOS | USERS*
 ┃ღ *${totalreg}* 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *VELOCIDAD | SPEED*
 ┃ღ  *${speed}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *BOT SECUNDARIOS ACTIVOS | ACTIVE SECONDARY BACKS*
 ┃ღ *${totaljadibot.length}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *AUTOREAD*
 ┃ღ ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *RESTRICT* 
 ┃ღ ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'} 
 ┃
