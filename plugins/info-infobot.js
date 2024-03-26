@@ -62,7 +62,7 @@ let info = `╭━━━━[ ${gt} ]━━━━━⬣
 ┃➥ *CONTACTO | CONTACT* 
 ┃ღ *${ig}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃𓃠 *VERSIÓN ACTUAL | VERSION*
+┃👻 *VERSIÓN ACTUAL | VERSION*
 ┃ღ ${vs}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *PREFIJO | PREFIX*
@@ -86,7 +86,7 @@ let info = `╭━━━━[ ${gt} ]━━━━━⬣
 ┃➥ *VELOCIDAD | SPEED*
 ┃ღ  *${speed}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *BOT SECUNDARIOS ACTIVOS  | ACTIVE SECONDARY BACKS*
+┃➥ *BOT SECUNDARIOS ACTIVOS ┃ACTIVE SECONDARY BACKS*
 ┃ღ *${totaljadibot.length}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *AUTOREAD*
