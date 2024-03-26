@@ -222,7 +222,7 @@ let menu = `
 ┃𖤝 _${usedPrefix}simi | ia *texto*_
 ┃𖤝 _${usedPrefix}alexa | siri | cortana *texto*_ 
 ┃𖤝 _${usedPrefix}simsimi | bixby *texto*_
-┗━━━━━━━━━━━━━━𖤓
+┗━━━━━━━━━━━━━𖤓
 
 ┏━━━━ ON - OFF  ━━━━𖡛
 ┃ _PUEDES MEJORAR TUS GRUPOS CON MYLINGBOT-MD_
@@ -288,7 +288,7 @@ let menu = `
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-┏━━━ CHAT ANÓNIMO ━━━𖢖
+┏━━ CHAT ANÓNIMO ━━━𖢖
 ┃ _PODRAS ENVIAR SMS DE 
 ┃FORMA_
 ┃ _PRIVADA A UNA ANONIMA CON MYLING_
@@ -480,7 +480,7 @@ let menu = `
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-┏━━━━ AUDIOS ━━━━━━❖
+┏━━━ AUDIOS ━━━━━❖
 ┃ _SOLICITE EL MENU DE AUDIOS DE MYLINGBOT-MD_
 ┃ _USANDO EL COMANDO:_
 ┃ _${usedPrefix}audios_
@@ -547,11 +547,11 @@ let menu = `
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-┏━━━ TOP - LISTA GLOBAL ━━━━𖣔
-┃╭─────────────❍
+┏━━ TOP - LISTA GLOBAL ━━━𖣔
+┃╭─────────❍
 ┃│ 𖣐 _${usedPrefix}top | lb | leaderboard_
-┃╰─────────────❍
-┗━━━━━━━━━━━━━━━━━━━𖣔
+┃╰─────────❍
+┗━━━━━━━━━━━━━𖣔
 
 ╭════〘卐 _STICKERS_ 卐〙════⊷❍
 ┃☭╭──────────────❍
@@ -582,7 +582,7 @@ let menu = `
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-┏━━━━ ACCIONES - STICKERS ━━━━⫸
+┏━━━ ACCIONES - STICKERS ━━━━⫸
 ┃_JUEGOS CON STICKERS 👻_
 ┃
 ┃𖢗 _${usedPrefix}palmaditas | pat *@tag*_
@@ -591,9 +591,9 @@ let menu = `
 ┃𖢗 _${usedPrefix}besar | kiss *@tag*_ 
 ┃𖢗 _${usedPrefix}alimentar | food *@tag*_
 ┃
-╰══════════════⊷⫸
+┗━━━━━━━━━━━━━━⫸
 
-┏━━━━ CREADOR - OWNER ━━━━━🜲
+┏━━━ CREADOR - OWNER ━━━━🜲
 ┃ _COMANDOS QUE SOLO LOS PROPIETARIOS/OWNERS PUEDEN USAR.
 ┃
 ┃❀ _${usedPrefix}join *enlace*_
