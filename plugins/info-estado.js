@@ -10,15 +10,15 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let uptime = clockString(_uptime)
 let estado = `╭── ✦ ──『 𝙀𝙎𝙏𝘼𝘿𝙊 』── ✦ ── ❖ ──╗
 ┃✧ *¡Hola!* ${name}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
 ┃ *👻 MylingBot-MD 👻*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *ACTIVO DURANTE:* ${uptime}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *USUARIOS:* ${Object.keys(global.db.data.users).length} 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *CHATS PROHIBIDOS:* ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *USUARIOS PROHIBIDOS:* ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} 
 ╰─ ❖ ── ✦ ── ✧ ── ✦ ── ❖ ──╝`
 await conn.sendFile(m.chat, picture, 'Hola.mp3', estado, fkontak) // TESTEO CON ESTO DESPUES /*false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: ds, body: ' 𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫 ', previewType: 0, thumbnail: tagmd, sourceUrl: accountsmy }}})*/
