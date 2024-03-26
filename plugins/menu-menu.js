@@ -606,9 +606,7 @@ let menu = `
 ┃❀ _${usedPrefix}añadirdiamantes *@tag cantidad*_
 ┃❀ _${usedPrefix}añadirxp *@tag cantidad*_
 ┃❀ _${usedPrefix}añadirmylingcoins *@tag cantidad*_
-┗━━━━━━━━━━━━🜲
-
-ᬊ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙶𝙻 𝚈𝚃 𝙼𝚇 - 𝙳𝙴𝚅`.trim()
+┗━━━━━━━━━━━━🜲`.trim()
 
 const vi = ['https://telegra.ph/file/45c66b22615c030476cc0.jpg', 'https://telegra.ph/file/e43024f4f2d970e3c7cbf.png', 'https://telegra.ph/file/40689ea4040746fd3d9d9.jpg']
 await conn.sendMessage(m.chat, { image: { url: vi.getRandom() }, imgPlayback: true, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak })
