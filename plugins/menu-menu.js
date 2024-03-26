@@ -147,7 +147,7 @@ let menu = `
 ┗━━━━━━━━━━━━𖣘
 
 ┏━𖢻 𝐒𝐔𝐁 - 𝐁𝐎𝐓 𖢻━━━⚙︎
-┃ _CONVIERTE EN SUB - BOT
+┃ _CONVIERTE EN SUB - BOT_
 ┃𖤐 _${usedPrefix}serbot | jadibot_
 ┃𖤐 _${usedPrefix}serbot --code | jadicode_
 ┃𖤐 _${usedPrefix}infosubbot | infosub_
@@ -163,14 +163,14 @@ let menu = `
 ┃
 ┗━━━━━━━━━━𖡹
 
-┏━━━━━ PREMIUM ━━━━━━━𖡛
+┏━━━━ PREMIUM ━━━━𖡛
 ┃ _CONVIERTE EN USUARIO(A) PREMIUM_
 ┃𖢻 _${usedPrefix}listapremium | listprem_
 ┃𖢻 _${usedPrefix}pase premium_
 ┃𖢻 _${usedPrefix}pass premium_
 ┗━━━━━━━━━━━━━𖡛
 
-┏━━━━━ JUEGOS ━━━━━━𖡟
+┏━━━━ JUEGOS ━━━━𖡟
 ┃ _DIVIERTETE CON JUEGOS EN GRUPOS/PRIVADO_
 ┃
 ┃⧎ _${usedPrefix}trivia_
@@ -216,16 +216,16 @@ let menu = `
 ┃⧎ _${usedPrefix}juegos_
 ┗━━━━━━━━━━━━━𖡟
 
-┏━━━━ IA - MYLING ━━━━━━━𖤓
+┏━━━━ IA - MYLING ━━━━━𖤓
 ┃ *UTILIZA INTELIGENCIA ARTIFICIAL*
 ┃ 
 ┃𖤝 _${usedPrefix}simi | ia *texto*_
 ┃𖤝 _${usedPrefix}alexa | siri | cortana *texto*_ 
 ┃𖤝 _${usedPrefix}simsimi | bixby *texto*_
-╰═════════════════𖤓
+┗━━━━━━━━━━━━━━𖤓
 
-┏━━━━ ON - OFF  ━━━━𖥂
-┃➢ _PUEDES MEJORAR TUS GRUPOS CON MYLINGBOT-MD_
+┏━━━━ ON - OFF  ━━━━𖡛
+┃ _PUEDES MEJORAR TUS GRUPOS CON MYLINGBOT-MD_
 ┃
 ┃𖥳 _${usedPrefix}on *:* off *bienvenida | welcome*_
 ┃𖥳 _${usedPrefix}on *:* off *avisos | detect*_
@@ -254,7 +254,7 @@ let menu = `
 ┃𖥳 _${usedPrefix}on *:* off *antitwitter | antitw*_
 ┃𖥳 _${usedPrefix}on *:* off *soloprivados | pconly*_
 ┃𖥳 _${usedPrefix}on *:* off *sologrupos | gconly*_
-┗━━━━━━━━━━━━━━━━━━━𖥂
+┗━━━━━━━━━━━𖡛
 
 ╭════〘✲ _DESCARGAS_ ✮〙════⊷❍
 │➥ _DESCARGUE O BUSQUE TODO LO QUE QUIERA CON MYLINGBOT-MD_
@@ -480,12 +480,12 @@ let menu = `
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘卐 _MENU - AUDIOS_ 卐〙════⊷❍
-│ _SOLICITE EL MENU DE AUDIOS DE MYLINGBOT-MD_
+┏━━━━ AUDIOS ━━━━━━❖
+┃ _SOLICITE EL MENU DE AUDIOS DE MYLINGBOT-MD_
 ┃ _USANDO EL COMANDO:_
-┃☭│ _${usedPrefix}audios_
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+┃ _${usedPrefix}audios_
+┃
+┗━━━━━━━━━━━━❖
 
 ╭════〘卐 _✨ HERRAMIENTAS ✨_ 卐〙════⊷❍
 │☭╭──────────────❍
@@ -547,11 +547,11 @@ let menu = `
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭══〘卐 _TABLA DE CLASIFICACION_ 卐〙═⊷❍
-┃☭╭─────────────────❍
-┃☭│ _${usedPrefix}top | lb | leaderboard_
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+┏━━━ TOP - LISTA GLOBAL ━━━━𖣔
+┃╭─────────────❍
+┃│ 𖣐 _${usedPrefix}top | lb | leaderboard_
+┃╰─────────────❍
+┗━━━━━━━━━━━━━━━━━━━𖣔
 
 ╭════〘卐 _STICKERS_ 卐〙════⊷❍
 ┃☭╭──────────────❍
@@ -582,48 +582,52 @@ let menu = `
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘卐 _ACCIONES - STICKERS_ 卐〙════⊷❍
-┃☭╭────────────────────❍
-┃☭│ _${usedPrefix}palmaditas | pat *@tag*_
-┃☭│ _${usedPrefix}bofetada | slap *@tag*_
-┃☭│ _${usedPrefix}golpear *@tag*_
-┃☭│ _${usedPrefix}besar | kiss *@tag*_ 
-┃☭│ _${usedPrefix}alimentar | food *@tag*_
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+┏━━━━ ACCIONES - STICKERS ━━━━⫸
+┃_JUEGOS CON STICKERS 👻_
+┃
+┃𖢗 _${usedPrefix}palmaditas | pat *@tag*_
+┃𖢗 _${usedPrefix}bofetada | slap *@tag*_
+┃𖢗 _${usedPrefix}golpear *@tag*_
+┃𖢗 _${usedPrefix}besar | kiss *@tag*_ 
+┃𖢗 _${usedPrefix}alimentar | food *@tag*_
+┃
+╰══════════════⊷⫸
 
-╭════〘✿ _PARA MI CREADOR(A)_ ✿〙════⊷❍
-┃❀╭─────────────────────────❍
-┃❀│ _${usedPrefix}join *enlace*_
-┃❀│ _${usedPrefix}unete *enlace*_
-┃❀│ _${usedPrefix}dardiamantes *cantidad*_
-┃❀│ _${usedPrefix}darxp *cantidad*_
-┃❀│ _${usedPrefix}darkatacoins *cantidad*_ 
-┃❀│ _${usedPrefix}addprem | userpremium *@tag* *cantidad*_
-┃❀│ _${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*_
-┃❀│ _${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*_
-┃❀│ _${usedPrefix}addprem4 | userpremium4 *@tag* *cantidad*_
-┃❀│ _${usedPrefix}idioma | language_
-┃❀│ _${usedPrefix}cajafuerte_
-┃❀│ _${usedPrefix}comunicar | broadcastall | bc *texto*_
-┃❀│ _${usedPrefix}broadcastchats | bcc *texto*_
-┃❀│ _${usedPrefix}comunicarpv *texto*_
-┃❀│ _${usedPrefix}broadcastgc *texto*_ 
-┃❀│ _${usedPrefix}comunicargrupos *texto*_
-┃❀│ _${usedPrefix}borrartmp | cleartmp_
-┃❀│ _${usedPrefix}delexp *@tag*_
-┃❀│ _${usedPrefix}delkatacoins *@tag*_
-┃❀│ _${usedPrefix}deldiamantes *@tag*_
-┃❀│ _${usedPrefix}reiniciar | restart_
-┃❀│ _${usedPrefix}ctualizar | update_
-┃❀│ _${usedPrefix}addprem | +prem *@tag*_
-┃❀│ _${usedPrefix}delprem | -prem *@tag*_
-┃❀│ _${usedPrefix}listapremium | listprem_
-┃❀│ _${usedPrefix}añadirdiamantes *@tag cantidad*_
-┃❀│_${usedPrefix}añadirxp *@tag cantidad*_
-┃❀│ _${usedPrefix}añadirkatacoins *@tag cantidad*_
-┃❀╰─────────────────❍
-╰══════════════════⊷❍`.trim()
+┏━━━━ CREADOR - OWNER ━━━━━🜲
+┃ _COMANDOS QUE SOLO LOS PROPIETARIOS/OWNERS PUEDEN USAR.
+┃
+┃❀ _${usedPrefix}join *enlace*_
+┃❀ _${usedPrefix}unete *enlace*_
+┃❀ _${usedPrefix}dardiamantes *cantidad*_
+┃❀ _${usedPrefix}darxp *cantidad*_
+┃❀ _${usedPrefix}darkatacoins *cantidad*_ 
+┃❀ _${usedPrefix}addprem | userpremium *@tag* *cantidad*_
+┃❀ _${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*_
+┃❀ _${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*_
+┃❀ _${usedPrefix}addprem4 | userpremium4 *@tag* *cantidad*_
+┃❀ _${usedPrefix}idioma | language_
+┃❀ _${usedPrefix}cajafuerte_
+┃❀ _${usedPrefix}comunicar | broadcastall | bc *texto*_
+┃❀ _${usedPrefix}broadcastchats | bcc *texto*_
+┃❀ _${usedPrefix}comunicarpv *texto*_
+┃❀ _${usedPrefix}broadcastgc *texto*_ 
+┃❀ _${usedPrefix}comunicargrupos *texto*_
+┃❀ _${usedPrefix}borrartmp | cleartmp_
+┃❀ _${usedPrefix}delexp *@tag*_
+┃❀ _${usedPrefix}delkatacoins *@tag*_
+┃❀ _${usedPrefix}deldiamantes *@tag*_
+┃❀ _${usedPrefix}reiniciar | restart_
+┃❀ _${usedPrefix}ctualizar | update_
+┃❀ _${usedPrefix}addprem | +prem *@tag*_
+┃❀ _${usedPrefix}delprem | -prem *@tag*_
+┃❀ _${usedPrefix}listapremium | listprem_
+┃❀ _${usedPrefix}añadirdiamantes *@tag cantidad*_
+┃❀ _${usedPrefix}añadirxp *@tag cantidad*_
+┃❀ _${usedPrefix}añadirmylingcoins *@tag cantidad*_
+┃
+┗━━━━━━━━━━━━🜲
+
+ᬊ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙶𝙻 𝚈𝚃 𝙼𝚇 - 𝙳𝙴𝚅`.trim()
 
 const vi = ['https://telegra.ph/file/45c66b22615c030476cc0.jpg', 'https://telegra.ph/file/e43024f4f2d970e3c7cbf.png', 'https://telegra.ph/file/40689ea4040746fd3d9d9.jpg']
 await conn.sendMessage(m.chat, { image: { url: vi.getRandom() }, imgPlayback: true, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak })
