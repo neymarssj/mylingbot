@@ -28,7 +28,7 @@ let estado = `╭── ✦ ──『 𝙀𝙎𝙏𝘼𝘿𝙊 』── ✦ ─
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *USUARIOS PROHIBIDOS:* ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} 
 ╰─ ❖ ── ✦ ── ✧ ── ✦ ── ❖ ──╝`
-await conn.sendFile(m.chat, picture, 'Hola.mp3', estado, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: ds, body: ' 𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫 ', previewType: 0, thumbnail: gataMenu, sourceUrl: accountsmy }}})
+await conn.sendFile(m.chat, picture, 'Hola.mp3', estado, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: ds, body: ' 𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫 ', previewType: 0, thumbnail: tagmd, sourceUrl: accountsmy }}})
 /*let estado =`
 ╭━━━━[ *𝙀𝙎𝙏𝘼𝘿𝙊 | 𝙎𝙏𝘼𝙏𝙐𝙎* ]━━━━━⬣
 ┃💗 *¡Hola | Hi!* ${name}
