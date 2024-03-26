@@ -68,13 +68,13 @@ let info = `╭━━━━[ ${gt} ]━━━━━⬣
 ┃➥ *PREFIJO | PREFIX*
 ┃ღ *${usedPrefix}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS PRIVADOS | PRIVATE CHAT*
+┃➥ *CHATS PRIVADOS | PRIVATE ┃CHAT*
 ┃ღ *${chats.length - groups.length}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS DE GRUPOS | GROUP CHAT*
+┃➥ *CHATS DE GRUPOS | GROUP ┃CHAT*
 ┃ღ *${groups.length}* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS EN TOTAL | TOTAL CHATS*
+┃➥ *CHATS EN TOTAL | TOTAL ┃CHATS*
 ┃ღ *${chats.length}* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *ACTIVIDAD | ACTIVITY*
@@ -86,7 +86,7 @@ let info = `╭━━━━[ ${gt} ]━━━━━⬣
 ┃➥ *VELOCIDAD | SPEED*
 ┃ღ  *${speed}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *BOT SECUNDARIOS ACTIVOS | ACTIVE SECONDARY BACKS*
+┃➥ *BOT SECUNDARIOS ACTIVOS  | ACTIVE SECONDARY BACKS*
 ┃ღ *${totaljadibot.length}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *AUTOREAD*
