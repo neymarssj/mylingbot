@@ -93,7 +93,7 @@ let menu = `
 
 ᖫ━━━━━━━━━━━━━━ᖭ
 
-⪨━━❅•°• 𝐃𝐀𝐓𝐀 •°•❅━━⪩
+⪨━━━❅•°• 𝐃𝐀𝐓𝐀 •°•❅━━━⪩
 
 彡 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎𝐒 » ${rtotalreg}/${totalreg}
 彡 _${lenguajeMY['smsUptime']()}_ » _${uptime}_ 
@@ -116,12 +116,12 @@ let menu = `
 𖠰 ${lenguajeMY['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `» ღ *${lenguajeMY['smsResultPareja']()}*`}
 𖠰 𝐏𝐀𝐒𝐀𝐓𝐈𝐄𝐌𝐏𝐎(𝐒) ⧎ » ${user.pasatiempo === 0 ? 'SIN REGISTRO' : user.pasatiempo}
 
-ᖫ━━━•━━━━━•━━━ᖭ
+ᖫ━━━•━━━━━━•━━━ᖭ
 
 ·͙⁺˚•̩̩✩•̩̩˚⁺‧͙⁺˚•̩̩ - ✩•̩̩˚⁺‧͙⁺˚•̩̩✩•̩̩˚⁺‧͙·͙⁺˚•̩̩✩•̩̩˚⁺ ·͙⁺˚•̩̩✩•̩̩˚⁺
  ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒  🍒｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟﾟ･｡·͙⁺
 
-┏━━━━ 𝐓𝐔 𝐍𝐈𝐕𝐄𝐋 ━━━━◈
+┏━━━━ 𝐓𝐔 𝐍𝐈𝐕𝐄𝐋 ━━━━◉
 ┃꧁TU NIVEL CON MYLINGBOT-MD
 ┃
 ┃ _EXPERIENCIA ➟_ ${exp} ×͜×
@@ -130,7 +130,7 @@ let menu = `
 ┃ _TOKENS ➟_ ${joincount} ⧎
 ┗━━━━━━━━━━━━━◉
 
-┏━━━ 𝐈𝐍𝐅𝐎 - 𝐌𝐘 ━━━━⪼
+┏━━━ 𝐈𝐍𝐅𝐎 - 𝐌𝐘 ━━━━⪩
 ┃⏤͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞DESCUBRE TODA LA INFORMACION DE MYLINGBOT-MD
 ┃
 ┃𖥑 _${usedPrefix}cuentasmyling | cuentasmy_
@@ -144,24 +144,24 @@ let menu = `
 ┃𖥑 _${usedPrefix}velocidad | ping_      
 ┃𖥑 _términos y condiciones_
 ┃𖥑 _Bot_ 
-┗━━━━━━━━━━━━𖣘
+┗━━━━━━━━━━━━⪩
 
-┏━𖢻 𝐒𝐔𝐁 - 𝐁𝐎𝐓 𖢻━━━⚙︎
+┏━𖢻 𝐒𝐔𝐁 - 𝐁𝐎𝐓 𖢻━━━≫
 ┃ _CONVIERTE EN SUB - BOT_
 ┃𖤐 _${usedPrefix}serbot | jadibot_
 ┃𖤐 _${usedPrefix}serbot --code | jadicode_
 ┃𖤐 _${usedPrefix}infosubbot | infosub_
 ┃𖤐 _${usedPrefix}bots | listjadibots_
 ┃𖤐 _${usedPrefix}detener | stop_
-┗━━━━━━━━━━━━𖤍
+┗━━━━━━━━━━━━━≫
 
-┏━━ 𝐑𝐄𝐏𝐎𝐑𝐓𝐄𝐒 ━━𖡹
+┏━━ 𝐑𝐄𝐏𝐎𝐑𝐓𝐄𝐒 ━━⪼
 ┃
 ┃🜲 _${usedPrefix}reporte *texto*_
 ┃🜲
 ┃🜲 _REPORTE UN COMANDO, EN CASO DE QUE FALLE O TENGA ERRORES._
 ┃
-┗━━━━━━━━━━𖡹
+┗━━━━━━━━━━⪼
 
 ┏━━━━ PREMIUM ━━━━𖡛
 ┃ _CONVIERTE EN USUARIO(A) PREMIUM_
@@ -170,7 +170,7 @@ let menu = `
 ┃𖢻 _${usedPrefix}pass premium_
 ┗━━━━━━━━━━━━━𖡛
 
-┏━━━━ JUEGOS ━━━━𖡟
+┏━━━━ JUEGOS ━━━━𖤐
 ┃ _DIVIERTETE CON JUEGOS EN GRUPOS/PRIVADO_
 ┃
 ┃⧎ _${usedPrefix}trivia_
@@ -214,15 +214,15 @@ let menu = `
 ┃⧎ _${usedPrefix}verdad_
 ┃⧎ _${usedPrefix}reto_
 ┃⧎ _${usedPrefix}juegos_
-┗━━━━━━━━━━━━━𖡟
+┗━━━━━━━━━━━━━𖤐
 
-┏━━━━ IA - MYLING ━━━━━𖤓
+┏━━━━ IA - MYLING ━━━━━✵
 ┃ *UTILIZA INTELIGENCIA ARTIFICIAL*
 ┃ 
 ┃𖤝 _${usedPrefix}simi | ia *texto*_
 ┃𖤝 _${usedPrefix}alexa | siri | cortana *texto*_ 
 ┃𖤝 _${usedPrefix}simsimi | bixby *texto*_
-┗━━━━━━━━━━━━━𖤓
+┗━━━━━━━━━━━━━✵
 
 ┏━━━━ ON - OFF  ━━━━𖡛
 ┃ _PUEDES MEJORAR TUS GRUPOS CON MYLINGBOT-MD_
@@ -256,41 +256,40 @@ let menu = `
 ┃𖥳 _${usedPrefix}on *:* off *sologrupos | gconly*_
 ┗━━━━━━━━━━━𖡛
 
-╭════〘✲ _DESCARGAS_ ✮〙════⊷❍
+┏━━━ DESCARGAS ━━━⨳
 │➥ _DESCARGUE O BUSQUE TODO LO QUE QUIERA CON MYLINGBOT-MD_
-┃☭│ _${usedPrefix}imagen | image *texto*_
-┃☭│ _${usedPrefix}pinterest | dlpinterest *texto*_
-┃☭│ _${usedPrefix}wallpaper|wp *texto*_
-┃☭│ _${usedPrefix}play | play2 *texto o link*_
-┃☭│ _${usedPrefix}play.1 *texto o link*_
-┃☭│ _${usedPrefix}play.2 *texto o link*_ 
-┃☭│ _${usedPrefix}ytmp3 | yta *link*_ 
-┃☭│ _${usedPrefix}ytmp4 | ytv *link*_
-┃☭│ _${usedPrefix}pdocaudio | ytadoc *link*_
-┃☭│ _${usedPrefix}pdocvieo | ytvdoc *link*_
-┃☭│ _${usedPrefix}tw |twdl | twitter *link*_
-┃☭│ _${usedPrefix}facebook | fb *link*_
-┃☭│ _${usedPrefix}instagram *link video o imagen*_
-┃☭│ _${usedPrefix}verig | igstalk *usuario(a)*_
-┃☭│ _${usedPrefix}ighistoria | igstory *usuario(a)*_
-┃☭│ _${usedPrefix}tiktok *link*_
-┃☭│ _${usedPrefix}tiktokimagen | ttimagen *link*_
-┃☭│ _${usedPrefix}tiktokfoto | tiktokphoto *usuario(a)*_
-┃☭│ _${usedPrefix}vertiktok | tiktokstalk *usuario(a)*_
-┃☭│ _${usedPrefix}mediafire | dlmediafire *link*_
-┃☭│ _${usedPrefix}clonarepo | gitclone *link*_
-┃☭│ _${usedPrefix}clima *país ciudad*_
-┃☭│ _${usedPrefix}consejo_
-┃☭│ _${usedPrefix}morse codificar *texto*_
-┃☭│ _${usedPrefix}morse decodificar *morse*_
-┃☭│ _${usedPrefix}fraseromantica_
-┃☭│ _${usedPrefix}historia_
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+┃◮ _${usedPrefix}imagen | image *texto*_
+┃◮ _${usedPrefix}pinterest | dlpinterest *texto*_
+┃◮ _${usedPrefix}wallpaper|wp *texto*_
+┃◮ _${usedPrefix}play | play2 *texto o link*_
+┃◮ _${usedPrefix}play.1 *texto o link*_
+┃◮ _${usedPrefix}play.2 *texto o link*_ 
+┃◮ _${usedPrefix}ytmp3 | yta *link*_ 
+┃◮ _${usedPrefix}ytmp4 | ytv *link*_
+┃◮ _${usedPrefix}pdocaudio | ytadoc *link*_
+┃◮ _${usedPrefix}pdocvieo | ytvdoc *link*_
+┃◮ _${usedPrefix}tw |twdl | twitter *link*_
+┃◮ _${usedPrefix}facebook | fb *link*_
+┃◮ _${usedPrefix}instagram *link video o imagen*_
+┃◮ _${usedPrefix}verig | igstalk *usuario(a)*_
+┃◮ _${usedPrefix}ighistoria | igstory *usuario(a)*_
+┃◮ _${usedPrefix}tiktok *link*_
+┃◮ _${usedPrefix}tiktokimagen | ttimagen *link*_
+┃◮ _${usedPrefix}tiktokfoto | tiktokphoto *usuario(a)*_
+┃◮ _${usedPrefix}vertiktok | tiktokstalk *usuario(a)*_
+┃◮ _${usedPrefix}mediafire | dlmediafire *link*_
+┃◮ _${usedPrefix}clonarepo | gitclone *link*_
+┃◮ _${usedPrefix}clima *país ciudad*_
+┃◮ _${usedPrefix}consejo_
+┃◮ _${usedPrefix}morse codificar *texto*_
+┃◮ _${usedPrefix}morse decodificar *morse*_
+┃◮ _${usedPrefix}fraseromantica_
+┃◮ _${usedPrefix}historia_
+┗━━━━━━━━━━━━━━⨳
 
 ┏━━ CHAT ANÓNIMO ━━━𖢖
-┃ _PODRAS ENVIAR SMS DE 
-┃FORMA_
+┃ _PODRAS ENVIAR SMS DE_
+┃ _FORMA_
 ┃ _PRIVADA A UNA ANONIMA CON MYLING_
 ┃
 ┃𖤌 _${usedPrefix}chatanonimo | anonimochat_
