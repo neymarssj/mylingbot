@@ -109,7 +109,7 @@ termux-setup-storage
 apt update
 apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
-cd storage/downloads/MylingBot-MD-MD-master/MylingBot-MD-master 
+cd storage/downloads/MylingBot-MD/MylingBot-MD-master 
 yarn install
 npm install
 npm start
