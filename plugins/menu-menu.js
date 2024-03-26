@@ -147,7 +147,7 @@ let menu = `
 ┗━━━━━━━━━━━━𖣘
 
 ┏━𖢻 𝐒𝐔𝐁 - 𝐁𝐎𝐓 𖢻━━━⚙︎
-┃𖡦 CONVIERTE EN SUB - BOT
+┃ _CONVIERTE EN SUB - BOT
 ┃𖤐 _${usedPrefix}serbot | jadibot_
 ┃𖤐 _${usedPrefix}serbot --code | jadicode_
 ┃𖤐 _${usedPrefix}infosubbot | infosub_
@@ -160,19 +160,20 @@ let menu = `
 ┃🜲 _${usedPrefix}reporte *texto*_
 ┃🜲
 ┃🜲 _REPORTE UN COMANDO, EN CASO DE QUE FALLE O TENGA ERRORES._
+┃
 ┗━━━━━━━━━━𖡹
 
-┏━━━━━ PREMIUM ━━━━━━━━━𖡛
-┃𖢄 _CONVIERTE EN USUARIO(A) PREMIUM_
+┏━━━━━ PREMIUM ━━━━━━━𖡛
+┃ _CONVIERTE EN USUARIO(A) PREMIUM_
 ┃𖢻 _${usedPrefix}listapremium | listprem_
 ┃𖢻 _${usedPrefix}pase premium_
 ┃𖢻 _${usedPrefix}pass premium_
-┗━━━━━━━━━━━━━━𖡛
+┗━━━━━━━━━━━━━𖡛
 
-┏━━━━━━ JUEGOS ━━━━━━━━𖡟
-┃_DIVIERTETE CON JUEGOS EN GRUPOS/PRIVADO_
+┏━━━━━ JUEGOS ━━━━━━𖡟
+┃ _DIVIERTETE CON JUEGOS EN GRUPOS/PRIVADO_
 ┃
-┃⧎ _${usedPrefix}trivia 
+┃⧎ _${usedPrefix}trivia_
 ┃⧎ _${usedPrefix}acertijo_
 ┃⧎ _${usedPrefix}palabra | ordenar_
 ┃⧎ _${usedPrefix}pelicula | adv_
@@ -213,18 +214,19 @@ let menu = `
 ┃⧎ _${usedPrefix}verdad_
 ┃⧎ _${usedPrefix}reto_
 ┃⧎ _${usedPrefix}juegos_
-┗━━━━━━━━━━━━━━━━𖡟
+┗━━━━━━━━━━━━━𖡟
 
-┏━━━━ IA - MYLING ━━━━━━━━━𖤓
-┃*UTILIZA INTELIGENCIA ARTIFICIAL*
+┏━━━━ IA - MYLING ━━━━━━━𖤓
+┃ *UTILIZA INTELIGENCIA ARTIFICIAL*
 ┃ 
 ┃𖤝 _${usedPrefix}simi | ia *texto*_
 ┃𖤝 _${usedPrefix}alexa | siri | cortana *texto*_ 
 ┃𖤝 _${usedPrefix}simsimi | bixby *texto*_
 ╰═════════════════𖤓
 
-┏━━ GESTIONES DE GRUPOS ━━━━𖥂
+┏━━━━ ON - OFF  ━━━━𖥂
 ┃➢ _PUEDES MEJORAR TUS GRUPOS CON MYLINGBOT-MD_
+┃
 ┃𖥳 _${usedPrefix}on *:* off *bienvenida | welcome*_
 ┃𖥳 _${usedPrefix}on *:* off *avisos | detect*_
 ┃𖥳 _${usedPrefix}on *:* off *autonivel | autolevelup*_
@@ -286,8 +288,9 @@ let menu = `
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-┏━━━━ CHAT ANÓNIMO ━━━━𖢖
-┃ _PODRAS ENVIAR SMS DE FORMA_
+┏━━━ CHAT ANÓNIMO ━━━𖢖
+┃ _PODRAS ENVIAR SMS DE 
+┃FORMA_
 ┃ _PRIVADA A UNA ANONIMA CON MYLING_
 ┃
 ┃𖤌 _${usedPrefix}chatanonimo | anonimochat_
@@ -295,7 +298,7 @@ let menu = `
 ┃𖤌 _${usedPrefix}start_
 ┃𖤌 _${usedPrefix}next_
 ┃𖤌 _${usedPrefix}leave_
-┗━━━━━━━━━━━━━━━𖢖
+┗━━━━━━━━━━━━━𖢖
  
 ╭════〘卐 _GRUPOS_ 卐〙════⊷❍
 │➢ _CONFIGURACION EN GRUPOS CON MYLINGBOT-MD_
