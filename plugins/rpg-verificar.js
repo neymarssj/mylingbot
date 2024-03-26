@@ -552,7 +552,7 @@ registrando = false
 clearInterval(intervalId)	
 await conn.sendMessage(m.chat, {
 text: `🍃 \`\`\`VERIFICACIÓN EXITOSA\`\`\` 🍃
-*- - - - - - - - - - - - - - - - - - - - - - - - - -*\n
+*- - - - - - - - - - - - - - - - - - - - - - - - -*\n
 ✿ *REGISTRADO POR*
 ❱❱ 𝙈𝙔𝙇𝙄𝙉𝙂𝘽𝙊𝙏-𝙈𝘿
 ✿ *TIPO DE REGISTRO* 
