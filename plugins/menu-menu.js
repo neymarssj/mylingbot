@@ -93,33 +93,24 @@ let menu = `
 
 ᖫ━━━━━━━━━━━━━━ᖭ
 
-⪨━━━❅•°• 𝐃𝐀𝐓𝐀 •°•❅━━━⪩
+⪨━━❅•°• 𝐃𝐀𝐓𝐀 - 𝐔𝐒𝐄𝐑 •°•❅━━⪩
 
-彡 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎𝐒 » ${rtotalreg}/${totalreg}
+彡 𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑨𝑫𝑶𝑺 » ${rtotalreg}/${totalreg}
 彡 _${lenguajeMY['smsUptime']()}_ » _${uptime}_ 
 彡 _${lenguajeMY['smsVersion']()}_ » _${vs}_
 彡 _${lenguajeMY['smsMode']()}_ » _${global.opts['self'] ? `${lenguajeMY['smsModePrivate']().charAt(0).toUpperCase() + lenguajeMY['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeMY['smsModePublic']().charAt(0).toUpperCase() + lenguajeMY['smsModePublic']().slice(1).toLowerCase()}`}_
 彡 _${lenguajeMY['smsBanChats']()}_ » _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_
 
-⪨━•❅•°•━━━━━━━•°•❅•━⪩
-
----- 𝙼𝙾𝙳𝙴𝚁𝙼𝙴 𝙱𝚈 𝚆𝙸𝙻𝚂𝙾𝙽 ----
-
-ᖫ━━•❅•°• 𝐓𝐔 𝐈𝐍𝐅𝐎 •°•❅•━━ᖭ
-
-𖠰 𝐓𝐈𝐏𝐎 𝐃𝐄 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 » ${user.registered === true ? `${user.registroC === true ? '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖢𝖮𝖬𝖯𝖫𝖤𝖳𝖮' : '𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖱𝖠𝖯𝖨𝖣𝖮'}` : '✕ 𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮'}
-𖠰 𝐄𝐒𝐓𝐀𝐃𝐎 » ${typeof user.miestado !== 'string' ? '✕ ' + usedPrefix + 'MIESTADO' : '_ME SIENTO' + user.miestado + '_'}
-𖠰 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 » ${user.registered === true ? '✓' : '✕ ' + usedPrefix + 'VERIFICAR'}
-𖠰 ${lenguajeMY['smsBotonM7']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM7']().slice(1).toLowerCase()} » ${user.premiumTime > 0 ? '✓' : '✕ ' + usedPrefix + 'PASE PREMIUM'}
+𖠰 𝑻𝑰𝑷𝑶 𝑫𝑬 𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑶 » ${user.registered === true ? `${user.registroC === true ? '_𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖢𝖮𝖬𝖯𝖫𝖤𝖳𝖮_' : '_𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖱𝖠𝖯𝖨𝖣𝖮_'}` : '_✕ 𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮_'}
+𖠰 𝑬𝑺𝑻𝑨𝑫𝑶 » ${typeof user.miestado !== 'string' ? '✕ ' + usedPrefix + '_MIESTADO_' : '_ME SIENTO' + user.miestado + '_'}
+𖠰 𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑨𝑫𝑶 » ${user.registered === true ? '✓' : '✕ ' + usedPrefix + '_VERIFICAR_'}
+𖠰 ${lenguajeMY['smsBotonM7']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM7']().slice(1).toLowerCase()} » ${user.premiumTime > 0 ? '✓' : '✕ ' + usedPrefix + '_PASE PREMIUM_'}
 𖠰 ${lenguajeMY['smsBotonM5']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM5']().slice(1).toLowerCase()} » ${role}
 𖠰 ${lenguajeMY['smsBotonM6']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM6']().slice(1).toLowerCase()} » ${emoji} || ${user.exp - min}/${xp}
 𖠰 ${lenguajeMY['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `» ღ *${lenguajeMY['smsResultPareja']()}*`}
-𖠰 𝐏𝐀𝐒𝐀𝐓𝐈𝐄𝐌𝐏𝐎(𝐒) ⧎ » ${user.pasatiempo === 0 ? 'SIN REGISTRO' : user.pasatiempo}
+𖠰 𝑷𝑨𝑺𝑨𝑻𝑰𝑬𝑴𝑷𝑶(𝑺) ⧎ » ${user.pasatiempo === 0 ? 'SIN REGISTRO' : user.pasatiempo}
 
 ᖫ━━━•━━━━━━•━━━ᖭ
-
-·͙⁺˚•̩̩✩•̩̩˚⁺‧͙⁺˚•̩̩ - ✩•̩̩˚⁺‧͙⁺˚•̩̩✩•̩̩˚⁺‧͙·͙⁺˚•̩̩✩•̩̩˚⁺ ·͙⁺˚•̩̩✩•̩̩˚⁺
- ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒  🍒｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟﾟ･｡·͙⁺
 
 ┏━━━━ 𝐓𝐔 𝐍𝐈𝐕𝐄𝐋 ━━━━◉
 ┃꧁TU NIVEL CON MYLINGBOT-MD
@@ -129,6 +120,12 @@ let menu = `
 ┃ _MYLINGCOINS ➟_ ${money} ⫹⫺
 ┃ _TOKENS ➟_ ${joincount} ⧎
 ┗━━━━━━━━━━━━━◉
+
+◆ ⃟ ⃟ ░▒▓  ҈ ҈ ҈ ҈ ⃟ ♧ ⃟  ҈ ҈ ҈ ҈▓▒░ ⃟ ⃟ ◆
+
+---- 𝙼𝙾𝙳𝙴𝚁𝙼𝙴 𝙱𝚈 𝚆𝙸𝙻𝚂𝙾𝙽 ----
+
+◆ ⃟ ⃟ ░▒▓  ҈ ҈ ҈ ҈ ⃟ ♧ ⃟  ҈ ҈ ҈ ҈▓▒░ ⃟ ⃟ ◆
 
 ┏━━━ 𝐈𝐍𝐅𝐎 - 𝐌𝐘 ━━━━⪩
 ┃⏤͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞DESCUBRE TODA LA INFORMACION DE MYLINGBOT-MD
@@ -146,7 +143,7 @@ let menu = `
 ┃𖥑 _Bot_ 
 ┗━━━━━━━━━━━━⪩
 
-┏━𖢻 𝐒𝐔𝐁 - 𝐁𝐎𝐓 𖢻━━━≫
+┏━𖢻 𝐒𝐔𝐁 - 𝐁𝐎𝐓 𖢻━━━━━≫
 ┃ _CONVIERTE EN SUB - BOT_
 ┃𖤐 _${usedPrefix}serbot | jadibot_
 ┃𖤐 _${usedPrefix}serbot --code | jadicode_
@@ -155,16 +152,17 @@ let menu = `
 ┃𖤐 _${usedPrefix}detener | stop_
 ┗━━━━━━━━━━━━━≫
 
-┏━━ 𝐑𝐄𝐏𝐎𝐑𝐓𝐄𝐒 ━━⪼
+┏━━ 𝐑𝐄𝐏𝐎𝐑𝐓𝐄𝐒 ━━━━⪼
 ┃
 ┃🜲 _${usedPrefix}reporte *texto*_
 ┃🜲
 ┃🜲 _REPORTE UN COMANDO, EN CASO DE QUE FALLE O TENGA ERRORES._
 ┃
-┗━━━━━━━━━━⪼
+┗━━━━━━━━━━━⪼
 
 ┏━━━━ PREMIUM ━━━━𖡛
 ┃ _CONVIERTE EN USUARIO(A) PREMIUM_
+┃
 ┃𖢻 _${usedPrefix}listapremium | listprem_
 ┃𖢻 _${usedPrefix}pase premium_
 ┃𖢻 _${usedPrefix}pass premium_
@@ -257,7 +255,8 @@ let menu = `
 ┗━━━━━━━━━━━𖡛
 
 ┏━━━ DESCARGAS ━━━⨳
-│➥ _DESCARGUE O BUSQUE TODO LO QUE QUIERA CON MYLINGBOT-MD_
+┃➥ _DESCARGUE O BUSQUE TODO LO QUE QUIERA CON MYLINGBOT-MD_
+┃
 ┃◮ _${usedPrefix}imagen | image *texto*_
 ┃◮ _${usedPrefix}pinterest | dlpinterest *texto*_
 ┃◮ _${usedPrefix}wallpaper|wp *texto*_
@@ -285,7 +284,7 @@ let menu = `
 ┃◮ _${usedPrefix}morse decodificar *morse*_
 ┃◮ _${usedPrefix}fraseromantica_
 ┃◮ _${usedPrefix}historia_
-┗━━━━━━━━━━━━━━⨳
+┗━━━━━━━━━━━━━⨳
 
 ┏━━ CHAT ANÓNIMO ━━━𖢖
 ┃ _PODRAS ENVIAR SMS DE_
@@ -357,12 +356,9 @@ let menu = `
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍ 
  
-╭════〘卐 _Comandos +18_ 卐〙════⊷❍
-│🜲╭──────────────❍
-│🜲│_COMANDOS +18_
-┃🜲│_${usedPrefix}hornymenu_ 
-┃🜲╰──────────────❍
-╰══════════════════⊷❍
+┏━━━━━━━━━━▤
+┃◐ _${usedPrefix}hornymenu_
+┗━━━━━━━━━━▤
  
 ╭════〘卐 _CONVERTIDORES_ 卐〙════⊷❍
 │
