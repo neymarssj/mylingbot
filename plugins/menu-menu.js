@@ -162,59 +162,57 @@ let menu = `
 ┃🜲 _REPORTE UN COMANDO, EN CASO DE QUE FALLE O TENGA ERRORES._
 ┗━━━━━━━━━━𖡹
 
-╭═══⟬𖣘 _USUARIO(A) PREMIUM_ 𖣘⟭═══⊷❍
-┃◈╭──────────────
-┃◈│ _${usedPrefix}listapremium | listprem_
-┃◈│ _${usedPrefix}pase premium_
-┃◈│ _${usedPrefix}pass premium_
-┃◈╰───────────────
-╰═════════════════⊷
+┏━━━━━ PREMIUM ━━━━━━━━━𖡛
+┃𖢄 _CONVIERTE EN USUARIO(A) PREMIUM_
+┃𖢻 _${usedPrefix}listapremium | listprem_
+┃𖢻 _${usedPrefix}pase premium_
+┃𖢻 _${usedPrefix}pass premium_
+┗━━━━━━━━━━━━━━𖡛
 
-╭════〘𖢻 _ENTRETENIMIENTO_ 𖢻〙════⊷❍
-│
-│☭│ _${usedPrefix}trivia 
-│☭│ _${usedPrefix}acertijo_
-│☭│ _${usedPrefix}palabra | ordenar_
-│☭│ _${usedPrefix}pelicula | adv_
-┃☭│ _${usedPrefix}mates | matemáticas | math_
-┃☭│ _${usedPrefix}ppt *piedra : papel : tijera*_
-┃☭│ _${usedPrefix}lanzar *cara* | *cruz*_
-┃☭│ _${usedPrefix}tictactoe | ttt *sala*_
-┃☭│ _${usedPrefix}deltictactoe | delttt_
-┃☭│ _${usedPrefix}topgays_
-┃☭│ _${usedPrefix}topotakus_
-┃☭│ _${usedPrefix}toppajer@s_
-┃☭│ _${usedPrefix}topput@s_ 
-┃☭│ _${usedPrefix}topintegrantes | topintegrante_
-┃☭│ _${usedPrefix}toplagrasa | topgrasa_
-┃☭│ _${usedPrefix}toppanafrescos | toppanafresco_
-┃☭│ _${usedPrefix}topshiposters | topshipost_
-┃☭│ _${usedPrefix}toplindos | toplind@s_ 
-┃☭│ _${usedPrefix}topfamosos | topfamos@s_
-┃☭│ _${usedPrefix}topparejas | top5parejas_ 
-┃☭│ _${usedPrefix}gay | gay *@tag*_ 
-┃☭│ _${usedPrefix}gay2 *nombre : @tag*_ 
-┃☭│ _${usedPrefix}lesbiana *nombre : @tag*_ 
-┃☭│ _${usedPrefix}manca *nombre : @tag*_
-┃☭│ _${usedPrefix}manco *nombre : @tag*_
-┃☭│ _${usedPrefix}pajero *nombre : @tag*_
-┃☭│ _${usedPrefix}pajera *nombre : @tag*_
-┃☭│ _${usedPrefix}puto *nombre : @tag*_
-┃☭│ _${usedPrefix}puta *nombre : @tag*_
-┃☭│ _${usedPrefix}rata *nombre : @tag*_
-┃☭│ _${usedPrefix}love *nombre : @tag*_
-┃☭│ _${usedPrefix}ship | shipear *nombre1 nombre2*_
-┃☭│ _${usedPrefix}doxear *nombre : @tag*_
-┃☭│ _${usedPrefix}doxxeame_
-┃☭│ _${usedPrefix}apostar | slot *cantidad*_
-┃☭│ _${usedPrefix}pregunta *texto*_
-┃☭│ _${usedPrefix}formarpareja_ 
-┃☭│ _${usedPrefix}dado_
-┃☭│ _${usedPrefix}verdad_
-┃☭│ _${usedPrefix}reto_
-┃☭│ _${usedPrefix}juegos_
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+┏━━━━━━ JUEGOS ━━━━━━━━𖡟
+┃
+┃⧎ _${usedPrefix}trivia 
+│⧎ _${usedPrefix}acertijo_
+│⧎ _${usedPrefix}palabra | ordenar_
+│⧎ _${usedPrefix}pelicula | adv_
+┃⧎ _${usedPrefix}mates | matemáticas | math_
+┃⧎ _${usedPrefix}ppt *piedra : papel : tijera*_
+┃⧎ _${usedPrefix}lanzar *cara* | *cruz*_
+┃⧎ _${usedPrefix}tictactoe | ttt *sala*_
+┃⧎ _${usedPrefix}deltictactoe | delttt_
+┃⧎ _${usedPrefix}topgays_
+┃⧎ _${usedPrefix}topotakus_
+┃⧎ _${usedPrefix}toppajer@s_
+┃⧎ _${usedPrefix}topput@s_ 
+┃⧎ _${usedPrefix}topintegrantes | topintegrante_
+┃⧎ _${usedPrefix}toplagrasa | topgrasa_
+┃⧎ _${usedPrefix}toppanafrescos | toppanafresco_
+┃⧎ _${usedPrefix}topshiposters | topshipost_
+┃⧎ _${usedPrefix}toplindos | toplind@s_ 
+┃⧎ _${usedPrefix}topfamosos | topfamos@s_
+┃⧎ _${usedPrefix}topparejas | top5parejas_ 
+┃⧎ _${usedPrefix}gay | gay *@tag*_ 
+┃⧎ _${usedPrefix}gay2 *nombre : @tag*_ 
+┃⧎ _${usedPrefix}lesbiana *nombre : @tag*_ 
+┃⧎ _${usedPrefix}manca *nombre : @tag*_
+┃⧎ _${usedPrefix}manco *nombre : @tag*_
+┃⧎ _${usedPrefix}pajero *nombre : @tag*_
+┃⧎ _${usedPrefix}pajera *nombre : @tag*_
+┃⧎ _${usedPrefix}puto *nombre : @tag*_
+┃⧎ _${usedPrefix}puta *nombre : @tag*_
+┃⧎ _${usedPrefix}rata *nombre : @tag*_
+┃⧎ _${usedPrefix}love *nombre : @tag*_
+┃⧎ _${usedPrefix}ship | shipear *nombre1 nombre2*_
+┃⧎ _${usedPrefix}doxear *nombre : @tag*_
+┃⧎ _${usedPrefix}doxxeame_
+┃⧎ _${usedPrefix}apostar | slot *cantidad*_
+┃⧎ _${usedPrefix}pregunta *texto*_
+┃⧎ _${usedPrefix}formarpareja_ 
+┃⧎ _${usedPrefix}dado_
+┃⧎ _${usedPrefix}verdad_
+┃⧎ _${usedPrefix}reto_
+┃⧎ _${usedPrefix}juegos_
+┗━━━━━━━━━━━━━━━━𖡟
 
 ╭═══〘卐 _IA KATASHI_ 卐〙═══⊷❍
 ┃☭╭──────────────
