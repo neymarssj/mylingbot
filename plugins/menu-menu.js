@@ -159,7 +159,6 @@ let menu = `
 ┃🜲 _${usedPrefix}reporte *texto*_
 ┃🜲
 ┃🜲 _REPORTE UN COMANDO, EN CASO DE QUE FALLE O TENGA ERRORES._
-┃
 ┗━━━━━━━━━━━⪼
 
 ┏━━━━ PREMIUM ━━━━𖡛
@@ -336,62 +335,55 @@ let menu = `
 ┃❍ _${usedPrefix}off_   
 ┗━━━━━━━━━━━❍
  
-╭════〘💕 _PAREJAS_ 💕〙════⊷❍
-│🌟 _ENCUENTRA TU PAREJA 💕_
-┃☭│ _${usedPrefix}listaparejas | listship_
-┃☭│ _${usedPrefix}mipareja | mylove_
-┃☭│ _${usedPrefix}pareja | couple *@tag*_
-┃☭│ _${usedPrefix}aceptar | accept *@tag*_
-┃☭│ _${usedPrefix}rechazar | decline *@tag*_
-┃☭│ _${usedPrefix}terminar | finish *@tag*_
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+┏━━ PAREJAS (INFIELES) ━━𖡍
+┃🌟 _ENCUENTRA TU PAREJA 💕_
+┃
+┃𖡨 _${usedPrefix}listaparejas | listship_
+┃𖡨 _${usedPrefix}mipareja | mylove_
+┃𖡨 _${usedPrefix}pareja | couple *@tag*_
+┃𖡨 _${usedPrefix}aceptar | accept *@tag*_
+┃𖡨 _${usedPrefix}rechazar | decline *@tag*_
+┃𖡨 _${usedPrefix}terminar | finish *@tag*_
+┗━━━━━━━━━━━━━━𖡍
  
-╭════〘卐 _Votaciones en grupos_ 卐〙════⊷❍
-│⭐ _REALIZA ENCUESTAS/VOTACIONES EN TUS GRUPOS_
-┃☭│ _${usedPrefix}crearvoto | startvoto *texto*_ 
-┃☭│ _${usedPrefix}sivotar | upvote_ 
-┃☭│ _${usedPrefix}novotar | devote_ 
-┃☭│ _${usedPrefix}vervotos | cekvoto_
-┃☭│ _${usedPrefix}delvoto | deletevoto_ 
-┃☭╰─────────────────❍
-╰══════════════════⊷❍ 
+┏━━ VOTACIONES ━━━◈
+┃⭐ _REALIZA ENCUESTAS/VOTACIONES EN TUS GRUPOS_
+┃
+┃✰ _${usedPrefix}crearvoto | startvoto *texto*_ 
+┃✰ _${usedPrefix}sivotar | upvote_ 
+┃✰ _${usedPrefix}novotar | devote_ 
+┃✰ _${usedPrefix}vervotos | cekvoto_
+┃✰ _${usedPrefix}delvoto | deletevoto_ 
+┗━━━━━━━━━━━━━◈
  
 ┏━━ MENU +18 ━━━━━━━▤
 ┃◐ _${usedPrefix}hornymenu_
 ┗━━━━━━━━━━━━━━━▤
  
-╭════〘卐 _CONVERTIDORES_ 卐〙════⊷❍
-│
-┃☭│ _${usedPrefix}toimg | img | jpg *sticker*_ 
-┃☭│ _${usedPrefix}toanime | jadianime *foto*_
-┃☭│ _${usedPrefix}tomp3 | mp3 *video o nota de voz*_
-┃☭│ _${usedPrefix}tovn | vn *video o audio*_
-┃☭│ _${usedPrefix}tovideo *audio*_
-┃☭│ _${usedPrefix}tourl *video, imagen*_
-┃☭│ _${usedPrefix}toenlace  *video, imagen o audio*_
-┃☭│ _${usedPrefix}tts es *texto*_
-┃☭╰─────────────────❍
-╰══════════════════⊷❍ 
- 
-╭════〘卐 _LOGOS - ICONOS_ 卐〙════⊷❍
-│☭╭─────────────────
-┃☭│ _${usedPrefix}logos *efecto texto*_
-┃☭│ _${usedPrefix}menulogos2_
-┃☭╰─────────────────
-╰══════════════════⊷❍
+┏━━━ CONVERTIDORES ━━━𖣥
+┃
+┃✯ _${usedPrefix}toimg | img | jpg *sticker*_ 
+┃✯ _${usedPrefix}toanime | jadianime *foto*_
+┃✯ _${usedPrefix}tomp3 | mp3 *video o nota de voz*_
+┃✯ _${usedPrefix}tovn | vn *video o audio*_
+┃✯ _${usedPrefix}tovideo *audio*_
+┃✯ _${usedPrefix}tourl *video, imagen*_
+┃✯ _${usedPrefix}toenlace  *video, imagen o audio*_
+┃✯ _${usedPrefix}tts es *texto*_
+┃✯ _${usedPrefix}logos *efecto texto*_
+┃✯ _${usedPrefix}menulogos2_
+┗━━━━━━━━━━━━━━𖣥
 
-╭════〘卐 _EFECTOS - IMP_ 卐〙════⊷❍
-│☭╭─────────────────❍
-┃☭│ _${usedPrefix}simpcard *@tag*_
-┃☭│ _${usedPrefix}hornycard *@tag*_
-┃☭│ _${usedPrefix}lolice *@tag*_
-┃☭│ _${usedPrefix}ytcomment *texto*_
-┃☭│ _${usedPrefix}itssostupid_
-┃☭│ _${usedPrefix}pixelar_
-┃☭│ _${usedPrefix}blur_
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+┏━━ EFECTOS ━━━⨷
+┃
+┃⊛ _${usedPrefix}simpcard *@tag*_
+┃⊛ _${usedPrefix}hornycard *@tag*_
+┃⊛ _${usedPrefix}lolice *@tag*_
+┃⊛ _${usedPrefix}ytcomment *texto*_
+┃⊛ _${usedPrefix}itssostupid_
+┃⊛ _${usedPrefix}pixelar_
+┃⊛ _${usedPrefix}blur_
+┗━━━━━━━━━━━⨷
 
 ┏━━━ IMAGENES - SFG ━━━✿
 ┃_MIRA IMAGENES DE TU ANIME O IDOLO(A) FAVORITA_
@@ -464,83 +456,80 @@ let menu = `
 ┃✧ _${usedPrefix}tupai_
 ┗━━━━━━━━━━◎
 
-╭════〘卐 _BUSQUEDAS_ 卐〙════⊷❍
-│☭╭──────────────❍
-┃☭│ _${usedPrefix}animeinfo *texto*_
-┃☭│ _${usedPrefix}mangainfo *texto*_
-┃☭│ _${usedPrefix}google *texto*_
-┃☭│ _${usedPrefix}letra | lirik *texto*_
-┃☭│ _${usedPrefix}ytsearch | yts *texto*_
-┃☭│ _${usedPrefix}wiki | wikipedia *texto*_
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+┏━━ BUSQUEDAS ━━▣
+┃
+┃𖤛 _${usedPrefix}animeinfo *texto*_
+┃𖤛 _${usedPrefix}mangainfo *texto*_
+┃𖤛 _${usedPrefix}google *texto*_
+┃𖤛 _${usedPrefix}letra | lirik *texto*_
+┃𖤛 _${usedPrefix}ytsearch | yts *texto*_
+┃𖤛 _${usedPrefix}wiki | wikipedia *texto*_
+┗━━━━━━━━━▣
 
 ┏━━━ AUDIOS ━━━━━❖
-┃ _SOLICITE EL MENU DE AUDIOS DE MYLINGBOT-MD_
-┃ _USANDO EL COMANDO:_
-┃ _${usedPrefix}audios_
-┃
+┃✠ _SOLICITE EL MENU DE AUDIOS DE MYLINGBOT-MD_
+┃✠ _USANDO EL COMANDO:_
+┃✠ _${usedPrefix}audios_
 ┗━━━━━━━━━━━━❖
 
-╭════〘卐 _✨ HERRAMIENTAS ✨_ 卐〙════⊷❍
-│☭╭──────────────❍
-┃☭│ _${usedPrefix}afk *motivo*_
-┃☭│ _${usedPrefix}acortar *url*_
-┃☭│ _${usedPrefix}calc *operacion math*_
-┃☭│ _${usedPrefix}del *respondre a mensaje del Bot*_
-┃☭│ _${usedPrefix}qrcode *texto*_
-┃☭│ _${usedPrefix}readmore *texto1|texto2*_
-┃☭│ _${usedPrefix}spamwa *numero|texto|cantidad*_
-┃☭│ _${usedPrefix}styletext *texto*_
-┃☭│ _${usedPrefix}traducir *texto*_
-┃☭│ _${usedPrefix}morse codificar *texto*_
-┃☭│ _${usedPrefix}morse decodificar *morse*_
-┃☭│ _${usedPrefix}encuesta | poll *Motivo*_
-┃☭│ _${usedPrefix}horario_
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+┏━━ HERRAMIENTAS ━━𖣨
+┃
+┃◭ _${usedPrefix}afk *motivo*_
+┃◭ _${usedPrefix}acortar *url*_
+┃◭ _${usedPrefix}calc *operacion math*_
+┃◭ _${usedPrefix}del *respondre a mensaje del Bot*_
+┃◭ _${usedPrefix}qrcode *texto*_
+┃◭ _${usedPrefix}readmore *texto1|texto2*_
+┃◭ _${usedPrefix}spamwa *numero|texto|cantidad*_
+┃◭ _${usedPrefix}styletext *texto*_
+┃◭ _${usedPrefix}traducir *texto*_
+┃◭ _${usedPrefix}morse codificar *texto*_
+┃◭ _${usedPrefix}morse decodificar *morse*_
+┃◭ _${usedPrefix}encuesta | poll *Motivo*_
+┃◭ _${usedPrefix}horario_
+┗━━━━━━━━━━━━𖣨
 
-╭════〘卐 _RPG - SUBIR DE NIVEL_ 卐〙════⊷❍
-┃☭╭─────────────────────────❍
-┃☭│ _${usedPrefix}botemporal *enlace* *cantidad*_
-┃☭│ _${usedPrefix}addbot *enlace* *cantidad*_
-┃☭│ _${usedPrefix}pase premium_
-┃☭│ _${usedPrefix}pass premium_
-┃☭│ _${usedPrefix}listapremium | listprem_
-┃☭│ _${usedPrefix}transfer *tipo cantidad @tag*_
-┃☭│ _${usedPrefix}dar *tipo cantidad @tag*_
-┃☭│ _${usedPrefix}enviar *tipo cantidad @tag*_
-┃☭│ _${usedPrefix}balance_
-┃☭│ _${usedPrefix}cartera | wallet_ 
-┃☭│ _${usedPrefix}experiencia | exp_
-┃☭│ _${usedPrefix}top | lb | leaderboard_
-┃☭│ _${usedPrefix}nivel | level | lvl_
-┃☭│ _${usedPrefix}rol | rango_
-┃☭│ _${usedPrefix}inventario | inventory_ 
-┃☭│ _${usedPrefix}aventura | adventure_ 
-┃☭│ _${usedPrefix}caza | cazar | hunt_
-┃☭│ _${usedPrefix}pescar | fishing_
-┃☭│ _${usedPrefix}animales_ 
-┃☭│ _${usedPrefix}alimentos_
-┃☭│ _${usedPrefix}curar | heal_
-┃☭│ _${usedPrefix}buy_
-┃☭│ _${usedPrefix}sell_
-┃☭│ _${usedPrefix}verificar | registrar_
-┃☭│ _${usedPrefix}perfil | profile_
-┃☭│ _${usedPrefix}myns_
-┃☭│ _${usedPrefix}unreg *numero de serie*_
-┃☭│ _${usedPrefix}minardiamantes | minargemas_
-┃☭│ _${usedPrefix}minargatacoins | minarcoins_
-┃☭│ _${usedPrefix}minarexperiencia | minarexp_
-┃☭│ _${usedPrefix}minar *:* minar2 *:* minar3_
-┃☭│ _${usedPrefix}reclamar | regalo | claim_
-┃☭│ _${usedPrefix}cadahora | hourly_
-┃☭│ _${usedPrefix}cadasemana | semanal | weekly_
-┃☭│ _${usedPrefix}cadames | mes | monthly_
-┃☭│ _${usedPrefix}cofre | abrircofre | coffer_
-┃☭│ _${usedPrefix}trabajar | work_
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+┏━━ RPG - NIVEL ━━━𖦜
+┃ _SUBE DE NIVEL Y OBTEN RECOMPENSAS_
+┃
+┃◐ _${usedPrefix}botemporal *enlace* *cantidad*_
+┃◐ _${usedPrefix}addbot *enlace* *cantidad*_
+┃◐ _${usedPrefix}pase premium_
+┃◐ _${usedPrefix}pass premium_
+┃◐ _${usedPrefix}listapremium | listprem_
+┃◐ _${usedPrefix}transfer *tipo cantidad @tag*_
+┃◐ _${usedPrefix}dar *tipo cantidad @tag*_
+┃◐ _${usedPrefix}enviar *tipo cantidad @tag*_
+┃◐ _${usedPrefix}balance_
+┃◐ _${usedPrefix}cartera | wallet_ 
+┃◐ _${usedPrefix}experiencia | exp_
+┃◐ _${usedPrefix}top | lb | leaderboard_
+┃◐ _${usedPrefix}nivel | level | lvl_
+┃◐ _${usedPrefix}rol | rango_
+┃◐ _${usedPrefix}inventario | inventory_ 
+┃◐ _${usedPrefix}aventura | adventure_ 
+┃◐ _${usedPrefix}caza | cazar | hunt_
+┃◐ _${usedPrefix}pescar | fishing_
+┃◐ _${usedPrefix}animales_ 
+┃◐ _${usedPrefix}alimentos_
+┃◐ _${usedPrefix}curar | heal_
+┃◐ _${usedPrefix}buy_
+┃◐ _${usedPrefix}sell_
+┃◐ _${usedPrefix}verificar | registrar_
+┃◐ _${usedPrefix}perfil | profile_
+┃◐ _${usedPrefix}myns_
+┃◐ _${usedPrefix}unreg *numero de serie*_
+┃◐ _${usedPrefix}minardiamantes | minargemas_
+┃◐ _${usedPrefix}minargatacoins | minarcoins_
+┃◐ _${usedPrefix}minarexperiencia | minarexp_
+┃◐ _${usedPrefix}minar *:* minar2 *:* minar3_
+┃◐ _${usedPrefix}reclamar | regalo | claim_
+┃◐ _${usedPrefix}cadahora | hourly_
+┃◐ _${usedPrefix}cadasemana | semanal | weekly_
+┃◐ _${usedPrefix}cadames | mes | monthly_
+┃◐ _${usedPrefix}cofre | abrircofre | coffer_
+┃◐ _${usedPrefix}trabajar | work_
+┗━━━━━━━━━━━━◐
 
 ┏━ TOP - LISTA GLOBAL ━━𖣔
 ┃╭─────────❍
@@ -584,10 +573,9 @@ let menu = `
 ┃𖢗 _${usedPrefix}golpear *@tag*_
 ┃𖢗 _${usedPrefix}besar | kiss *@tag*_ 
 ┃𖢗 _${usedPrefix}alimentar | food *@tag*_
-┃
 ┗━━━━━━━━━━━━⫸
 
-┏━━━ CREADOR - OWNER ━━━━🜲
+┏━━━ CEADOR - OWNER ━━━━🜲
 ┃ _COMANDOS QUE SOLO LOS PROPIETARIOS/OWNERS PUEDEN USAR.
 ┃
 ┃❀ _${usedPrefix}join *enlace*_
@@ -618,7 +606,6 @@ let menu = `
 ┃❀ _${usedPrefix}añadirdiamantes *@tag cantidad*_
 ┃❀ _${usedPrefix}añadirxp *@tag cantidad*_
 ┃❀ _${usedPrefix}añadirmylingcoins *@tag cantidad*_
-┃
 ┗━━━━━━━━━━━━🜲
 
 ᬊ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙶𝙻 𝚈𝚃 𝙼𝚇 - 𝙳𝙴𝚅`.trim()
