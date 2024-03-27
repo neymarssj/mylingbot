@@ -5,7 +5,7 @@ import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
-if (!text) await conn.reply(m.chat, `${lenguajeMY['smsAvisoMG']()}𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝙊 𝙏𝙄𝙏𝙐𝙇𝙊\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} Los Cafres - Tus ojos*\n\n𝙒𝙍𝙄𝙏𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀 𝙊𝙍 𝙏𝙄𝙏𝙇𝙀\n𝙀𝙓𝘼𝙈𝙋𝙇𝙀\n*${usedPrefix + command} Los Cafres - Tus ojos*`, m, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `Canal de WhatsApp`, mediaType: 3, sourceUrl: cnl, thumbnail: imagen1}}}, { quoted: m })
+if (!text) await conn.reply(m.chat, `${lenguajeMY['smsAvisoMG']()}ᴜsᴏ ɴᴏ ᴄᴏʀʀᴇᴄᴛᴏ ᴅᴇʟ ᴄᴏᴍᴀɴᴅᴏ, ᴛʀᴀᴛᴀ ᴅᴇ ᴘᴏɴᴇʀ ᴜɴ ʟɪɴᴋ\nEᴊᴇᴍᴘʟᴏ:\n*${usedPrefix + command} Sixto Yegros FT YSY A - PING PONG*\n\nAǫᴜɪ ᴛɪᴇɴᴇs ᴏᴛʀᴀ ᴅᴇᴍᴏsᴛʀᴀᴄɪᴏɴ\nᴇᴊᴇᴍᴘʟᴏ:\n*${usedPrefix + command} YSY A - Pastel Con Nutella*`, m, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `Canal de WhatsApp`, mediaType: 3, sourceUrl: cnl, thumbnail: imagen1}}}, { quoted: m })
 try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
@@ -13,26 +13,26 @@ if (command === 'play') {
 additionalText = '𝘼𝙐𝘿𝙄𝙊 🔊'
 } else if (command === 'play2') {
 additionalText = '𝙑𝙄𝘿𝙀𝙊 🎥'}
-let captionvid = `𓆩 𓃠 𓆪 ✧═══ ${vs} ═══✧ 𓆩 𓃠 𓆪*
+let captionvid = `☾︎☽︎ シ︎═══ ${vs} ═══シ︎ ☾︎☽︎*
 
-ও 𝑻𝑰𝑻𝑼𝑳𝑶 || 𝑻𝑰𝑻𝑳𝑬
-»  ${yt_play[0].title}
+❥︎ ᴛɪᴛᴜʟᴏ
+♫︎  ${yt_play[0].title}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝑷𝑼𝑩𝑳𝑰𝑪𝑨𝑫𝑶 || 𝑷𝑼𝑩𝑳𝑰𝑺𝑯𝑬𝑫
-» ${yt_play[0].ago}
+❥︎ sᴇ ʜɪᴢᴏ ʜᴀᴄᴇ
+♫︎ ${yt_play[0].ago}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝑫𝑼𝑹𝑨𝑪𝑰𝑶𝑵 || 𝑫𝑼𝑹𝑨𝑻𝑰𝑶𝑵
-» ${secondString(yt_play[0].duration.seconds)}
+❥︎ ᴅᴜʀᴀᴄɪᴏɴ ᴅᴇʟ ᴠɪᴅᴇᴏ
+♫︎ ${secondString(yt_play[0].duration.seconds)}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝑽𝑰𝑺𝑻𝑨𝑺 || 𝑽𝑰𝑬𝑾𝑺
-» ${MilesNumber(yt_play[0].views)}
+❥︎ᴠɪsᴛᴀs ᴅᴇʟ ᴀᴜᴅɪᴏ
+♫︎ ${MilesNumber(yt_play[0].views)}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝑼𝑹𝑳 || 𝑳𝑰𝑵𝑲
-» ${yt_play[0].url}
+❥︎ ʟɪɴᴋ ᴅɪʀᴇᴄᴛᴏ
+♫︎ ${yt_play[0].url}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝙀𝙉𝙑𝙄𝘼𝘿𝙊 ${additionalText}, 𝘼𝙂𝙐𝘼𝙍𝘿𝙀 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊
+♫︎ 𝙀𝙉𝙑𝙄𝘼𝘿𝙊 ${additionalText}, 𝘼𝙂𝙐𝘼𝙍𝘿𝙀 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊
 
-*𓆩 ✿ 𓆪 ✧═══ ${vs} ═══✧ 𓆩 ✿ 𓆪*`  
+*☾︎ ✿ ☽︎ ☀═══ ${vs} ═══☀︎︎ ☾︎ ✿ ☽︎*`  
 await conn.sendMessage(m.chat, {
 text: captionvid,
 contextInfo: {
