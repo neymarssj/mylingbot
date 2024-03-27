@@ -7,7 +7,7 @@ await delay(1000 * 1);
 await conn.sendMessage(m.chat, {text: `🚀🚀🚀🚀`, edit: key});
 await delay(1000 * 1);
 await conn.sendMessage(m.chat, {text: `🚀🚀🚀🚀🚀🚀`, edit: key});
-await conn.sendMessage(m.chat, {text: `🌵 𝗖𝗢𝗥𝗥𝗘𝗖𝗧𝗢 🌵\n\n`🚀 REINICIANDO 🚀`\n*⌛ AGUARDE UN MOMENTO POR FAVOR...*`, edit: key});
+await conn.sendMessage(m.chat, {text: `╰⊱📇⊱ 𝙍𝙚𝙞𝙣𝙞𝙘𝙞𝙖𝙧 | 𝙍𝙚𝙨𝙩𝙖𝙧𝙩 ⊱📇⊱╮`, edit: key});
     process.send('reset')
   } else throw 'eh'
 }
