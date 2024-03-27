@@ -14,7 +14,7 @@ global.owner = [
 ["99999999", '𝐌𝐘𝐋𝐈𝐍𝐆𝐁𝐎𝐓-𝐌𝐃', false],
 ["5492964650915", '𝐖𝐢𝐥𝐬𝐨𝐧𝐎𝐅𝐂', true],
 ["5493795319022", '𝐃𝐒𝐊 - 𝐆𝐋 𝐘𝐓 𝐌𝐗', true],
-['573012482597', '𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜', false],
+['573012482597', '𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜', true],
 ["5217442363122", '𝐢𝐙𝐢', true],
 ["584245737254", '𝐀.𝐌', false],
 ["17202635863", '𝐌𝐚𝐭𝐡𝐢𝐚𝐬-𝐂𝐫𝐢𝐩𝐭𝐨', false],
@@ -98,7 +98,8 @@ global.moment = moment
 
 global.official = [ // Agregate si eres Owner
 ["5492964650915", '♥️🎩⚠︎   シ︎𝑾𝒊𝒍𝖘𝒐𝒏シ︎  ⚠︎🎩♥️', 1],
-["5493795319022", '𝐆𝐋 𝐘𝐓 𝐌𝐗 - 𝐃𝐒𝐊', 1]]
+["5493795319022", '𝐆𝐋 𝐘𝐓 𝐌𝐗 - 𝐃𝐒𝐊', 1],
+["573012482597", '𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜', 1]]
 
 global.mail = '' //agrega tú correo
 global.desc = '' //agrega una descripción corta
@@ -146,25 +147,25 @@ global.accountsmy = [cnl, nna, nn2, nn, nnn, nnnt, nnntt, nnntt, nnnttt, nnnttt1
 
 //⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
 
-global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | 𝙍𝙀𝙎𝙐𝙇𝙏* ⊱✅⊱╮\n\n'
+global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊* ⊱✅⊱╮\n\n'
 global.resultado = rg
 
-global.ag = '╰⊱⚠️⊱ *𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼 | 𝙒𝘼𝙍𝙉𝙄𝙉𝙂* ⊱⚠️⊱╮\n\n'
+global.ag = '╰⊱⚠️⊱ *𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼* ⊱⚠️⊱╮\n\n'
 global.advertencia = ag
 
-global.iig = '╰⊱❕⊱ *𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊́𝙉 | 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉* ⊱⊱╮\n\n'
+global.iig = '╰⊱❕⊱ *𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊́𝙉* ⊱⊱╮\n\n'
 global.informacion = iig
 
 global.fg = '╰⊱❌⊱ *𝙀𝙍𝙍𝙊𝙍* ⊱❌⊱╮\n\n'
 global.fallo = fg
 
-global.mg = '╰⊱❗️⊱ *𝙇𝙊 𝙐𝙎𝙊́ 𝙈𝘼𝙇 | 𝙐𝙎𝙀𝘿 𝙄𝙏 𝙒𝙍𝙊𝙉𝙂* ⊱❗️⊱╮\n\n'
+global.mg = '╰⊱❗️⊱ *𝙇𝙊 𝙐𝙎𝙊́ 𝙈𝘼𝙇* ⊱❗️⊱╮\n\n'
 global.mal = mg
 
-global.eeg = '╰⊱📩⊱ *𝙍𝙀𝙋𝙊𝙍𝙏𝙀 | 𝙍𝙀𝙋𝙊𝙍𝙏* ⊱📩⊱╮\n\n'
+global.eeg = '╰⊱📩⊱ *𝙍𝙀𝙋𝙊𝙍𝙏𝙀* ⊱📩⊱╮\n\n'
 global.envio = eeg
 
-global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱💚⊱╮\n\n'
+global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊* ⊱💚⊱╮\n\n'
 global.exito = eg
 
 //𝙀𝙅𝙀𝙈𝙋𝙇𝙊 | 𝙀𝙓𝘼𝙈𝙋𝙇𝙀
@@ -175,10 +176,10 @@ global.exito = eg
 
 global.wm = "ᖫ 𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃 ᖭ"
 global.igfg = "☆𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫☆"
-global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
-global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
-global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
-global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"
+global.wait = "*⌛ _Cargando ..._ ▬▭▭▭▭▭▭*"
+global.waitt = "*⌛ _Cargando ..._ ▬▬▭▭▭*"
+global.waittt = "*⌛ _Cargando ..._ ▬▬▬▬▭▭*"
+global.waitttt = "*⌛ _Cargando ..._ ▬▬▬▬▬▬▭*"
 global.nomorown = "5492964650915"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"];
 
