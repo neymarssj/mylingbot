@@ -7,7 +7,7 @@ await delay(1000 * 1);
 await conn.sendMessage(m.chat, {text: `🚀🚀🚀🚀`, edit: key});
 await delay(1000 * 1);
 await conn.sendMessage(m.chat, {text: `🚀🚀🚀🚀🚀🚀`, edit: key});
-await conn.sendMessage(m.chat, {text: `𝙍𝙚𝙞𝙣𝙞𝙘𝙞𝙖𝙧 | 𝙍𝙚𝙨𝙩𝙖𝙧𝙩`, edit: key});
+await conn.sendMessage(m.chat, {text: `⏳ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗠𝗶𝗲𝗻𝘀𝘁𝗿𝗮 𝗦𝗲 𝗥𝗲𝗶𝗻𝗶𝗰𝗶𝗮 𝗘𝗹 𝗕𝗼𝘁!`, edit: key});
     process.send('reset')
   } else throw 'eh'
 }
