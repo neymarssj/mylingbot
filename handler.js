@@ -1,4 +1,3 @@
-
 import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
 import { smsg } from './lib/simple.js'
 import { format } from 'util'
@@ -1015,7 +1014,7 @@ if (settings) {
 if (!('self' in settings)) settings.self = false
 if (!('autoread' in settings)) settings.autoread = false
 if (!('autoread2' in settings)) settings.autoread2 = false
-if (!('restrict' in settings)) settings.restrict = true
+if (!('restrict' in settings)) settings.restrict = false
 if (!('temporal' in settings)) settings.temporal = false
 if (!('antiPrivate' in settings)) settings.antiPrivate = false
 if (!('antiCall' in settings)) settings.antiCall = true
@@ -1026,7 +1025,7 @@ if (!('jadibotmd' in settings)) settings.jadibotmd = false
 self: false,
 autoread: false,
 autoread2: false,
-restrict: true,
+restrict: false,
 temporal: false,
 antiPrivate: false,
 antiCall: true,
