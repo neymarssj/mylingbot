@@ -17,7 +17,7 @@ let estado = `╭── ✿︎ ──[ *ESTADO* ]── ❣✿︎ ── ✿︎ 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ❥︎ *ᴜsᴜᴀʀɪᴏs:* ${Object.keys(global.db.data.users).length} 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-❥︎ *Cʜᴀᴛs ʙʟᴏǫᴜᴇᴀᴅᴏs/ʙᴀɴᴇᴀᴅᴏs:* ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} 
+❥︎ *Cʜᴀᴛs ʙʟᴏǫᴜᴇᴀᴅᴏs:* ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃❥︎ *Usᴜᴀʀɪᴏs ʙᴀɴᴇᴀᴅᴏs:* ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} 
 ╰─ ❣︎ ── ❣︎ ── ❣︎ ── ❣︎ ── ❣︎ ──╝`
