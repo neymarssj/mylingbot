@@ -5,7 +5,7 @@ let handler = async (m, { conn, command, args, usedPrefix }) => {
 const fetch = (await import('node-fetch')).default;
 const text = args.join` `;
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-if (!text) return conn.reply(m.chat, `${lenguajeMY['smsAvisoMG']()}Hᴏʟᴀ, ᴘᴀʀᴀ ᴜsᴏ ᴇʀʀᴏɴᴇᴏ ᴅᴇʟ ᴄᴏᴍᴀɴᴅᴏ \nEᴊᴇᴍᴘʟᴏs:\n*${usedPrefix + command} Mᴇssɪ*\n\nTʀᴀᴛᴀ ᴅᴇ ʙᴜsᴄᴀʀ ᴄᴏsᴀs ᴠᴀʟɪᴅᴀs\nOᴛʀᴏ ᴇᴊᴇᴍᴘʟᴏ:\n*${usedPrefix + command} CR7*`, m)
+if (!text) return conn.reply(m.chat, `${lenguajeMY['smsAvisoMG']()}Hᴏʟᴀ, ᴜsᴏ ᴇʀʀᴏɴᴇᴏ ᴅᴇʟ ᴄᴏᴍᴀɴᴅᴏ \nEᴊᴇᴍᴘʟᴏs:\n*${usedPrefix + command} Mᴇssɪ*\n\nTʀᴀᴛᴀ ᴅᴇ ʙᴜsᴄᴀʀ ᴄᴏsᴀs ᴠᴀʟɪᴅᴀs\nOᴛʀᴏ ᴇᴊᴇᴍᴘʟᴏ:\n*${usedPrefix + command} CR7*`, m)
 try {
 const url = 'https://google.com/search?q=' + encodeURIComponent(text);
 google({'query': text}).then(res => {
