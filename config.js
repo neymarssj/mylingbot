@@ -98,8 +98,7 @@ global.moment = moment
 
 global.official = [ // Agregate si eres Owner
 ["5492964650915", '♥️🎩⚠︎   シ︎𝑾𝒊𝒍𝖘𝒐𝒏シ︎  ⚠︎🎩♥️', 1],
-["5493795319022", '𝐆𝐋 𝐘𝐓 𝐌𝐗 - 𝐃𝐒𝐊', 1],
-["573012482597", '𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜', 1]]
+["5493795319022", '𝐆𝐋 𝐘𝐓 𝐌𝐗 - 𝐃𝐒𝐊', 1]]
 
 global.mail = '' //agrega tú correo
 global.desc = '' //agrega una descripción corta
