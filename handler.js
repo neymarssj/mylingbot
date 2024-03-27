@@ -101,7 +101,6 @@ if (!isNumber(user.afk)) user.afk = -1
 if (!isNumber(user.reporte)) user.reporte = 0
 if (!('role' in user)) user.role = '*NOVATO(A)* 🪤'
 if (!('muto' in user)) user.muto = false
-//if (!('muto' in user)) user.muto = false
 if (!isNumber(user.agility)) user.agility = 0
 if (!isNumber(user.anakanjing)) user.anakanjing = 0
 if (!isNumber(user.mesagge)) user.anakanjing = 0
