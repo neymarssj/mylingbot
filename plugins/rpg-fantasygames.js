@@ -88,8 +88,7 @@ console.error('No se han encontrado imágenes.')
 conn.sendMessage(m.chat, 'Error al obtener o procesar los datos.', { quoted: m })
 }} catch (error) {
 console.error('Error al obtener o procesar los datos:  ', error)
-conn.sendMessage(m.chat, 'Error al procesar la solicitud.', { quoted: m })
-}
+conn.sendMessage(m.chat, 'Error al procesar la solicitud.', { quoted: m })}}
 
 handler.before = async (m) => {
 user = global.db.data.users[m.sender]
