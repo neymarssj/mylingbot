@@ -85,11 +85,11 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 let menu = `
 彡 𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃 彡
 
-- 𝐖𝐈𝐋𝐒𝐎𝐍𝐎𝐅𝐂
-- 𝐢𝐙𝐢
-- 𝐆𝐋 𝐘𝐓 𝐌𝐗
-- 𝐀𝐫𝐱𝐞𝐥𝐃𝐞𝐯 (𝐀.𝐌) 
-- 𝐑𝐢𝐜𝐡𝐞𝐭𝐭𝐢
+◆ ⃟ ⃟ ░▒▓  ҈ ҈ ҈ ҈ ⃟ ♧ ⃟  ҈ ҈ ҈ ҈▓▒░ ⃟ ⃟ ◆
+
+--- 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈 𝚆𝙸𝙻𝚂𝙾𝙽 ---
+
+◆ ⃟ ⃟ ░▒▓  ҈ ҈ ҈ ҈ ⃟ ♧ ⃟  ҈ ҈ ҈ ҈▓▒░ ⃟ ⃟ ◆
 
 ᖫ━━━━━━━━━━━━━━ᖭ
 
@@ -118,7 +118,7 @@ let menu = `
 ┃꧁TU NIVEL CON MYLINGBOT-MD
 ┃
 ┃ _EXPERIENCIA ➟_ ${exp} ×͜×
-┃ _DIAMANTES ➟_ ${limit} 💎
+┃ _DIAMANTES ➟_ ${limit} ♦
 ┃ _MYLINGCOINS ➟_ ${money} ⫹⫺
 ┃ _TOKENS ➟_ ${joincount} ⧎
 ┗━━━━━━━━━━━━━◉
@@ -146,7 +146,7 @@ let menu = `
 ┗━━━━━━━━━━━━⪩
 
 ┏━𖢻 𝐒𝐔𝐁 - 𝐁𝐎𝐓 𖢻━━━━━≫
-┃ _CONVIERTE EN SUB - BOT_
+┃☃️ _CONVIERTE EN SUB - BOT_
 ┃𖤐 _${usedPrefix}serbot | jadibot_
 ┃𖤐 _${usedPrefix}serbot --code | jadicode_
 ┃𖤐 _${usedPrefix}infosubbot | infosub_
@@ -155,14 +155,13 @@ let menu = `
 ┗━━━━━━━━━━━━━≫
 
 ┏━━ 𝐑𝐄𝐏𝐎𝐑𝐓𝐄𝐒 ━━━━⪼
-┃
+┃💫 _REPORTE UN COMANDO, EN CASO DE QUE FALLE O TENGA ERRORES._
 ┃🜲 _${usedPrefix}reporte *texto*_
-┃🜲
-┃🜲 _REPORTE UN COMANDO, EN CASO DE QUE FALLE O TENGA ERRORES._
-┗━━━━━━━━━━━⪼
+┃
+┗━━━━━━━━━━━━━⪼
 
 ┏━━━━ PREMIUM ━━━━𖡛
-┃ _CONVIERTE EN USUARIO(A) PREMIUM_
+┃✨ _CONVIERTE EN USUARIO(A) PREMIUM_
 ┃
 ┃𖢻 _${usedPrefix}listapremium | listprem_
 ┃𖢻 _${usedPrefix}pase premium_
@@ -170,7 +169,7 @@ let menu = `
 ┗━━━━━━━━━━━━━𖡛
 
 ┏━━━━ JUEGOS ━━━━𖤐
-┃ _DIVIERTETE CON JUEGOS EN GRUPOS/PRIVADO_
+┃🌟 _DIVIERTETE CON JUEGOS EN GRUPOS/PRIVADO_
 ┃
 ┃⧎ _${usedPrefix}trivia_
 ┃⧎ _${usedPrefix}acertijo_
@@ -215,8 +214,8 @@ let menu = `
 ┃⧎ _${usedPrefix}juegos_
 ┗━━━━━━━━━━━━━𖤐
 
-┏━━━━ IA - MYLING ━━━━━✵
-┃ *UTILIZA INTELIGENCIA ARTIFICIAL*
+┏━━━━ IA - MYLING ━━━✵
+┃⭐ *UTILIZA INTELIGENCIA ARTIFICIAL*
 ┃ 
 ┃𖤝 _${usedPrefix}simi | ia *texto*_
 ┃𖤝 _${usedPrefix}alexa | siri | cortana *texto*_ 
@@ -224,7 +223,7 @@ let menu = `
 ┗━━━━━━━━━━━━━✵
 
 ┏━━━━ ON - OFF  ━━━━𖡛
-┃ _PUEDES MEJORAR TUS GRUPOS CON MYLINGBOT-MD_
+┃💫 _PUEDES MEJORAR TUS GRUPOS CON MYLINGBOT-MD_
 ┃
 ┃𖥳 _${usedPrefix}on *:* off *bienvenida | welcome*_
 ┃𖥳 _${usedPrefix}on *:* off *avisos | detect*_
@@ -256,7 +255,7 @@ let menu = `
 ┗━━━━━━━━━━━𖡛
 
 ┏━━━ DESCARGAS ━━━⨳
-┃➥ _DESCARGUE O BUSQUE TODO LO QUE QUIERA CON MYLINGBOT-MD_
+┃🌟 _DESCARGUE O BUSQUE TODO LO QUE QUIERA CON MYLINGBOT-MD_
 ┃
 ┃◮ _${usedPrefix}imagen | image *texto*_
 ┃◮ _${usedPrefix}pinterest | dlpinterest *texto*_
@@ -290,7 +289,8 @@ let menu = `
 ┏━━ CHAT ANONIMO ━━━𖢖
 ┃ _PODRAS ENVIAR SMS DE_
 ┃ _FORMA_
-┃ _PRIVADA A UNA ANONIMA CON MYLING_
+┃ _PRIVADA A UNA ANONIMA_
+┃ _CON MYLING_
 ┃
 ┃𖤌 _${usedPrefix}chatanonimo | anonimochat_
 ┃𖤌 _${usedPrefix}anonimoch_
@@ -300,7 +300,7 @@ let menu = `
 ┗━━━━━━━━━━━━━𖢖
  
 ┏━━━━ GRUPOS ━━━━❍
-┃ _CONFIGURACION EN GRUPOS CON MYLINGBOT-MD_
+┃💧 _CONFIGURACION EN GRUPOS CON MYLINGBOT-MD_
 ┃❍ _${usedPrefix}add *numero*_
 ┃❍ _${usedPrefix}sacar | ban | kick  *@tag*_
 ┃❍ _${usedPrefix}grupo *abrir : cerrar*_
@@ -326,9 +326,9 @@ let menu = `
 ┃❍ _${usedPrefix}vervotos | cekvoto_
 ┃❍ _${usedPrefix}delvoto | deletevoto_
 ┃❍ _${usedPrefix}enlace | link_
-┃❍ _${usedPrefix}newnombre | nuevonombre *texto*_
-┃❍ _${usedPrefix}newdesc | descripcion *texto*_   
-┃❍ _${usedPrefix}setwelcome | bienvenida *texto*_   
+┃❍ _${usedPrefix}newnombre *texto*_
+┃❍ _${usedPrefix}newdesc *texto*_   
+┃❍ _${usedPrefix}setwelcome *texto*_   
 ┃❍ _${usedPrefix}setbye | despedida *texto*_  
 ┃❍ _${usedPrefix}nuevoenlace | resetlink_
 ┃❍ _${usedPrefix}on_
