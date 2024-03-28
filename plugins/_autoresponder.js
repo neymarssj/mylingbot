@@ -3,11 +3,10 @@ let handler = m => m
 
 handler.all = async function (m, {conn}) {
 let chat = global.db.data.chats[m.chat]
-    
+
 if (m.mentionedJid.includes(this.user.jid) && m.isGroup && !chat.isBanned) {
-let stiker = await sticker(autoresp, false, global.packname, global.author)  
-this.sendFile(m.chat, stiker, 'sticker.webp', null, m, false, { 
-contextInfo: { externalAdReply: { title: '⋉ 𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃 ⋊', body: '⪩ CREATE BY WILSON', sourceUrl: null, thumbnail: cnl}}})}
-    
+await this.sendMessage(m.chat, {text: `𝙌𝙐𝙀 𝙔𝙊 𝙌𝙐𝙀?`}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
+
+
 return !0 }
 export default handler
