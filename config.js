@@ -223,7 +223,7 @@ global.img10 = 'https://telegra.ph/file/9db73a2463e7889c68c2f.jpg'
 global.img11 = 'https://telegra.ph/file/c5fa3b0c75a97f1a310d3.jpg'
 global.img12 = 'https://telegra.ph/file/c5fa3b0c75a97f1a310d3.jpg'
 global.img13 = 'https://telegra.ph/file/1e7e54a16dd6fd59c8d22.jpg'
-global.img14 = 'https://telegra.ph/file/1e7e54a16dd6fd59c8d22.jpg'
+global.img14 = 'https://telegra.ph/file/2ec3b7ae20644a018278a.jpg'
 global.img15 = 'https://telegra.ph/file/c314943b11806b25803f3.jpg'
 
 global.img16 = 'https://telegra.ph/file/c314943b11806b25803f3.jpg' //+18
