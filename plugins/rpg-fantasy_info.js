@@ -1,4 +1,4 @@
-// Código elaborado por: https://github.com/GataNina-Li
+
 
 import fetch from 'node-fetch'
 import fs from 'fs'
@@ -75,7 +75,7 @@ respuestas.push('err-gb')
 }}
 
 let mensaje = `
-> 🌟 *Detalles del personaje* 🌟
+> 👑 *Detalles del personaje* 👑
 
 *Nombre:* 
 ✓ ${nombre}
@@ -97,7 +97,7 @@ let mensaje = `
 
 ⟡ *Calificación total del personaje »* \`${calificacionTotal}\`
 ⟡ *Cantidad de 👍 (Me gusta) »* \`${cantidadLikes}\`
-⟡ *Cantidad de ❤️ (Me encanta) »* \`${cantidadSuperlikes}\`
+⟡ *Cantidad de ❤ (Me encanta) »* \`${cantidadSuperlikes}\`
 ⟡ *Cantidad de 👎 (No me gusta) »* \`${cantidadDislikes}\`
 
 *Estado:* 
@@ -123,7 +123,7 @@ externalAdReply: {
 showAdAttribution: false,
 renderLargerThumbnail: false,
 title: `🌟 FANTASÍA RPG`,
-body: `😼 Usuario: » ${conn.getName(m.sender)}`,
+body: `👻 Usuario: » ${conn.getName(m.sender)}`,
 mediaType: 1,
 sourceUrl: accountsmy.getRandom(),
 thumbnailUrl: 'https://i.imgur.com/vIH5SKp.jpg'
