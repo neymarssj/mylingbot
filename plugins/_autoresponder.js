@@ -5,8 +5,9 @@ handler.all = async function (m, {conn}) {
 let chat = global.db.data.chats[m.chat]
 
 if (m.mentionedJid.includes(this.user.jid) && m.isGroup && !chat.isBanned) {
-await this.sendMessage(m.chat, {text: `𝙌𝙐𝙀 𝙔𝙊 𝙌𝙐𝙀?`}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
-
+let stiker = await sticker(gataImg, false, global.packname, global.author)  
+this.sendFile(m.chat, stiker, 'sticker.webp', null, m, false, { 
+contextInfo: { externalAdReply: { title: '☆𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫☆', body: '𝖡𝗒: 𝖶𝗂𝗅𝗌𝗈𝗇 - 𝖶𝖺𝗈𝗌', sourceUrl: `https://github.com/WilsonOFC/MylingBot-MD/`, thumbnail: gataImg}}})}
 
 return !0 }
 export default handler
