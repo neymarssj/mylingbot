@@ -1,4 +1,4 @@
-eimport { sticker } from '../lib/sticker.js'
+import { sticker } from '../lib/sticker.js'
 let handler = m => m
 
 handler.all = async function (m, {conn}) {
