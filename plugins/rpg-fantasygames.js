@@ -1,4 +1,3 @@
-// Código elaborado por: https://github.com/glytglobal/
 
 import fetch from 'node-fetch'  
 import fs from 'fs'
@@ -69,7 +68,7 @@ nuevoPrecio = 50
     
 let txtNewPrice = nuevoPrecio !== dato.price ? `\n✓ *PRECIO ANTERIOR:* ~\`${dato.price}\`~ *${rpgshop.emoticon('money')}*\n✓ *NUEVO PRECIO:* \`${nuevoPrecio}\` *${rpgshop.emoticon('money')}*\n*⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯*` : `\n✓ *PRECIO:* \`\`\`${dato.price}\`\`\` *${rpgshop.emoticon('money')}*`
 let info = `*« FANTASÍA RPG »*\n*⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯*\n✓ *NOMBRE:* ${dato.name}\n✓ *ESTADO:* ${dato.desp}\n*⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯*${txtNewPrice}\n✓ *CLASE:* ${dato.class}\n✓ *ID:* \`\`\`${codigoActual}\`\`\`\n✓ *INFO:* ${dato.type}\n*⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯*\n✓ *ESTADO:* ${estado}`
-info += `\n\n${estado === 'LIBRE' ? '_RESPONDE A ESTE MENSAJE CON "C", "🛒", O "🐱" PARA COMPRAR_\n\n' + listaAvisos(usedPrefix, personaje) : listaAvisos(usedPrefix, personaje)}`
+info += `\n\n${estado === 'LIBRE' ? '_RESPONDE A ESTE MENSAJE CON "C", "🛒", O "👻" PARA COMPRAR_\n\n' + listaAvisos(usedPrefix, personaje) : listaAvisos(usedPrefix, personaje)}`
 id_message = (await conn.sendFile(m.chat, dato.url, 'error.jpg', info.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
@@ -195,7 +194,7 @@ break
 }
 fs.writeFileSync(fantasyDBPath, JSON.stringify(fantasyDB, null, 2), 'utf8')}
 } else {
-const confirmationMessage = `*${conn.getName(m.sender)}* ha calificado a *${nombrePersonaje}* con *"${emoji}"*\n\n😉 _¡SIGUE CALIFICANDO Y TE DOY PENIS BRO, ES GRATIS!_`
+const confirmationMessage = `*${conn.getName(m.sender)}* ha calificado a *${nombrePersonaje}* con *"${emoji}"*\n\n😉 _¡SIGUE CALIFICANDO Y PROXIMAMENTE HABRÁN NUEVAS ACTUALIZACIONES!_`
 conn.reply(m.chat, confirmationMessage, m)
 let userInDB = fantasyDB.find(userEntry => userEntry[userId])
 if (userInDB) {
@@ -214,7 +213,7 @@ break
 fs.writeFileSync(fantasyDBPath, JSON.stringify(fantasyDB, null, 2), 'utf8')}
 }}}}}
       
-if (m.quoted && m.quoted.id === id_message && ['c', '🛒', '🐱'].includes(m.text.toLowerCase())) {
+if (m.quoted && m.quoted.id === id_message && ['c', '🛒', '👻'].includes(m.text.toLowerCase())) {
 //console.log(nuevoPrecio)
 const cantidadFaltante = nuevoPrecio - user.money
 if (user.money < nuevoPrecio) {
@@ -229,7 +228,7 @@ if (idUsuarioExistente) {
 let No_compra = `*${nombreImagen}* ya fue comprado por *${conn.getName(idUsuarioExistente)}*`
 if (usuarioExistente) return conn.reply(m.chat, No_compra, m, fake)
 }
-fake = { contextInfo: { externalAdReply: { title: `¡Insuficientes ${rpgshop.emoticon('money')}!`, body: `😼 COMPLETA MISIONES RPG`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: gataMenu.getRandom() } } }
+fake = { contextInfo: { externalAdReply: { title: `¡Insuficientes ${rpgshop.emoticon('money')}!`, body: `👻 COMPLETA MISIONES RPG`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: gataMenu.getRandom() } } }
 conn.reply(m.chat, `Te falta *${cantidadFaltante} ${rpgshop.emoticon('money')}* para comprar a *${dato.name}*\n\n*Actualmente tienes ${user.money} ${rpgshop.emoticon('money')}*`, m, fake)
 } else {
 response = await fetch(jsonURL)
@@ -253,7 +252,7 @@ const nombrePersonaje = data.infoImg.find(personaje => personaje.code === dato.c
 
 if (nombrePersonaje) {
 if (m.sender == idUsuarioConCodigo) {
-fake = { contextInfo: { externalAdReply: { title: `😊 Ya fue comprado antes`, body: `🌟 ¡Compra más para llegar al top!`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: gataMenu.getRandom() } } }
+fake = { contextInfo: { externalAdReply: { title: `🥺 Ya fue comprado antes`, body: `🏆 ¡Compra más para llegar al top!`, sourceUrl: accountsgb.getRandom(), thumbnailUrl: gataMenu.getRandom() } } }
 const mensaje_ = `El personaje *${nombrePersonaje}* ya es tuyo!!`
 conn.reply(m.chat, mensaje_, m, fake)
 } else {
@@ -340,9 +339,9 @@ const avisos = [
 `> 🌟 *¡Mira quien es tendencia!*\n\`${usedPrefix}fytendencia o ${usedPrefix}fyranking\`\n\n👀 _Mira avances de otros respondiendo al mensaje de alguien con *${usedPrefix}fytendencia*_`,
 `> *Te digo un secreto* 😳\n_Mientras más uses los comandos *RPG Fantasy*, las 🎁 Recomepesas futuras se multiplican ☝️🤑_`,
 `> 🌟 *Mira avances, misiones, datos de lo que has conseguido usando:*\n\`${usedPrefix}fymy\``,
-//`> *¡Recuerda responder a este mensaje con "c", "🛒", o "🐱" para comprar personajes!*`,
+//`> *¡Recuerda responder a este mensaje con "c", "🛒", o "👻" para comprar personajes!*`,
 `> 😁 *¡Pensamos en todo!* Transfiere cualquier personaje a tú Amigo/a usando:\n*${usedPrefix}fyentregar*, *${usedPrefix}fytransfer* o *${usedPrefix}fytr*`,
-`> ⚠️ *Alerta* ⚠️ Calificar a *${personaje}* puede hacer que el precio suba o baje 😱 !Califica con sabiduría! 😸`
+`> ⚠️ *Alerta* ⚠️ Calificar a *${personaje}* puede hacer que el precio suba o baje 😱 ¡Califica con sabiduría! 👻`
 ].getRandom()
 return avisos.trim()
 }
