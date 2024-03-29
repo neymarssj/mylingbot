@@ -200,7 +200,6 @@ global.imagen10 = fs.readFileSync("./media/menus/img9.jpg")
 global.imagen11 = fs.readFileSync("./media/menus/img10.jpg")
 global.imagen12 = fs.readFileSync("./media/menus/img11.jpg")
 global.imagen13 = fs.readFileSync("./media/menus/img12.jpg")
-global.imagen14 = fs.readFileSync("./media/menus/img13.jpg")
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
