@@ -3,12 +3,12 @@ let handler = async(m, { conn }) => {
 //if (!db.data.chats[m.chat].stickers && m.isGroup) throw `${ag}𝙇𝙊𝙎 𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎 𝘿𝙀 𝙎𝙏𝙄𝘾𝙆𝙀𝙍𝙎 𝙀𝙎𝙏𝘼𝙉 𝘿𝙀𝙎𝘼𝘾𝙏𝙄𝙑𝘼𝘿𝙊𝙎 𝙐𝙎𝙀 *#on stickers* 𝙋𝘼𝙍𝘼 𝘼𝘾𝙏𝙄𝙑𝘼𝙍\n\n𝙏𝙃𝙀 𝙎𝙏𝙄𝘾𝙆𝙀𝙍𝙎 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎 𝘼𝙍𝙀 𝘿𝙄𝙎𝘼𝘽𝙇𝙀𝘿 𝙐𝙎𝙀 *#on stickers* 𝙏𝙊 𝙀𝙉𝘼𝘽𝙇𝙀`
 if (!db.data.chats[m.chat].stickers && m.isGroup) throw 0
  
-let nombre = '𝙈𝙔𝙇𝙄𝙉𝙂𝘽𝙊𝙏-𝙈𝘿'
-let nombre2 = '𝙎𝙏𝙄𝘾𝙆𝙀𝙍𝙎 - 𝙊𝙁𝘾 💕'
+let nombre = '𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃'
+let nombre2 = ':: 𝐖𝐢𝐥𝐬𝐨𝐧𝐎𝐅𝐂'
  
 const s = [
-'https://media0.giphy.com/media/65ODCwM00NVmEyLsX3/giphy.gif?cid=ecf05e47p9z5h8ozpdu8cjem55qy6hc6mtjb1tjlyr9usjsy&rid=giphy.gif&ct=g',
-'content://media/external/downloads/1000593125',
+'https://telegra.ph/file/c4844411a7e81bc7e7997.jpg',
+'https://telegra.ph/file/75909578d9d1104b95e1b.jpg',
 'https://telegra.ph/file/fab0eefe87ef1cd1a3b62.png',
 'https://telegra.ph/file/9c5b41124eb05ed7e8e0f.jpg',
 'https://media1.https://telegra.ph/file/154258d8b98975946ebb7.png',
