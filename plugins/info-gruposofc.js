@@ -30,7 +30,7 @@ let str = `💕 𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊(𝘼) 𝘼 𝙇𝙊𝙎
 
 const vi = ['https://telegra.ph/file/0aa0867cdec565ba979f0.png']
 await conn.sendMessage(m.chat, { image: { url: vi.getRandom() }, ImgPlayback: true, caption: str, mentions: [m.sender, global.conn.user.jid] }, fkontak)}
-//conn.sendHydrated(m.chat, str, `👻 𝐆𝐑𝐔𝐏𝐎𝐒 𝐎𝐅𝐂 👻\n${asistencia}\n\n` + wm, media, 'https://github.com/WilsomOFC/MylingBot-MD', '𝐓𝐇𝐄 𝐎𝐅𝐂', null, null, [
+/*conn.sendHydrated(m.chat, str, `👻 𝐆𝐑𝐔𝐏𝐎𝐒 𝐎𝐅𝐂 👻\n${asistencia}\n\n` + wm, media, 'https://github.com/WilsomOFC/MylingBot-MD', '𝐓𝐇𝐄 𝐎𝐅𝐂', null, null, [
 ['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨 ✅', '.cuentasgb'],
 ['🎁 𝘿𝙤𝙣𝙖𝙧 | 𝘿𝙤𝙣𝙖𝙩𝙚', '.donar'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
