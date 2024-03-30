@@ -1,33 +1,18 @@
-let linkRegex = /https:/i
-export async function before(m, { isAdmin, isBotAdmin, text, participants }) { 
-if (m.isBaileys && m.fromMe)
-return !0
-if (!m.isGroup) return !1
-let chat = global.db.data.chats[m.chat]
-let delet = m.key.participant
-let bang = m.key.id
-const user = `@${m.sender.split`@`[0]}`;
-const groupAdmins = participants.filter(p => p.admin)
-const listAdmin = groupAdmins.map((v, i) => `*» ${i + 1}. @${v.id.split('@')[0]}*`).join('\n')
-let bot = global.db.data.settings[this.user.jid] || {}
-const isGroupLink = linkRegex.exec(m.text)
-if (chat.antiLink2 && isGroupLink && !isAdmin) {
-if (isBotAdmin) {
-const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
-const linkThisGroup2 = `https://www.youtube.com/`
-const linkThisGroup3 = `https://youtu.be/`
-if (m.text.includes(linkThisGroup)) return !0
-if (m.text.includes(linkThisGroup2)) return !0
-if (m.text.includes(linkThisGroup3)) return !0 
-}    
-await conn.sendMessage(m.chat, {text: `${lenguajeMY['smsEnlaceWatt']()} ${user}`, mentions: [m.sender]}, {quoted: m})
-//await conn.sendButton(m.chat, `${lenguajeMY['smsEnlaceWatt']()} ${await this.getName(m.sender)} ${isBotAdmin ? '' : `\n\n${lenguajeMY['smsAvisoFG']()}${lenguajeMY['smsAllAdmin']()}`}`, wm, [`${lenguajeMY['smsApagar']()}`, '/disable antilink'], m)    
-if (!isBotAdmin) return conn.sendMessage(m.chat, {text: `*⛔ ${lenguajeMY.smsAddB4()} ⛔*\n${listAdmin}\n\n${lenguajeMY['smsAllAdmin']()}`, mentions: [...groupAdmins.map(v => v.id)] }, {quoted: m})
-//m.reply(`${lenguajeMY['smsAvisoFG']()} ${lenguajeMY['smsAllAdmin']()}`)  
-if (isBotAdmin) {
-await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
-} else if (!bot.restrict) return m.reply(`${lenguajeMY['smsAvisoAG']()}${lenguajeMY['smsSoloOwner']()}`)
-}
-return !0
+function antilink2(chat, participants) {
+  for (var participant of participants) {
+    if (participant.admin === true) {
+      return;
+    }
+    if (data.blacklist.includes(participant.id)) {
+      return;
+    }
+    if (participant.chat.message.includes("http")) {
+      conn.kick(chat, participant.id);
+      conn.sendMessage(chat, "**Enlace detectado!**", { delete_message: false });
+      return 10;
+    }
+  }
+  return;
 }
 
+var data = {};
