@@ -14,7 +14,7 @@ const fkontak = {
 	"participant": "0@s.whatsapp.net"
 }
 
-let picture = './media/menus/img2.jpg'
+let picture = './media/menus/instalacion.jpg'
 let gata = `𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝘾𝙄𝙊𝙉 𝘿𝙀 𝙈𝙔𝙇𝙄𝙉𝙂𝘽𝙊𝙏
 
 
