@@ -26,7 +26,7 @@ let str = `💕 𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊(𝘼) 𝘼 𝙇𝙊𝙎
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
  *${nnntt}*\n
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
- *${nnnttt}*\n
+ *${nnnttt}*\n`
 
 const vi = ['https://telegra.ph/file/0aa0867cdec565ba979f0.png']
 await conn.sendMessage(m.chat, { image: { url: vi.getRandom() }, ImgPlayback: true, caption: str, mentions: [m.sender, global.conn.user.jid] }, fkontak)}
