@@ -31,9 +31,18 @@ let gata = `𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝘾𝙄𝙊𝙉 𝘿𝙀 𝙈𝙔𝙇�
 ┃.com/WilsonOFC/MylingBot-MD/master
 ┃/Myling.sh | bash
 ┃
+┃⪩ *_INSTALACION MANUAL_*
 ┃
-┃
-┃
+┃termux-setup-storage
+┃apt update
+┃apt upgrade
+┃pkg install -y git nodejs ffmpeg imagemagick yarn
+┃git clone https://github.com/WilsonOFC/MylingBot-MD
+┃cd MylingBot-MD
+┃yarn install
+┃npm install
+┃npm start
+
 𝗜𝗡𝗦𝗧𝗔𝗟𝗔𝗥 𝗘𝗡 𝗕𝗢𝗫𝗠𝗜𝗡𝗘
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 𝙈𝙮𝙡𝙞𝙣𝙜𝘽𝙤𝙩-𝙈𝘿 : 𝘽𝙤𝙭𝙈𝙞𝙣𝙚
