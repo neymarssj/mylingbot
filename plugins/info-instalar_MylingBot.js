@@ -42,6 +42,20 @@ let gata = `𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝘾𝙄𝙊𝙉 𝘿𝙀 𝙈𝙔𝙇�
 ┃yarn install
 ┃npm install
 ┃npm start
+┃
+┃⪩ *_INSTALACION ARCHIVOS_*
+┃
+┃termux-setup-storage
+┃apt update
+┃apt upgrade
+┃pkg install -y git nodejs ffmpeg imagemagick yarn
+┃cd storage/downloads/MylingBot-MD/MylingBot-MD-master 
+┃yarn install
+┃npm install
+┃npm start
+┃
+┃
+┃
 
 𝗜𝗡𝗦𝗧𝗔𝗟𝗔𝗥 𝗘𝗡 𝗕𝗢𝗫𝗠𝗜𝗡𝗘
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
