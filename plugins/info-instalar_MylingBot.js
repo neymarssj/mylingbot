@@ -16,10 +16,10 @@ const fkontak = {
 
 let picture = './media/menus/img2.jpg'
 let gata = `𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝘾𝙄𝙊𝙉 𝘿𝙀 𝙈𝙔𝙇𝙄𝙉𝙂𝘽𝙊𝙏
-*━━━━━━━━━━━━━⬣*
-✅ 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝙍 𝙀𝙉 𝙏𝙀𝙍𝙈𝙐𝙓
-*⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
-termux-setup-storage
+*┏━━━━━━━━━━━━━*
+┃ 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝙍 𝙀𝙉 𝙏𝙀𝙍𝙈𝙐𝙓
+┃⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
+┃termux-setup-storage
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/WilsonOFC/MylingBot-MD/master/Myling.sh | bash
 *━━━━━━━━━━━━━⬣*
 *━━━━━━━━━━━━━⬣*
@@ -35,8 +35,6 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 *━━━━━━━━━━━━━⬣*`
 await conn.sendFile(m.chat, picture, 'Hola.mp3', gata, fkontak)}
-/*conn.sendButton(m.chat, gata, `Comunícate con Mí Creadora si necesitas ayuda con la Instalación.\n\nContact My Creator if you need help with the Installation.\n\n${ig}\n${wm}`, picture, [
-['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨 ✅', '.cuentasgb'],
-['🎁 𝘿𝙤𝙣𝙖𝙧 | 𝘿𝙤𝙣𝙖𝙩𝙚', '.donar']], fkontak, m)}*/
+
 handler.command = /^(instalarbot|instalarkatashibot|instalarkatashi|procesobot|botproceso|procesodelbot|botinstall|installbot)/i
 export default handler
