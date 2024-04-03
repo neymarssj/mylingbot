@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-<img src="https://telegra.ph/file/fbf75e9ab59876a2ab337.jpg" alt="ERROR - DSK" width="900"/>
+<img src="https://telegra.ph/file/2bc7f7ff2bb54b067b450.jpg" alt="ERROR - DSK" width="900"/>
 </p>
 
 > 𝙂𝙍𝘼𝘾𝙄𝘼𝙎 𝙋𝙊𝙍 𝙐𝙎𝘼𝙍 𝙀𝙎𝙏𝙀 𝘽𝙊𝙏
