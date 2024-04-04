@@ -26,7 +26,7 @@ let handler = async (m, { conn: _conn, args, usedPrefix, command, isOwner }) => 
 
   let parent = args[0] && args[0] == 'plz' ? _conn : await global.conn
   if (!((args[0] && args[0] == 'plz') || (await global.conn).user.jid == _conn.user.jid)) {
-        throw `彡 ESTE COMANDO SOLO LO PUEDES USAR CON EL BOT PRINCIPAL: 🌹 WA.ME/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix + command}`
+        throw `彡 ESTE COMANDO SOLO LO PUEDES USAR CON EL BOT PRINCIPAL: wa.me/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix + command}`
 }
 
         //=====
@@ -60,7 +60,7 @@ const connectionOptions = {
   printQRInTerminal: false,
   mobile: MethodMobile, 
   //browser: ["Ubuntu", "Chrome", ""],
-  browser: [ "Ubuntu", "Chrome", "20.0.04"], 
+  browser: [ "Ubuntu", "MylingBot-MD", "(JadiBot)"], 
   auth: {
   creds: state.creds,
   keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
