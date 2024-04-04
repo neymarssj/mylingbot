@@ -59,8 +59,8 @@ const connectionOptions = {
   logger: pino({ level: 'silent' }),
   printQRInTerminal: false,
   mobile: MethodMobile, 
-  browser: ["MylingBot-MD (JadiBot)", "", ""],
-  ,//browser: [ "Ubuntu", "Chrome", "20.0.04" ], 
+  browser: ["Ubuntu", "Chrome", ""],
+  //browser: [ "Ubuntu", "Chrome", "20.0.04"], 
   auth: {
   creds: state.creds,
   keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -217,4 +217,4 @@ export default handler
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
-}*/
+}
