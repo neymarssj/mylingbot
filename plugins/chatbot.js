@@ -12,6 +12,14 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 }
 
+if (/^@5493795319022$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`no etiquetes a mi creador hijo de tu putam madre`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
 //if (/^Mande porno|porno|paja$/i.test(m.text) ) { //sin prefijo 
     let teks = `
 ${pickRandom([`no puedo esta contra las política del grupo. 👻`, `_uff miren un pajero_`, `_pagame y paso mi pack😏🥵_`, `_que_`, `_que quiere pija dice 🤣_`, `_pasa el pack de tu hermana😏_`, `_pasas una fototeta? 🤨📸_`, `_siuuu sexo sexo sexo😈_`, '_callate negro no tiene derecho XD_'])}
