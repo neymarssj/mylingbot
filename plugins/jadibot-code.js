@@ -1,4 +1,4 @@
-//const {
+/*const {
     useMultiFileAuthState,
     DisconnectReason,
     fetchLatestBaileysVersion, 
@@ -59,7 +59,7 @@ const connectionOptions = {
   logger: pino({ level: 'silent' }),
   printQRInTerminal: false,
   mobile: MethodMobile, 
-  ,//browser: ['MylingBot-MD', '(JadiBot)', ''],
+  ,//browser: ['Error Aqui', '', ''],
   browser: [ "Ubuntu", "Chrome", "20.0.04" ], 
   auth: {
   creds: state.creds,
@@ -217,4 +217,4 @@ export default handler
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
-}
+}*/
