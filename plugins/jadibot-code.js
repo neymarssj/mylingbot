@@ -59,8 +59,8 @@ const connectionOptions = {
   logger: pino({ level: 'silent' }),
   printQRInTerminal: false,
   mobile: MethodMobile, 
-  browser: ['MylingBot', 'Opera', '5.0'],
-  //browser: [ "Ubuntu", "Chrome", "20.0.04"],  
+  //browser: ['MylingBot', 'Opera', '5.0'],
+  browser: [ "Ubuntu", "Chrome", "20.0.04"],  
   auth: {
   creds: state.creds,
   keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
