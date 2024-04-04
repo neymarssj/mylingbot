@@ -26,7 +26,7 @@ let handler = async (m, { conn: _conn, args, usedPrefix, command, isOwner }) => 
 
   let parent = args[0] && args[0] == 'plz' ? _conn : await global.conn
   if (!((args[0] && args[0] == 'plz') || (await global.conn).user.jid == _conn.user.jid)) {
-        throw `🌦 Este comando solo los puede usar el bot principal: wa.me/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix + command}`
+        throw `彡 ESTE COMANDO SOLO LO PUEDES USAR CON EL BOT PRINCIPAL: 🌹 WA.ME/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix + command}`
 }
 
         //=====
@@ -59,7 +59,7 @@ const connectionOptions = {
   logger: pino({ level: 'silent' }),
   printQRInTerminal: false,
   mobile: MethodMobile, 
-  browser: ['Chrome (Linux)', '', ''],
+  browser: ['MylingBot-MD', '(JadiBot)', ''],
   //browser: [ "Ubuntu", "Chrome", "20.0.04" ], 
   auth: {
   creds: state.creds,
@@ -83,19 +83,19 @@ let conn = makeWASocket(connectionOptions)
 
 if (methodCode && !conn.authState.creds.registered) {
     if (!phoneNumber) {
-        //parent.sendMessage(m.chat, { text: `✴️ Su número de teléfono no está definido` }, { quoted: m })
+        //parent.sendMessage(m.chat, { text: `彡 SU NUMERO DE TELEFONO NO ES VALIDO (CODIGO DE PAIS)` }, { quoted: m })
         process.exit(0);
     }
     let cleanedNumber = phoneNumber.replace(/[^0-9]/g, '');
     if (!Object.keys(PHONENUMBER_MCC).some(v => cleanedNumber.startsWith(v))) {
-        //parent.sendMessage(m.chat, { text: `✴️ Su número debe comenzar con el código de país` }, { quoted: m })
+        //parent.sendMessage(m.chat, { text: `彡 SU NUMERO DEBE COMENZAR CON UN CODIGO DE PAIS (+)` }, { quoted: m })
         process.exit(0);
     }
 
     setTimeout(async () => {
         let codeBot = await conn.requestPairingCode(cleanedNumber);
         codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot;
-        //parent.sendMessage(m.chat, { text: `➤ Code: *${codeBot}*\n\n${mssg.botqr}` }, { quoted: m })
+        //parent.sendMessage(m.chat, { text: `彡 CÓDIGO SUB-BOT: *${codeBot}*\n\n${mssg.botqr}` }, { quoted: m })
         parent.sendFile(m.chat, 'https://i.ibb.co/SKKdvRb/code.jpg', 'qrcode.png', `*${codeBot}*`, m)
         rl.close();
     }, 3000);
@@ -125,9 +125,9 @@ async function connectionUpdate(update) {
       global.conns.splice(i, 1)
 
      if (code !== DisconnectReason.connectionClosed){ 
-        parent.sendMessage(conn.user.jid, {text : `⚠️ Conexión pérdida re conectando`}, { quoted: m }) //reconectar
+        parent.sendMessage(conn.user.jid, {text : `𖥑 CONEXION PERDIDA (RECONECTANDO...)`}, { quoted: m }) //reconectar
     } else {
-        parent.sendMessage(m.chat, {text : `⛔ Conexión cerrada`}, { quoted: m }) // session cerrada
+        parent.sendMessage(m.chat, {text : `⪼ CONEXION CERRADA (YA NO ERES SUB-BOT)`}, { quoted: m }) // session cerrada
     }
     }
     //----
@@ -136,10 +136,10 @@ async function connectionUpdate(update) {
     if (connection == 'open') {
     conn.isInit = true
     global.conns.push(conn)
-    await parent.sendMessage(m.chat, {text : args[0] ? `✅ conectado` : `✅ Conectando Con Exito`}, { quoted: m })
+    await parent.sendMessage(m.chat, {text : args[0] ? `彡 CONECTADO COMO SUB-BOT` : `彡 CONECTADO CON EXITO`}, { quoted: m })
     await sleep(5000)
     if (args[0]) return
-                await parent.sendMessage(conn.user.jid, {text : `Los mensajes se esta cargado esperé un momento... `}, { quoted: m })
+                await parent.sendMessage(conn.user.jid, {text : `𖥑 LOS MENSAJES DE LOS BOTS SE ESTAN CARGANDO...`}, { quoted: m })
                 parent.sendMessage(conn.user.jid, {text : usedPrefix + command + " " + Buffer.from(fs.readFileSync("./jadibts/" + authFolderB + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
           }
 
@@ -210,7 +210,7 @@ bbts()
 }
 handler.help = ['clone']
 handler.tags = ['textocode']
-handler.command = ['code', 'codigo', 'clone']
+handler.command = ['code', 'sercode', 'serbotcode', 'serbot --code']
 handler.rowner = false
 
 export default handler
