@@ -60,7 +60,7 @@ const connectionOptions = {
   printQRInTerminal: false,
   mobile: MethodMobile, 
   //browser: ["Ubuntu", "Chrome", ""],
-  browser: [ "Ubuntu", "MylingBot-MD", "(JadiBot)"], 
+  browser: [ "Ubuntu", "Chrome", "20.0.04"],  
   auth: {
   creds: state.creds,
   keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
