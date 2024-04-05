@@ -1,6 +1,6 @@
 let handler  = async (m, { conn, usedPrefix, command }) => {
 
-//const vi = ['https://telegra.ph/file/b015708e6b1b8329eb57c.jpg']
+const img = ['https://telegra.ph/file/b015708e6b1b8329eb57c.jpg']
 let myling = `
 ┏━━ 𝖢𝖮𝖬𝖠𝖭𝖣𝖮𝖲 ━━⪩
 ┃
@@ -18,7 +18,7 @@ let myling = `
 ┗━━━━━━━━━━━⪩
 
 `
-await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: myling, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak })
+await conn.sendMessage(m.chat, { imagen: { url: img, gifPlayback: true, caption: myling, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak })
 } catch (e)
 handler.command = /^(generarbin|generarbins|genericbin|genericbins|generatebins|binshacking|menubins|binsmenu)/i
 export default handler
