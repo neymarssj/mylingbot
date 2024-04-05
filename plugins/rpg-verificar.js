@@ -100,7 +100,7 @@ text: registroRapido,
 contextInfo: {
 externalAdReply: {
 title: gt,
-body: '彡 Moderme By GL YT MX - DEV',
+body: '彡 Moderme By Wilson-Waos',
 thumbnailUrl: pp, 
 sourceUrl: 'https://www.atom.bio/MylingBot',
 mediaType: 1,
