@@ -1,5 +1,5 @@
 let handler  = async (m, { conn, usedPrefix, command }) => {
-const fkontak = {
+const m = {
 	"key": {
     "participants":"0@s.whatsapp.net",
 		"remoteJid": "status@broadcast",
