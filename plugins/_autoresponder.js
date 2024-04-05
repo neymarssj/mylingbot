@@ -1,13 +1,85 @@
-import { sticker } from '../lib/sticker.js'
-let handler = m => m
-
-handler.all = async function (m, {conn}) {
-let chat = global.db.data.chats[m.chat]
-
-if (m.mentionedJid.includes(this.user.jid) && m.isGroup && !chat.isBanned) {
-let stiker = await sticker(imagen1, false, global.packname, global.author)  
-this.sendFile(m.chat, stiker, 'sticker.webp', null, m, false, { 
-contextInfo: { externalAdReply: { title: '☆𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫☆', body: '𝖡𝗒: 𝖶𝗂𝗅𝗌𝗈𝗇 - 𝖶𝖺𝗈𝗌', sourceUrl: `https://github.com/WilsonOFC/MylingBot-MD/`, thumbnail: imagen2}}})}
-
-return !0 }
-export default handler
+const _0x49d96f = _0x3fc2;
+function _0x3fc2(_0x2c6e11, _0x3dc7d4) {
+    const _0x527ac2 = _0xdf76();
+    return _0x3fc2 = function (_0x27f576, _0x190c3c) {
+        _0x27f576 = _0x27f576 - (0x620 + -0x2 * -0x120d + -0x296a);
+        let _0x5b9fc7 = _0x527ac2[_0x27f576];
+        return _0x5b9fc7;
+    }, _0x3fc2(_0x2c6e11, _0x3dc7d4);
+}
+(function (_0x37538c, _0x632b83) {
+    const _0x30fab5 = _0x3fc2, _0x59b0c0 = _0x37538c();
+    while (!![]) {
+        try {
+            const _0x448c78 = -parseInt(_0x30fab5(0xeb)) / (-0x4b * -0x4b + -0x15aa + -0x4e) + parseInt(_0x30fab5(0xe9)) / (0x1700 + -0x2465 + 0xd67) + parseInt(_0x30fab5(0xd7)) / (0x33 * -0x21 + -0x5 * 0x4c7 + 0x1e79) * (-parseInt(_0x30fab5(0xde)) / (-0xaad + -0x7c9 * 0x4 + 0x1 * 0x29d5)) + parseInt(_0x30fab5(0xdd)) / (-0x2 * -0x10ab + -0x3 * 0x49 + -0x2076) + parseInt(_0x30fab5(0xe0)) / (0xb12 + 0xb51 * 0x1 + -0x165d) * (parseInt(_0x30fab5(0xdc)) / (0x57b * 0x4 + 0x3f3 * -0x5 + -0x16 * 0x19)) + parseInt(_0x30fab5(0xd6)) / (-0x22 * -0x63 + -0x2 * -0x26f + -0x4 * 0x47f) + -parseInt(_0x30fab5(0xd8)) / (0xffb + -0x1efa * -0x1 + -0x8f * 0x54) * (parseInt(_0x30fab5(0xd2)) / (0x1d13 * -0x1 + 0x2109 + 0x1 * -0x3ec));
+            if (_0x448c78 === _0x632b83)
+                break;
+            else
+                _0x59b0c0['push'](_0x59b0c0['shift']());
+        } catch (_0x37440a) {
+            _0x59b0c0['push'](_0x59b0c0['shift']());
+        }
+    }
+}(_0xdf76, -0x8951 + -0x1 * -0x63e36 + -0x2 * 0x5331));
+import { sticker } from '../lib/sticker.js';
+function _0xdf76() {
+    const _0x4090b0 = [
+        '☆𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫☆',
+        'all',
+        '1986456cURyGo',
+        '318FTlshj',
+        '224496mEvHsz',
+        'author',
+        'sendFile',
+        'chats',
+        '2793224PxUlDU',
+        '2363560bnRwYV',
+        '21828Jurrok',
+        'user',
+        '6vMqaZp',
+        'ycTqC',
+        'isGroup',
+        '𝖡𝗒\x20𝖶𝗂𝗅𝗌𝗈𝗇\x20-\x20𝖶𝖺𝗈𝗌',
+        'packname',
+        'isBanned',
+        'jid',
+        'sticker.webp',
+        'data',
+        '517930tielMo',
+        'chat',
+        '369403JIvpLj',
+        'includes',
+        'https://github.com/WilsonOFC/MylingBot-MD/',
+        '40vijOhR',
+        'mLibC'
+    ];
+    _0xdf76 = function () {
+        return _0x4090b0;
+    };
+    return _0xdf76();
+}
+let handler = _0x56e3ef => _0x56e3ef;
+handler[_0x49d96f(0xd5)] = async function (_0x22a720, {conn: _0x3a8d42}) {
+    const _0x40afa8 = _0x49d96f, _0x88ba = {
+            'mLibC': function (_0x9d0e7c, _0x4de5e3, _0x18b980, _0x1469d7, _0x55aea0) {
+                return _0x9d0e7c(_0x4de5e3, _0x18b980, _0x1469d7, _0x55aea0);
+            },
+            'ycTqC': _0x40afa8(0xe7)
+        };
+    let _0x51c2ca = global['db'][_0x40afa8(0xe8)][_0x40afa8(0xdb)][_0x22a720[_0x40afa8(0xea)]];
+    if (_0x22a720['mentionedJid'][_0x40afa8(0xd0)](this[_0x40afa8(0xdf)][_0x40afa8(0xe6)]) && _0x22a720[_0x40afa8(0xe2)] && !_0x51c2ca[_0x40afa8(0xe5)]) {
+        let _0x34fcdd = await _0x88ba[_0x40afa8(0xd3)](sticker, imagen1, ![], global[_0x40afa8(0xe4)], global[_0x40afa8(0xd9)]);
+        this[_0x40afa8(0xda)](_0x22a720[_0x40afa8(0xea)], _0x34fcdd, _0x88ba[_0x40afa8(0xe1)], null, _0x22a720, ![], {
+            'contextInfo': {
+                'externalAdReply': {
+                    'title': _0x40afa8(0xd4),
+                    'body': _0x40afa8(0xe3),
+                    'sourceUrl': _0x40afa8(0xd1),
+                    'thumbnail': imagen2
+                }
+            }
+        });
+    }
+    return !(-0x1 * -0xf3a + 0x9b9 * -0x2 + 0x28 * 0x1b);
+};
+export default handler;
