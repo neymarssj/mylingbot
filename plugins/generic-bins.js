@@ -1,6 +1,6 @@
 let handler  = async (m, { conn, usedPrefix, command }) => {
 
-const vi = ['https://telegra.ph/file/b015708e6b1b8329eb57c.jpg']
+//const vi = ['https://telegra.ph/file/b015708e6b1b8329eb57c.jpg']
 let myling = `
 ┏━━ 𝖢𝖮𝖬𝖠𝖭𝖣𝖮𝖲 ━━⪩
 ┃
