@@ -18,8 +18,8 @@ let picture = '.media/menus/img5.jpg'
 let gata = `
 ┏━━⪼ 𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎 ≪━━◉
 ┃
-┃*${UsedPrefix}bin (6 DIGITOS)*
-┃*EJEMPLO: ${UsedPrefix}bin 759385xxxx*
+┃*${usedPrefix}bin (6 DIGITOS)*
+┃*EJEMPLO: ${usedPrefix}bin 759385xxxx*
 ┃
 ┃
 ┃
