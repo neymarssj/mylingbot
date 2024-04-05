@@ -1,5 +1,5 @@
 let handler  = async (m, { conn, usedPrefix, command }) => {
-const m = {
+const fkontak = {
 	"key": {
     "participants":"0@s.whatsapp.net",
 		"remoteJid": "status@broadcast",
@@ -15,7 +15,7 @@ const m = {
 }
 
 let picture = '.media/menus/Menu2.jpg'
-let gata = `
+let myling = `
 ┏━━⪼ 𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎 ≪━━◉
 ┃
 ┃*${usedPrefix}bin (6 DIGITOS)*
@@ -30,7 +30,7 @@ let gata = `
 ┃
 ┃
 `
-await conn.sendFile(m.chat, picture, 'Hola.mp3', gata, m)}
+await conn.sendFile(m.chat, picture, 'Hola.mp3', myling, fkontak)}
 
 handler.command = /^(generarbin|generarbins|genericbin|genericbins|generatebins|binshacking|bins)/i
 export default handler
