@@ -14,7 +14,7 @@ const fkontak = {
 	"participant": "0@s.whatsapp.net"
 }
 
-let picture = ''
+let picture = '.media/menus/img5.jpg'
 let gata = `
 ┏━━⪼ 𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎 ≪━━◉
 ┃
@@ -32,5 +32,5 @@ let gata = `
 `
 await conn.sendFile(m.chat, picture, 'Hola.mp3', gata, fkontak)}
 
-handler.command = /^(instalarbot|instalarkatashibot|instalarkatashi|procesobot|botproceso|procesodelbot|botinstall|installbot)/i
+handler.command = /^(generarbin|generarbins|genericbin|genericbins|generatebins|binshacking|bins)/i
 export default handler
