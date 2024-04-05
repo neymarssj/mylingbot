@@ -18,7 +18,7 @@ let bins = `┏━━ 𝖢𝖮𝖬𝖠𝖭𝖣𝖮𝖲 ━━⪩
 ┃
 ┗━━━━━━━━━━━⪩`
 
-conn.sendMessage(m.chat, {text: bins, mentions: [m.sender]}, {quoted: m})
+conn.sendMessage(m.chat, {text: bins, mentions: [m.sender]}, {quoted: fkontak})
 
 //conn.reply(m.chat, `*🚩 Ocurrió un fallo*`)
 
