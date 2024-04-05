@@ -14,7 +14,7 @@ const fkontak = {
 	"participant": "0@s.whatsapp.net"
 }
 
-let picture = '.media/menus/Menu2.jpg'
+let picture = './media/menus/Menu2.jpg'
 let myling = `
 ┏━━⪼ 𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎 ≪━━◉
 ┃
