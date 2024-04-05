@@ -14,7 +14,7 @@ const m = {
 	"participant": "0@s.whatsapp.net"
 }
 
-let picture = '.media/menus/img5.jpg'
+let picture = '.media/menus/Menu2.jpg'
 let gata = `
 ┏━━⪼ 𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎 ≪━━◉
 ┃
