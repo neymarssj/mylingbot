@@ -1,8 +1,9 @@
-let handler  = async (m, { conn, usedPrefix, command }) => {
+let handler = async(m, { conn, text, usedPrefix, command }) => {
+let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let name = conn.getName(who)
+const pp = './storage/logos/Menu2.jpg'
 
-const vi = ['https://telegra.ph/file/b015708e6b1b8329eb57c.jpg']
-let myling = `
-┏━━ 𝖢𝖮𝖬𝖠𝖭𝖣𝖮𝖲 ━━⪩
+let bins = `┏━━ 𝖢𝖮𝖬𝖠𝖭𝖣𝖮𝖲 ━━⪩
 ┃
 ┃ 🌹 ${usedPrefix}bin *(6 DIGITOS)*
 ┃ 🌹 *EJEMPLO:* ${usedPrefix}bin 759385xxxx
@@ -15,10 +16,17 @@ let myling = `
 ┃
 ┃
 ┃
-┗━━━━━━━━━━━⪩
+┗━━━━━━━━━━━⪩`
 
-`
-await conn.sendMessage(m.chat, { video: { url: vi, gifPlayback: true, caption: myling, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak })
-} catch (e)
-handler.command = /^(generarbin|generarbins|genericbin|genericbins|generatebins|binshacking|menubins|binsmenu)/i
+conn.sendMessage(m.chat, {text: bins, mentions: [m.sender]}, {quoted: m})
+
+//conn.reply(m.chat, `*🚩 Ocurrió un fallo*`)
+
+}
+handler.help = ['love']
+handler.tags = ['juegos']
+handler.command = /^(bins|bin|byns)$/i
+
+handler.register = true
+
 export default handler
