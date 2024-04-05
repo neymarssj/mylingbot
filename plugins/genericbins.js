@@ -30,7 +30,7 @@ let gata = `
 ┃
 ┃
 `
-await conn.sendFile(m.chat, picture, 'Hola.mp3', gata, fkontak)}
+await conn.sendFile(m.chat, picture, 'Hola.mp3', gata, m)}
 
 handler.command = /^(generarbin|generarbins|genericbin|genericbins|generatebins|binshacking|bins)/i
 export default handler
