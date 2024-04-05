@@ -3,19 +3,21 @@ const fkontak = {'key': {'participants': '0@s.whatsapp.net', 'fromMe': false, 'i
 
 let picture = './media/menus/img5.jpg'
 let myling = `
-┏━━⪼ 𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎 ≪━━◉
+┏━━ 𝖢𝖮𝖬𝖠𝖭𝖣𝖮𝖲 ━━⪩
 ┃
-┃ *${usedPrefix}bin (6 DIGITOS)*
-┃ *EJEMPLO: ${usedPrefix}bin 759385xxxx*
+┃ 🌹 ${usedPrefix}bin *(6 DIGITOS)*
+┃ 🌹 *EJEMPLO:* ${usedPrefix}bin 759385xxxx
 ┃
-┃
-┃
-┃
-┃
+┃ 🌹 ${usedPrefix}gen *(6-8 DIGITOS)*
+┃ 🌹 *EJEMPLO:* ${usedPrefix}gen 74792185xxxx
 ┃
 ┃
 ┃
 ┃
+┃
+┃
+┗━━━━━━━━━━━⪩
+
 `
 await conn.sendFile(m.chat, picture, 'Hola.mp3', myling, fkontak)}
 
