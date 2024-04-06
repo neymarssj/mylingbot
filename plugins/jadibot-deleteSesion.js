@@ -20,6 +20,6 @@ await conn.sendMessage(m.chat, { text : lenguajeMY.smsJBCerrarS() } , { quoted: 
 console.error(userS + ' ' + lenguajeMY.smsJBErr(), err)   
 }}
 handler.command = /^(deletesesion|eliminarsesion|borrarsesion|delsesion|cerrarsesion)$/i
-handler.private = true
+handler.private = false
 handler.fail = null
 export default handler
