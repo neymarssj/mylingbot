@@ -81,9 +81,12 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 }
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
-
+const fkontak = {'key': {'participants': '0@s.whatsapp.net', 'fromMe': false, 'id': '3B64558B07848BD81108C1D14712018E'}, 'message': {'locationMessage': {'name': `彡 𝐌𝐨𝐝𝐞𝐫𝐦𝐞 𝐁𝐲 𝐆𝐋 𝐘𝐓 𝐌𝐗`, `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'}
+ 
 let menu = `
 彡 𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃 彡
+
+
 
 ◆ ⃟ ⃟ ░▒▓  ҈ ҈ ҈ ҈ ⃟ ♧ ⃟  ҈ ҈ ҈ ҈▓▒░ ⃟ ⃟ ◆
 
@@ -91,73 +94,78 @@ let menu = `
 
 ◆ ⃟ ⃟ ░▒▓  ҈ ҈ ҈ ҈ ⃟ ♧ ⃟  ҈ ҈ ҈ ҈▓▒░ ⃟ ⃟ ◆
 
-⪨━━━❅•°• 𝐃𝐀𝐓𝐀 •°•❅━━━⪩
+⪨━✿ 𝐃𝐀𝐓𝐎𝐒 - 𝐌𝐘 ✿━⪩
 
-彡 𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑨𝑫𝑶𝑺 » ${rtotalreg}/${totalreg}
+彡 *𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑨𝑫𝑶𝑺* » ${rtotalreg}/${totalreg}
 彡 _${lenguajeMY['smsUptime']()}_ » _${uptime}_ 
 彡 _${lenguajeMY['smsVersion']()}_ » _${vs}_
 彡 _${lenguajeMY['smsMode']()}_ » _${global.opts['self'] ? `${lenguajeMY['smsModePrivate']().charAt(0).toUpperCase() + lenguajeMY['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeMY['smsModePublic']().charAt(0).toUpperCase() + lenguajeMY['smsModePublic']().slice(1).toLowerCase()}`}_
 彡 _${lenguajeMY['smsBanChats']()}_ » _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_
 
-⪨━━━❅•°• 𝐔𝐒𝐄𝐑 •°•❅━━━⪩
+⪨━✿ 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 𝐈𝐍𝐅𝐎 ✿━⪩
 
-彡 𝑻𝑰𝑷𝑶 𝑫𝑬 𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑶 » ${user.registered === true ? `${user.registroC === true ? '_𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖢𝖮𝖬𝖯𝖫𝖤𝖳𝖮_' : '_𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 𝖱𝖠𝖯𝖨𝖣𝖮_'}` : '_✕ 𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮_'}
-彡 𝑬𝑺𝑻𝑨𝑫𝑶 » ${typeof user.miestado !== 'string' ? '_✕ ' + usedPrefix + 'MIESTADO_' : '_ME SIENTO' + user.miestado + '_'}
-彡 𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑨𝑫𝑶 » ${user.registered === true ? '✓' : '_✕ ' + usedPrefix + 'VERIFICAR_'}
-彡 ${lenguajeMY['smsBotonM7']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM7']().slice(1).toLowerCase()} » ${user.premiumTime > 0 ? '✓' : '_✕ ' + usedPrefix + 'PASE PREMIUM_'}
+彡 𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑶 » ${user.registered === true ? `${user.registroC === true ? '_𝖢𝖮𝖬𝖯𝖫𝖤𝖳𝖮_' : '_𝖱𝖠𝖯𝖨𝖣𝖮_'}` : '_✕ 𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮_'}
+彡 𝑬𝑺𝑻𝑨𝑫𝑶 » ${typeof user.miestado !== 'string' ? '_X ' + usedPrefix + 'MIESTADO_' : '_ME SIENTO' + user.miestado + '_'}
+彡 𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑨𝑫𝑶 » ${user.registered === true ? '✓' : '_X ' + usedPrefix + 'VERIFICAR_'}
+彡 ${lenguajeMY['smsBotonM7']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM7']().slice(1).toLowerCase()} » ${user.premiumTime > 0 ? '✓' : '_X ' + usedPrefix + 'PASE PREMIUM_'}
 彡 ${lenguajeMY['smsBotonM5']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM5']().slice(1).toLowerCase()} » ${role}
 彡 ${lenguajeMY['smsBotonM6']().charAt(0).toUpperCase() + lenguajeMY['smsBotonM6']().slice(1).toLowerCase()} » ${emoji} || ${user.exp - min}/${xp}
 彡 ${lenguajeMY['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `» ღ *${lenguajeMY['smsResultPareja']()}*`}
-彡 𝑷𝑨𝑺𝑨𝑻𝑰𝑬𝑴𝑷𝑶(𝑺) ⧎ » ${user.pasatiempo === 0 ? 'SIN REGISTRO' : user.pasatiempo}
+彡 𝑷𝑨𝑺𝑨𝑻𝑰𝑬𝑴𝑷𝑶`𝑺 ⧎ » ${user.pasatiempo === 0 ? 'SIN REGISTRO' : user.pasatiempo}
 
-ᖫ━━━•━━━━━━•━━━ᖭ
+✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧
+✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧
+✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧
 
 ┏━━━━ 𝐓𝐔 𝐍𝐈𝐕𝐄𝐋 ━━━━◉
-┃꧁TU NIVEL CON MYLINGBOT-MD
+┃꧁TU NIVEL CON
+┃MYLINGBOT-MD
 ┃
 ┃ _EXPERIENCIA ➟_ ${exp} ×͜×
-┃ _DIAMANTES ➟_ ${limit} ♦
+┃ _DIAMANTES ➟_ ${limit} ⨻
 ┃ _MYLINGCOINS ➟_ ${money} ⫹⫺
 ┃ _TOKENS ➟_ ${joincount} ⧎
 ┗━━━━━━━━━━━━━◉
 
 ┏━━━ 𝐈𝐍𝐅𝐎 - 𝐌𝐘 ━━━━⪩
-┃⏤͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͟͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞͞DESCUBRE TODA LA INFORMACION DE MYLINGBOT-MD
 ┃
-┃𖥑 _${usedPrefix}cuentasmyling | cuentasmy_
-┃𖥑 _${usedPrefix}gruposmy | grupos_
-┃𖥑 _${usedPrefix}donar | donate_
-┃𖥑 _${usedPrefix}listagrupos | grouplist_
-┃𖥑 _${usedPrefix}estado | heymy | status_
-┃𖥑 _${usedPrefix}infomyling | infobot_
-┃𖥑 _${usedPrefix}instalarbot | installbot_
-┃𖥑 _${usedPrefix}creador | owner_      
-┃𖥑 _${usedPrefix}velocidad | ping_      
-┃𖥑 _términos y condiciones_
-┃𖥑 _Bot_ 
+┃❑ _${usedPrefix}cuentasmyling | cuentasmy_
+┃❏ _${usedPrefix}gruposmy | grupos_
+┃❏ _${usedPrefix}donar | donate_
+┃❏ _${usedPrefix}listagrupos | grouplist_
+┃❏ _${usedPrefix}estado | heymy | status_
+┃❏ _${usedPrefix}infomyling | infobot_
+┃❏ _${usedPrefix}instalarbot | installbot_
+┃❏ _${usedPrefix}creador | owner_      
+┃❏ _${usedPrefix}velocidad | ping_      
+┃❏ _términos y condiciones_
+┃❏ _Bot_ 
 ┗━━━━━━━━━━━━⪩
 
-┏━𖢻 𝐒𝐔𝐁 - 𝐁𝐎𝐓 𖢻━━━━━≫
-┃☃️ _CONVIERTE EN SUB - BOT_
-┃𖤐 _${usedPrefix}serbot | jadibot_
-┃𖤐 _${usedPrefix}serbot --code | jadicode_
-┃𖤐 _${usedPrefix}infosubbot | infosub_
-┃𖤐 _${usedPrefix}bots | listjadibots_
-┃𖤐 _${usedPrefix}detener | stop_
-┗━━━━━━━━━━━━━≫
+┏━━━ 𝐒𝐔𝐁 - 𝐁𝐎𝐓 ━━━≫
+┃
+┃❑ _${usedPrefix}serbot | jadibot_
+┃❑ _${usedPrefix}serbot --code | jadicode_
+┃❑ _${usedPrefix}infosubbot | infosub_
+┃❑ _${usedPrefix}bots | listjadibots_
+┃❑ _${usedPrefix}detener | stop_
+┗━━━━━━━━━━━━≫
 
 ┏━━ 𝐑𝐄𝐏𝐎𝐑𝐓𝐄𝐒 ━━━━⪼
-┃💫 _REPORTE UN COMANDO, EN CASO DE QUE FALLE O TENGA ERRORES._
-┃🜲 _${usedPrefix}reporte *texto*_
+┃ _REPORTE UN COMANDO,_
+┃ _EN CASO DE QUE FALLE_
+┃ _TENGA ERRORES._
 ┃
+┃❑ _${usedPrefix}reporte *texto*_
 ┗━━━━━━━━━━━━━⪼
 
 ┏━━━━ PREMIUM ━━━━𖡛
-┃✨ _CONVIERTE EN USUARIO(A) PREMIUM_
+┃✨ _CONVIERTE EN 
+┃USUARIO(A) PREMIUM_
 ┃
-┃𖢻 _${usedPrefix}listapremium | listprem_
-┃𖢻 _${usedPrefix}pase premium_
-┃𖢻 _${usedPrefix}pass premium_
+┃❏ _${usedPrefix}listapremium | listprem_
+┃❏ _${usedPrefix}pase premium_
+┃❏ _${usedPrefix}pass premium_
 ┗━━━━━━━━━━━━━𖡛
 
 ┏━━━━ JUEGOS ━━━━𖤐
