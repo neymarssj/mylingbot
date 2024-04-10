@@ -315,7 +315,7 @@ if (opcion == '1' || methodCodeQR) {
     console.log(chalk.yellow('[ 🚩 ] Escanea el código QR.'));
  }}
   if (connection == 'open') {
-   console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝙈𝙮𝙡𝙞𝙣𝙜𝘽𝙤𝙩-𝙈𝘿 💖 • ┈ ┈ ┈ ┈ ┈╮\n┊ 💚 CONEXIÓN EXITOSA CON WHATSAPP 💚\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
+   console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝙈𝙮𝙡𝙞𝙣𝙜𝘽𝙤𝙩-𝙈𝘿 💖 • ┈ ┈ ┈ ┈ ┈╮\n┊ 💚 CONEXIÓN EXITOSA CON WHATSAPP 💚\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'));
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
