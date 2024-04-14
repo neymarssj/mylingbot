@@ -5,11 +5,13 @@
 <a href="https://github.com/WilsonOFC/"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color0000e6&width=435&lines=MylingBot -MD;Disfruta+del+bot.+%E2%9A%A1" height="90px"></a> 
 </p>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br!
 <p align="center">
 <img src="https://telegra.ph/file/2bc7f7ff2bb54b067b450.jpg" alt="ERROR - DSK" width="900"/>
 </p>
 
 > 𝑴𝑼𝑪𝑯𝑨𝑺 𝑮𝑹𝑨𝑪𝑰𝑨𝑺 𝑷𝑶𝑹 𝑷𝑹𝑬𝑭𝑬𝑹𝑰𝑹𝑵𝑶𝑺 👑🔥
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 <p align="center">
 <a href="#"><img title="MylingBot - OFC" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APÓYAME CON UNA ESTRELLITA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=0000e6&style=for-the-badge"></a>
@@ -31,7 +33,6 @@
 <a href="https://www.atom.bio/MylingBot">
 <img src="https://img.shields.io/badge/Redes_Sociales-red?style=for-the-badge&logo=biolink&logoColor=white">
 </a>
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 ## 🔥👑Metodos de Instalacion👑🔥
@@ -44,7 +45,8 @@
 > [!Important]
 > Para usar termux e instalar nuestro bot, es necesario algunos recursos del telefono movil o computadora. que se encargaran de almacenar los datos del mismo, algunos de los requisitos son: WiFi, 5 Gigas de almacenamiento, 1,5 Gigas de RAM, 2 numeros telefonicos (dueño y numero del bot) y 2 telefonos movil (opcional)
 
------
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+
 ###  (OPCIÓN 1) 🪄 INSTALACIÓN AUTOMÁTICA 💥
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/ZLJYDUM6vSY)
 > [!Important]
@@ -78,7 +80,9 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 ```
 > [!Warning]
 > Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
------
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br
+
 ### 🪄 (OPCIÓN 2) INSTALACIÓN MANUAL
 > [!NOTE]
 > COMANDOS PARA INSTALAR DE FORMA MANUAL
@@ -114,7 +118,9 @@ npm start
 
 > [!Warning]
 > Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
-------------------
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br
+
 ### 📁 (OPCIÓN 3) INSTALACIÓN POR ARCHIVOS
 > [!NOTE]
 > DESCARGUE Y DESCOMPRIME EL ARCHIVO
@@ -162,7 +168,7 @@ pm2 stop index
 pm2 start index
 ``` 
 ----
-### 🥷🏻 ACTUALIZAR MYLINGBOT
+###  ACTUALIZAR MYLINGBOT 🔥👻
 > [!TIP]
 > Comandos para actualizar de forma automática MylingBot-MD
 
