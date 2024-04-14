@@ -34,7 +34,8 @@
 
 -----
 
-## 🌟 INSTALACIONES
+## 🔥👑Metodos de Instalacion👑🔥
+
 > **¿Qué es Termux?**
 
 > [!Note]
@@ -44,9 +45,9 @@
 > Para usar termux e instalar nuestro bot, es necesario algunos recursos del telefono movil o computadora. que se encargaran de almacenar los datos del mismo, algunos de los requisitos son: WiFi, 5 Gigas de almacenamiento, 1,5 Gigas de RAM, 2 numeros telefonicos (dueño y numero del bot) y 2 telefonos movil (opcional)
 
 -----
-### 🌟 (OPCIÓN 1) INSTALACIÓN AUTOMÁTICA POR TERMUX 🫰
+###  (OPCIÓN 1) 🪄 INSTALACIÓN AUTOMÁTICA 💥
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/ZLJYDUM6vSY)
-> [!NOTE]
+> [!Important]
 > COMANDOS PARA INSTALAR DE FORMA AUTOMÁTICA EN TERMUX
 ```bash
 termux-setup-storage
@@ -73,11 +74,16 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 209 --> "cd [repositorio]"
 //EJEMPLO: cd MylingBot-MD
 
-// UMA VEZ HECHO LOS CAMBIOS EJECUTE LOS NUEVOS COMANDOS EN TERMUX 
+// UNA VEZ HECHO LOS CAMBIOS EJECUTE LOS NUEVOS COMANDOS EN TERMUX 
 ```
+> [!Warning]
+
+> Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
 -----
-### 🪄 (OPCIÓN 2) INSTALACIÓN MANUAL POR TERMUX - GITHUB 
-> **NOTA:** COMANDOS PARA INSTALAR DE FORMA MANUAL
+### 🪄 (OPCIÓN 2) INSTALACIÓN MANUAL
+> [!NOTE]
+
+> COMANDOS PARA INSTALAR DE FORMA MANUAL
 ```bash
 termux-setup-storage
 ```
@@ -105,9 +111,13 @@ npm install
 ```bash
 npm start
 ```
-> **ADVERTENCIA:** Si aparece (Y/I/N/O/D/Z) por predeterminado es N use la letra "y" + "ENTER" para continuar con la instalación 
+> **ADVERTENCIA:** Si aparece (Y/I/N/O/D/Z) por predeterminado es N use la letra "y" + "ENTER" para continuar con la instalación
+
+> [!Warning]
+
+> Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
 ------------------
-### 📁 (OPCIÓN 3) INSTALACIÓN POR TERMUX - ARCHIVOS
+### 📁 (OPCIÓN 3) INSTALACIÓN POR ARCHIVOS
 > **Nota:** DESCARGUE Y DESCOMPRIME EL ARCHIVO
 ### [`MylingBot-MD ~ Archivos`](https://github.com/WilsonOFC/MylingBot-MD/archive/refs/heads/master.zip)
 [![blog](https://img.shields.io/badge/NO_TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
@@ -124,15 +134,21 @@ npm start
 ```
 * #### APLICACIÓN RECOMENDADA PARA [`DESCOMPRIMIR`](https://play.google.com/store/apps/details?id=com.rarlab.rar)
 * #### APLICACIÓN RECOMENDADA PARA EDITAR [`NÚMERO DE OWNER`](https://play.google.com/store/apps/details?id=com.rhmsoft.code)
-> **Nota:** Guardar los archivos en la ubicación: storage/downloads/MylingBot-MD-master/MylingBot-MD-master   
+> [!NOTE]
+
+> Guardar los archivos en la ubicación: storage/downloads/MylingBot-MD-master/MylingBot-MD-master   
 ----
 ### 🚀 USAR MYLINGBOT 24/7 EN TERMUX 
-> Ejecutar estos comandos dentro de la carpeta MylingBot-MD
+> [!TIP]
+
+>  Ejecutar estos comandos dentro de la carpeta MylingBot-MD
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
 #### ⬇️ Opciones Disponibles
-> **ADVERTENCIA** Esto eliminará todo el historial que hayas establecido con PM2:
+> [!WARNING]
+
+> Esto eliminará todo el historial que hayas establecido con PM2:
 ```bash 
 pm2 delete index
 ``` 
@@ -150,10 +166,18 @@ pm2 start index
 ``` 
 ----
 ### 🥷🏻 ACTUALIZAR MYLINGBOT
-> **Note** Comandos para actualizar de forma automática MylingBot-MD
+> [!TIP]
+
+> Comandos para actualizar de forma automática MylingBot-MD
+
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/update.sh | bash 
 ```
-#### Para que no pierda su progreso en MylingBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
-> **Warning** Estos comandos solo funcionan para TERMUX, REPLIT, LINUX                           
+> [!CAUTION]
+
+> Para que no pierda su progreso en MylingBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
+>  Estos comandos solo funcionan para TERMUX, REPLIT, LINUX                           
 ----
+> [!CAUTION]
+
+> Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
