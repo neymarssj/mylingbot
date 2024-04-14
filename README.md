@@ -77,12 +77,10 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 // UNA VEZ HECHO LOS CAMBIOS EJECUTE LOS NUEVOS COMANDOS EN TERMUX 
 ```
 > [!Warning]
-
 > Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
 -----
 ### 🪄 (OPCIÓN 2) INSTALACIÓN MANUAL
 > [!NOTE]
-
 > COMANDOS PARA INSTALAR DE FORMA MANUAL
 ```bash
 termux-setup-storage
@@ -114,7 +112,6 @@ npm start
 > **ADVERTENCIA:** Si aparece (Y/I/N/O/D/Z) por predeterminado es N use la letra "y" + "ENTER" para continuar con la instalación
 
 > [!Warning]
-
 > Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
 ------------------
 ### 📁 (OPCIÓN 3) INSTALACIÓN POR ARCHIVOS
@@ -134,13 +131,12 @@ npm start
 ```
 * #### APLICACIÓN RECOMENDADA PARA [`DESCOMPRIMIR`](https://play.google.com/store/apps/details?id=com.rarlab.rar)
 * #### APLICACIÓN RECOMENDADA PARA EDITAR [`NÚMERO DE OWNER`](https://play.google.com/store/apps/details?id=com.rhmsoft.code)
+  
 > [!NOTE]
-
 > Guardar los archivos en la ubicación: storage/downloads/MylingBot-MD-master/MylingBot-MD-master   
 ----
 ### 🚀 USAR MYLINGBOT 24/7 EN TERMUX 
 > [!TIP]
-
 >  Ejecutar estos comandos dentro de la carpeta MylingBot-MD
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
@@ -167,17 +163,14 @@ pm2 start index
 ----
 ### 🥷🏻 ACTUALIZAR MYLINGBOT
 > [!TIP]
-
 > Comandos para actualizar de forma automática MylingBot-MD
 
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/update.sh | bash 
 ```
 > [!CAUTION]
-
 > Para que no pierda su progreso en MylingBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 >  Estos comandos solo funcionan para TERMUX, REPLIT, LINUX                           
 ----
 > [!CAUTION]
-
 > Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
