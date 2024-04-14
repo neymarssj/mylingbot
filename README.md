@@ -9,7 +9,7 @@
 <img src="https://telegra.ph/file/2bc7f7ff2bb54b067b450.jpg" alt="ERROR - DSK" width="900"/>
 </p>
 
-> 𝙂𝙍𝘼𝘾𝙄𝘼𝙎 𝙋𝙊𝙍 𝙐𝙎𝘼𝙍 𝙀𝙎𝙏𝙀 𝘽𝙊𝙏
+> 𝑴𝑼𝑪𝑯𝑨𝑺 𝑮𝑹𝑨𝑪𝑰𝑨𝑺 𝑷𝑶𝑹 𝑷𝑹𝑬𝑭𝑬𝑹𝑰𝑹𝑵𝑶𝑺 👑🔥
 
 <p align="center">
 <a href="#"><img title="MylingBot - OFC" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APÓYAME CON UNA ESTRELLITA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=0000e6&style=for-the-badge"></a>
@@ -109,13 +109,15 @@ npm install
 ```bash
 npm start
 ```
-> **ADVERTENCIA:** Si aparece (Y/I/N/O/D/Z) por predeterminado es N use la letra "y" + "ENTER" para continuar con la instalación
+> [!CAUTION]
+> Si aparece (Y/I/N/O/D/Z) use la letra "y" + "ENTER" para continuar con la instalación
 
 > [!Warning]
 > Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
 ------------------
 ### 📁 (OPCIÓN 3) INSTALACIÓN POR ARCHIVOS
-> **Nota:** DESCARGUE Y DESCOMPRIME EL ARCHIVO
+> [!NOTE]
+> DESCARGUE Y DESCOMPRIME EL ARCHIVO
 ### [`MylingBot-MD ~ Archivos`](https://github.com/WilsonOFC/MylingBot-MD/archive/refs/heads/master.zip)
 [![blog](https://img.shields.io/badge/NO_TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://www.youtube.com/shorts/ZLJYDUM6vSY)
@@ -142,8 +144,7 @@ npm start
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
 #### ⬇️ Opciones Disponibles
-> [!WARNING]
-
+> [!IMPORTANT]
 > Esto eliminará todo el historial que hayas establecido con PM2:
 ```bash 
 pm2 delete index
@@ -172,5 +173,5 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 > Para que no pierda su progreso en MylingBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 >  Estos comandos solo funcionan para TERMUX, REPLIT, LINUX                           
 ----
-> [!CAUTION]
+> [!WARNING]
 > Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
