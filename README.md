@@ -81,7 +81,7 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 > [!Warning]
 > Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br!
 
 ### 🪄 (OPCIÓN 2) INSTALACIÓN MANUAL
 > [!NOTE]
@@ -119,7 +119,7 @@ npm start
 > [!Warning]
 > Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 ### 📁 (OPCIÓN 3) INSTALACIÓN POR ARCHIVOS
 > [!NOTE]
@@ -181,3 +181,5 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 ----
 > [!WARNING]
 > Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
