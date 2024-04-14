@@ -35,6 +35,11 @@
 -----
 
 ## 🌟 INSTALACIONES
+> **¿Qué es Termux?**
+> [!Note]
+> Termux es un ejecutador de codigos, permite instalar archivos, Bots y ejecutar comandos, este metodo es gratuito, sin embargo tiene algunas desventajas que un servidor premium.
+> [!Important]
+> Para usar termux e instalar nuestro bot, es necesario algunos recursos del telefono movil o computadora. que se encargaran de almacenar los datos del mismo, algunos de los requisitos son: WiFi, 5 Gigas de almacenamiento, 1,5 Gigas de RAM, 2 numeros telefonicos (dueño y numero del bot) y 2 telefonos movil (opcional)
 
 -----
 ### 🌟 (OPCIÓN 1) INSTALACIÓN AUTOMÁTICA POR TERMUX 🫰
