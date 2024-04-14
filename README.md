@@ -5,7 +5,7 @@
 <a href="https://github.com/WilsonOFC/"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color0000e6&width=435&lines=MylingBot -MD;Disfruta+del+bot.+%E2%9A%A1" height="90px"></a> 
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br!
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 <p align="center">
 <img src="https://telegra.ph/file/2bc7f7ff2bb54b067b450.jpg" alt="ERROR - DSK" width="900"/>
 </p>
@@ -22,7 +22,8 @@
 </p>
 
 <p align="center">   
-<a href="https://github.com/WilsonOFC/MylingBot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/WilsonOFC/MylingBot-MD?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/WilsonOFC/MylingBot-MD/networ
+  k/members"><img title="Forks" src="https://img.shields.io/github/forks/WilsonOFC/MylingBot-MD?label=Forks&color=blue&style=flat-square"></a>
 <a href="https://github.com/WilsonOFC/MylingBot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/WilsonOFC/MylingBot-MD?label=Watchers&color=green&style=flat-square"></a>
 <a href="https://github.com/WilsonOFC/MylingBot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/WilsonOFC/MylingBot-MD?label=Stars&color=yellow&style=flat-square"></a>
 </p>
