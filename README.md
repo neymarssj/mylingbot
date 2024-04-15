@@ -82,7 +82,7 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 > [!Warning]
 > Tenga en cuenta que para cualquier instalacion debe contar con una red estable y con los requisitos solicitados previamente.
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br!
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 ### 🪄 (OPCIÓN 2) INSTALACIÓN MANUAL
 > [!NOTE]
@@ -142,8 +142,10 @@ npm start
 * #### APLICACIÓN RECOMENDADA PARA EDITAR [`NÚMERO DE OWNER`](https://play.google.com/store/apps/details?id=com.rhmsoft.code)
   
 > [!NOTE]
-> Guardar los archivos en la ubicación: storage/downloads/MylingBot-MD-master/MylingBot-MD-master   
-----
+> Guardar los archivos en la ubicación: storage/downloads/MylingBot-MD-master/MylingBot-MD-master
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br!
+
 ### 🚀 USAR MYLINGBOT 24/7 EN TERMUX 
 > [!TIP]
 >  Ejecutar estos comandos dentro de la carpeta MylingBot-MD
@@ -167,8 +169,10 @@ pm2 stop index
 > Si desea iniciar de nuevo la ejecución de Termux use:
 ```bash 
 pm2 start index
-``` 
-----
+```
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br!
+
 ###  ACTUALIZAR MYLINGBOT 🔥👻
 > [!TIP]
 > Comandos para actualizar de forma automática MylingBot-MD
