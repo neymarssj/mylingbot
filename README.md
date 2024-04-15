@@ -144,7 +144,7 @@ npm start
 > [!NOTE]
 > Guardar los archivos en la ubicación: storage/downloads/MylingBot-MD-master/MylingBot-MD-master
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br!
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 ### 🚀 USAR MYLINGBOT 24/7 EN TERMUX 
 > [!TIP]
@@ -171,7 +171,7 @@ pm2 stop index
 pm2 start index
 ```
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br!
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 ###  ACTUALIZAR MYLINGBOT 🔥👻
 > [!TIP]
