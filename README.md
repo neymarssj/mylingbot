@@ -1,4 +1,4 @@
-# MylingBot - MD
+🌸◌*̥₊ SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ ◌❐🌹༉# MylingBot - MD
 > <b>🚀 VERSIÓN 1.0 (Beta)</b>
 
 <p align="center"> 
@@ -145,6 +145,8 @@ npm start
   
 > [!NOTE]
 > Guardar los archivos en la ubicación: storage/downloads/MylingBot-MD-master/MylingBot-MD-master
+
+> [!IMPORTANT]
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
