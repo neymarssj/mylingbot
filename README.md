@@ -1,4 +1,4 @@
-🌸◌*̥₊ SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ ◌❐🌹༉# MylingBot - MD
+# MylingBot - MD
 > <b>🚀 VERSIÓN 1.0 (Beta)</b>
 
 <p align="center"> 
