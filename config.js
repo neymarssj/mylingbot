@@ -11,7 +11,7 @@ import { en, es, id, ar, pt, fr } from "./lib/idiomas/total-idiomas.js"
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
-["5493795328554", '𝐌𝐘𝐋𝐈𝐍𝐆𝐁𝐎𝐓-𝐌𝐃', false],
+["59896110714", '𝐌𝐘𝐋𝐈𝐍𝐆𝐁𝐎𝐓-𝐌𝐃', false],
 ["5492964650915", '𝐖𝐢𝐥𝐬𝐨𝐧𝐎𝐅𝐂', true],
 ["5493795319022", '𝐃𝐒𝐊 - 𝐆𝐋 𝐘𝐓 𝐌𝐗', true],
 ['573012482597', '𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜', true],
